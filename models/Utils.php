@@ -1,7 +1,6 @@
 <?php
 
 namespace app\models;
-
 use Yii;
 
 class Utils {
@@ -44,12 +43,12 @@ class Utils {
 	 */
 	public static function changeFormatDate($string) {
 		$date = date_create ( $string );
-		return date_format ( $date, "d-m-Y" );
+		return date_format ( $date, "d-M-Y" );
 	}
 	
 	/**
 	 * Cambia el formato de la fecha del input al adecuado para la base de datos
-	 *
+	 * 
 	 * @param unknown $string        	
 	 */
 	public static function changeFormatDateInput($string) {
@@ -83,41 +82,32 @@ class Utils {
 	/**
 	 * Envia el correo electronico para recuperar el correo electronico
 	 *
-	 * @param array $parametrosEmail        	
+	 * @param array $parametrosEmail
 	 * @return boolean
 	 */
 	public function sendInvitacion($email, $parametrosEmail) {
 		// Envia el correo electronico
-		return $this->sendEmail ( '@app/mail/layouts/confirmacion', '@app/mail/layouts/confirmacionText', 'no-reply@onex.mx', $email, 'Bienvenido al Consejo de Líderes 2017.', $parametrosEmail );
+		return $this->sendEmail ( '@app/mail/layouts/confirmacion', '@app/mail/layouts/confirmacionText', 'no-reply@onex.mx', $email, '¡Bienvenido! Ya eres parte de la comunidad.', $parametrosEmail );
 	}
 	
 	/**
 	 * Envia mensaje de correo electronico
 	 *
-	 * @param string $templateHtml        	
-	 * @param string $templateText        	
-	 * @param string $from        	
-	 * @param string $to        	
-	 * @param string $subject        	
-	 * @param array $params        	
+	 * @param string $templateHtml
+	 * @param string $templateText
+	 * @param string $from
+	 * @param string $to
+	 * @param string $subject
+	 * @param array $params
 	 * @return boolean
 	 */
 	private function sendEmail($templateHtml, $templateText, $from, $to, $subject, $params) {
 		return Yii::$app->mailer->compose ( [
 				// 'html' => '@app/mail/layouts/example',
 				// 'text' => '@app/mail/layouts/text'
-				'html' => $templateHtml 
-		], 
+				'html' => $templateHtml
+		],
 				// 'text' => $templateText
 				$params )->setFrom ( $from )->setTo ( $to )->setSubject ( $subject )->send ();
-	}
-	public function sendEmailTemplate($templateHtml, $templateTest, $from, $to, $subject) {
-		return Yii::$app->mailer->compose ()
-		->setFrom ( $from )
-		->setTo ( $to )
-		->setSubject ( $subject )
-		->setTextBody ( $templateTest )
-		->setHtmlBody ( $templateHtml )
-		->send ();
 	}
 }
