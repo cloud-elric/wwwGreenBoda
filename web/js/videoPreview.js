@@ -81,11 +81,11 @@ var viewer = {
 	}
 }
 
-$('body')
-		.on(
+$('body').on(
 				'beforeSubmit',
 				'form',
 				function() {
+
 
 					var form = $(this);
 
