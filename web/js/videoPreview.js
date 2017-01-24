@@ -75,11 +75,11 @@ function clearFileInput($input) {
 $('body')
 .on(
 		'beforeSubmit',
-		'form',
+		'#guardar-registro',
 		function() {
 			var form = $(this);
 			
-			guardar-registro
+			
 			//var l = Ladda.create(document.getElementById('guardar-registro'));	
 			if (form.find('.has-error').length) {
 				return false;
