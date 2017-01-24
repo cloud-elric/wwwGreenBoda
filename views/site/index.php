@@ -46,7 +46,7 @@ $this->registerCssFile ( '@web/plugins/ladda-bootstrap/dist/ladda-themeless.min.
 <?php ActiveForm::end(); ?>
 
 <div class="btn btn-primary ladda-button" id="guardar-registro" data-style="zoom-in">
-<span class="ladda-label">Guardar</span>
+	<span class="ladda-label">Guardar</span>
 </div>
 <div id="container-video-viewer">
 
