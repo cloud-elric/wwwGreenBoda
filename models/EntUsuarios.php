@@ -32,7 +32,8 @@ class EntUsuarios extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['txt_nombre', 'txt_apellido_paterno', 'txt_apellido_materno', 'txt_email', 'txt_telefono_celular', 'video'], 'required'],
+            [['txt_nombre', 'txt_apellido_paterno', 'txt_apellido_materno', 'txt_email', 'txt_telefono_celular', 'video'], 'required', 'on'=>'Campo requerido'],
+        	[['txt_email'], 'email', 'message'=>'Formato de email no admitido'],
             [['txt_nombre', 'txt_apellido_paterno', 'txt_apellido_materno', 'txt_email', 'txt_url_video'], 'string', 'max' => 200],
             [['txt_telefono_celular'], 'string', 'max' => 10],
         ];

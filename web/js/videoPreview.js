@@ -1,13 +1,19 @@
 var extensionFile = null;
 $(document).ready(function(){
-	$('#entusuarios-txt_url_video').on('change', function(){
+	
+	$('#entusuarios-txt_telefono_celular').keydown(function(e) {
+		  validarSoloNumeros(e);
+	 });
+	
+	$('#entusuarios-video').on('change', function(){
 		
 		var file = this.files[0];
 		var archivosAdmitidos = [ "video/mp4",  'video/ogg', 'video/webm' ];
 		extensionFile = file.type;
 		
 		if (!((extensionFile == archivosAdmitidos[0]) || (extensionFile == archivosAdmitidos[1]) || (extensionFile == archivosAdmitidos[2]))) {
-	alert('Archivo no admitido por el sistema');
+			swal("Espera", "Archivo no admitido por el sistema", "warning");
+			
 	$('#container-video-viewer').html('');
 	clearFileInput($(this))
 		return false;
@@ -21,8 +27,10 @@ $(document).ready(function(){
 
 	});
 	
-	$('.guardar-registro').on('click', function(e){
+	$('#guardar-registro').on('click', function(e){
 		e.preventDefault();
+//		var l = Ladda.create(this);
+//	 	l.start();
 		$('form').submit();
 	});
 	
@@ -71,7 +79,8 @@ $('body')
 		function() {
 			var form = $(this);
 			
-
+			guardar-registro
+			//var l = Ladda.create(document.getElementById('guardar-registro'));	
 			if (form.find('.has-error').length) {
 				return false;
 			}
@@ -90,6 +99,10 @@ $('body')
 						contentType : false,
 						processData : false,
 						success : function(response) {
+							//l.stop();
+							swal("Registro exitoso", "Nos comunicaremos contigo en caso de ser el ganador", "success");
+							// Reseteamos el modal
+							document.getElementById("form-registro").reset();
 						},
 						error : function() {
 							
@@ -103,3 +116,21 @@ $('body')
 					});
 			return false;
 		});
+
+
+function validarSoloNumeros(e) {
+	 // Allow: backspace, delete, tab, escape, enter and .
+	 if ($.inArray(e.keyCode, [ 46, 8, 9, 27, 13, 110 ]) !== -1 ||
+	 // Allow: Ctrl+A, Command+A
+	 (e.keyCode === 65 && (e.ctrlKey === true || e.metaKey === true)) ||
+	 // Allow: home, end, left, right, down, up
+	 (e.keyCode >= 35 && e.keyCode <= 40)) {
+	  // let it happen, don't do anything
+	  return;
+	 }
+	 // Ensure that it is a number and stop the keypress
+	 if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57))
+	   && (e.keyCode < 96 || e.keyCode > 105)) {
+	  e.preventDefault();
+	 }
+}
