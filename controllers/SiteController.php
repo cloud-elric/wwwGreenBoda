@@ -76,6 +76,7 @@ class SiteController extends Controller {
 	}
 	
 	public function actionGuardarInformacion(){
+		
 		Yii::$app->response->format = Response::FORMAT_JSON;
 		$usuario = new EntUsuarios ();
 		
