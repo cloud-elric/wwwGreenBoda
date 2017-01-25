@@ -21,10 +21,10 @@ class AppAsset extends AssetBundle
         'css/site.css',
     ];
     public $js = [
-    		'js/videoPreview.js'
+    	'js/videoPreview.js',
     ];
     public $depends = [
          'yii\web\YiiAsset',
-//         'yii\bootstrap\BootstrapAsset',
+//          'yii\bootstrap\BootstrapAsset',
     ];
 }
