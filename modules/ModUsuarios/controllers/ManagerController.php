@@ -17,6 +17,7 @@ use app\modules\ModUsuarios\models\EntUsuariosFacebook;
  */
 class ManagerController extends Controller {
 	
+	public $layout = '@app/views/layouts/mainAdmin';
 	/**
 	 * Registrar usuario en la base de datos
 	 */
@@ -156,6 +157,7 @@ class ManagerController extends Controller {
 	 * Loguea al usuario
 	 */
 	public function actionLogin() {
+		//$this->layout = false;
 		if (! Yii::$app->user->isGuest) {
 			return $this->goHome ();
 		}

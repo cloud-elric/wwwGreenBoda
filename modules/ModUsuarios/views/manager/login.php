@@ -155,10 +155,6 @@ window.fbAsyncInit = function() {
     
     <?php if(Yii::$app->params ['modUsuarios'] ['facebook'] ['usarLoginFacebook']){?>
     
-<button type="button" class="btn btn-blue btn-facebook"
-					onClick="logInWithFacebook()" scope="<?=Yii::$app->params ['modUsuarios'] ['facebook'] ['permisos']?>">
-					<i class="fa fa-facebook"></i> Ingresar con Facebook
-				</button>
 <?php }?>				
 				
     <div class="col-lg-offset-1" style="color:#999;">

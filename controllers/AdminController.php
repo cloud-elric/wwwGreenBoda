@@ -3,11 +3,47 @@
 namespace app\controllers;
 
 use app\models\EntUsuarios;
+use Yii;
 use yii\data\ActiveDataProvider;
+use yii\web\Response;
+use yii\filters\VerbFilter;
+use yii\filters\AccessControl;
 
 class AdminController extends \yii\web\Controller
 {
-    public function actionIndex()
+	public function behaviors() {
+		return [ 
+			'access' => [ 
+				'class' => AccessControl::className (),
+				'only' => [ 
+					'usuarios',
+					'ver-ganadores' 
+				],
+				'rules' => [ 
+					[ 
+						'actions' => [ 
+							
+						],
+						'allow' => true,
+						'roles' => [ 
+							'@' 
+						] 
+					] 
+				] 
+			],
+			'verbs' => [ 
+				'class' => VerbFilter::className (),
+				'actions' => [ 
+					'logout' => [ 
+						'post' 
+					] 
+				] 
+			] 
+		];
+	}
+	
+	
+	public function actionIndex()
     {
         return $this->render('index');
     }
@@ -35,12 +71,25 @@ class AdminController extends \yii\web\Controller
     }
     
     public function actionUserGanador(){
+    	Yii::$app->response->format = Response::FORMAT_JSON;
     	$idUs = $_POST['id'];
     	
     	$usuario = EntUsuarios::find()->where(['id_usuario'=>$idUs])->one();
     	
-    	$usuario->b_ganador = 1;
-    	$usuario->save();
+    	$usuario->repeatEmail = $usuario->txt_email;
+    	$usuario->repeatCelular = $usuario->txt_telefono_celular;
+    	
+    	if($usuario->b_ganador == 0){
+	    	$usuario->b_ganador = 1;
+	    	if($usuario->save()){
+	    		return ['success'];
+	    	}
+    	}else{
+    		$usuario->b_ganador = 0;
+    		if($usuario->save()){
+    			return ['success'];
+    		}
+    	}
     }
     
     public function actionVerGanadores(){

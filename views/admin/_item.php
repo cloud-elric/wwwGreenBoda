@@ -2,7 +2,7 @@
 use yii\helpers\Url;
 use yii\web\View;
 ?>
-<input class="js-chekbox-ganador" type="checkbox" data-id="<?= $model->id_usuario ?> ">
+<input class="js-chekbox-ganador" type="checkbox" data-id="<?= $model->id_usuario ?>" <?= $model->b_ganador?'checked':'' ?>>
 <?= $model->txt_nombre_completo ?>  
 <?= $model->txt_email ?>
 <?= $model->txt_telefono_celular ?>

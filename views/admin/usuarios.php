@@ -44,25 +44,22 @@ $this->registerJs ( "
 
 $('.js-btn-video').on('click', function(event) {
     event.preventDefault();
-		var data = $(this).data('url');
-		var url = '".Url::base()."/uploads/'+data;
-		$('.contenedor-video').html('<video id=\'video-viewer\' controls  width=\'100%\'><source id=\'video-source\' src=\''+url+'\' type=\'video/mp4\'></video>');
-   	 	$('.modal').css('display', 'flex');
+	var data = $(this).data('url');
+	var url = '".Url::base()."/uploads/'+data;
+	$('.contenedor-video').html('<video id=\'video-viewer\' controls  width=\'100%\'><source id=\'video-source\' src=\''+url+'\' type=\'video/mp4\'></video>');
+   	$('.modal').css('display', 'flex');
 });
 		
-$('.modal').on('click', function(event) {
-    event.preventDefault();
-    $('.modal').css('display', 'none');
-});
-
-// var modal = document.getElementById('myModal');
-// window.onClick = function(event) {
-// 	//event.preventDefault();
-//     if (event.target == modal) {
-//         modal.style.display = 'none';
-//     }/*else{
-// 		event.preventDefault();
-// 	}*/
-// }
+var modal = document.getElementById('myModal');		
+$(document).on({
+	'click' : function(e) {
+		e.preventDefault();
+		if (event.target == modal) {
+        	modal.style.display = 'none';
+    	}
+	}
+}, '.modal');
+		
 ", View::POS_END );
 ?>
+
