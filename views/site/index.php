@@ -36,17 +36,20 @@ $this->registerCssFile ( '@web/plugins/ladda-bootstrap/dist/ladda-themeless.min.
 <?php $form = ActiveForm::begin(['id'=>'form-registro', 'options' => [ 
 				'enctype' => 'multipart/form-data' 
 		],]); ?>
-<?= $form->field($usuario, 'txt_nombre')->textInput(['maxlength' => true])?>
-<?= $form->field($usuario, 'txt_apellido_paterno')->textInput(['maxlength' => true])?>
-<?= $form->field($usuario, 'txt_apellido_materno')->textInput(['maxlength' => true])?>
-<?= $form->field($usuario, 'txt_email')->textInput(['maxlength' => true])?>
+<?= $form->field($usuario, 'txt_nombre_completo')->textInput(['maxlength' => true])?>
 <?= $form->field($usuario, 'txt_telefono_celular')->textInput(['maxlength' => true])?>
+<?= $form->field($usuario, 'repeatCelular')->textInput(['maxlength' => true])?>
+<?= $form->field($usuario, 'txt_telefono_casa')->textInput(['maxlength' => true])?>
+<?= $form->field($usuario, 'txt_cp')->textInput(['maxlength' => true])?>
+<?= $form->field($usuario, 'txt_email')->textInput(['maxlength' => true])?>
+<?= $form->field($usuario, 'repeatEmail')->textInput(['maxlength' => true])?>
+<?= $form->field($usuario, 'txt_ocupacion')->textInput(['maxlength' => true])?>
 <?= $form->field($usuario, 'video')->fileInput()?>
 
 <?php ActiveForm::end(); ?>
 
 <div class="btn btn-primary ladda-button" id="guardar-registro" data-style="zoom-in">
-<span class="ladda-label">Guardar</span>
+	<span class="ladda-label">Guardar</span>
 </div>
 <div id="container-video-viewer">
 
