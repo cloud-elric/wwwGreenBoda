@@ -33,4 +33,27 @@ class AdminController extends \yii\web\Controller
     		'usuario' => $usuario	
     	]);
     }
+    
+    public function actionUserGanador(){
+    	$idUs = $_POST['id'];
+    	
+    	$usuario = EntUsuarios::find()->where(['id_usuario'=>$idUs])->one();
+    	
+    	$usuario->b_ganador = 1;
+    	$usuario->save();
+    }
+    
+    public function actionVerGanadores(){
+    	$usuarios = EntUsuarios::find()->where(['b_ganador'=>1]);
+    	$dataProvider = new ActiveDataProvider([
+    			'query' => $usuarios,
+    			'pagination' => [
+    					'pageSize' => 20,
+    			]
+    	]);
+    	
+    	return $this->render('verGanadores',[
+    		'dataProvider' => $dataProvider
+    	]);
+    }
 }
