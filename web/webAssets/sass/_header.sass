@@ -1,0 +1,100 @@
+/*!
+	-----------------------------------------------------------------------------
+
+	3.0 - Header
+			# Extra
+
+	-----------------------------------------------------------------------------
+	*/
+
+/*  Header
+	========================================================================== */
+header
+	height: 60px
+	background-color: $white
+	z-index: 9999
+	position: relative
+	+respond-to(xs)
+		height: 45px
+	.container
+		display: flex
+		justify-content: space-between
+		align-items: center
+		height: 100%
+		.logo
+			height: 30px
+			+respond-to(xs)
+				height: 15px
+			img
+				height: 100%
+		nav.main-nav
+			+respond-to(xs)
+				display: none
+			background-color: transparent
+			ul
+				background-color: transparent
+				li
+					display: inline-block
+					margin: 0 15px 
+					a
+						color: $black
+						family: $font-menu
+						&:hover
+							color: $active
+		nav.mobile-nav-wrap
+			display: none
+			+respond-to(xs)
+				display: block
+			.mobile-header-nav
+				background-color: #222222;
+				display: none // hide until menu is clicked
+				list-style: none  // replace with %styled-list
+				margin: 0 // replace with %styled-list
+				padding: 0 // replace with %styled-list
+				position: absolute;
+				top: 45px // if nav sliding in below header
+				left: 0
+				width: 100%
+				li 
+					border-bottom: 1px solid rgba(255,255,255,0.1)
+					a
+						color: white
+						display: block
+						padding: 15px 0
+						text-align: center
+						text-decoration: none
+						transition: all 0.3s ease-in-out
+		
+		.hamburger-menu 
+			display: none
+			transition: all 0.3s ease-in-out
+			height: 100%
+			padding-top: 8px
+			+respond-to(xs)
+				display: inline-block
+			&:hover 
+				cursor: pointer
+			.menu-item 
+				background: black
+				display: block
+				height: 2px
+				margin: 6px 0
+				transition: all 0.3s ease-in-out
+				width: 30px
+				border-radius: 1px
+			&.open 
+				.menu-item 
+					margin: 0 0 5px
+					&:first-child 
+						transform: rotate(45deg)
+						transform-origin: 5px
+						margin-top: 8px 
+					&:nth-child(2) 
+						opacity: 0
+					&:nth-child(3) 
+						transform: rotate(-45deg)
+						transform-origin: 5px
+
+
+
+			

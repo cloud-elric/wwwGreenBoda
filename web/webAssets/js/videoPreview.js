@@ -29,6 +29,11 @@ $(document)
 					$('#entusuarios-txt_telefono_casa').keydown(function(e) {
 						validarSoloNumeros(e);
 					});
+					
+					// Al campo de texto número validara solo numeros	
+					$('#entusuarios-txt_cp').keydown(function(e) {
+						validarSoloNumeros(e);
+					});
 
 					// Listener cuando cambia de archivo el input
 					$('#entusuarios-video')
@@ -65,8 +70,7 @@ $(document)
 
 					$('#guardar-registro').on('click', function(e) {
 						e.preventDefault();
-						// var l = Ladda.create(this);
-						// l.start();
+						 
 						$('form').submit();
 					});
 
@@ -94,13 +98,13 @@ $('body').on(
 				'beforeSubmit',
 				'form',
 				function() {
-
-
 					var form = $(this);
 
-					// var l =
-					// Ladda.create(document.getElementById('guardar-registro'));
+					 var l = Ladda.create(document.getElementById('guardar-registro'));
+					 l.start();
 					if (form.find('.has-error').length) {
+						l.stop();
+						
 						return false;
 					}
 					// var button = document
@@ -127,6 +131,7 @@ $('body').on(
 									document.getElementById("form-registro")
 											.reset();
 									$("#container-video-viewer").html('');
+									l.stop();
 								},
 								error : function() {
 
