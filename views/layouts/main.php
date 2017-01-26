@@ -30,18 +30,18 @@ AppAsset::register ( $this );
 			</div>
 			<nav class="main-nav">
 				<ul>
-					<li><a href="">Participa Aquí</a></li>
-					<li><a href="">Premios</a></li>
+					<li><a href="" class="js-participa-aqui">Participa Aquí</a></li>
+					<li><a href="" class="js-premios">Premios</a></li>
 					<!-- <li><a href="">Participantes</a></li> -->
-					<li><a href="">Términos y condiciones</a></li>
+					<li><a href="" class="js-terminos-y-condiciones">Términos y condiciones</a></li>
 				</ul>
 			</nav>
 			<nav class="mobile-nav-wrap" role="navigation">
 				<ul class="mobile-header-nav">
-					<li><a href="#">Participa Aquí</a></li>
-					<li><a href="#">Premios</a></li>
+					<li><a href="#" class="js-participa-aqui">Participa Aquí</a></li>
+					<li><a href="#" class="js-premios">Premios</a></li>
 					<!-- <li><a href="#">Participantes</a></li> -->
-					<li><a href="#">Términos y condiciones</a></li>
+					<li><a href="#" class="js-terminos-y-condiciones">Términos y condiciones</a></li>
 				</ul>
 			</nav>
 			<a class="mobile-menu-toggle js-toggle-menu hamburger-menu" href="#">

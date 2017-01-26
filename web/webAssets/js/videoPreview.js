@@ -16,6 +16,21 @@ var archivosAdmitidos = [ "video/mp4", 'video/ogg', 'video/webm' ];
 $(document)
 		.ready(
 				function() {
+					
+					// 
+					$('.js-participa-aqui').on('click', function(e){
+						e.preventDefault();
+						var elementoActivo = $('.active');
+						if(elementoActivo.hasClass('page-registro')){
+							return false;
+						}
+
+						elementoActivo.css('display', 'none');
+						$('.page-registro').css('display', 'block');
+						$('.page-registro').addClass('active');
+						
+					});
+					
 					// Al campo de texto número validara solo numeros	
 					$('#entusuarios-txt_telefono_celular').keydown(function(e) {
 						validarSoloNumeros(e);

@@ -164,7 +164,7 @@ $this->registerCssFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda-them
 
 </section>
 
-<section class="page-premios">
+<section class="page-premios active">
 			<div class="container">
 				<div class="box">
 					<h2>
