@@ -297,6 +297,38 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/htmlMaqueta\/webAssets\/images\/min1.png": {
+		"ft": 32768,
+		"iS": 115097,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/images\/min1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htmlMaqueta\/webAssets\/images\/min2.png": {
+		"ft": 32768,
+		"iS": 150344,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/images\/min2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htmlMaqueta\/webAssets\/images\/min3.png": {
+		"ft": 32768,
+		"iS": 139743,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/images\/min3.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htmlMaqueta\/webAssets\/images\/min4.png": {
+		"ft": 32768,
+		"iS": 148785,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/images\/min4.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/htmlMaqueta\/webAssets\/images\/siteBKGD.jpg": {
 		"ft": 16384,
 		"iS": 139864,
@@ -702,6 +734,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/htmlMaqueta\/webAssets\/sass\/_modal.sass": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/htmlMaqueta\/webAssets\/css\/_modal.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/htmlMaqueta\/webAssets\/sass\/_page-home.sass": {
 		"aP": 1,
 		"bl": 1,
@@ -711,6 +756,19 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/htmlMaqueta\/webAssets\/sass\/_page-home.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/htmlMaqueta\/webAssets\/sass\/_page-premios.sass": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/htmlMaqueta\/webAssets\/css\/_page-premios.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
