@@ -29,6 +29,11 @@ $(document)
 					$('#entusuarios-txt_telefono_casa').keydown(function(e) {
 						validarSoloNumeros(e);
 					});
+					
+					// Al campo de texto número validara solo numeros	
+					$('#entusuarios-txt_cp').keydown(function(e) {
+						validarSoloNumeros(e);
+					});
 
 					// Listener cuando cambia de archivo el input
 					$('#entusuarios-video')
