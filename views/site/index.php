@@ -164,6 +164,50 @@ $this->registerCssFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda-them
 
 </section>
 
+<section class="page-premios">
+			<div class="container">
+				<div class="box">
+					<h2>
+						<span>Pesado</span> te hará vivir la
+					</h2>
+				</div>
+				<img src="webAssets/images/logo-experiencia-all-access.png" alt="All Access con Gruopo Pesado">
+				<div class="text">
+					<h3>
+						Regalandote una noche en el hotel Live Aqua que incluye una tarde de spa con tu pareja, Comida Gourmet y entradas Dobles para el concierto de <span class="logo-pesado">Pesado</span> en el palco de la Arena Monterrey.
+					</h3>
+				</div>
+				<div class="gallery">
+					<img src="webAssets/images/min1.png" alt="LiveAqua-Pesado-AllAccess">
+					<img src="webAssets/images/min2.png" alt="LiveAqua-Pesado-AllAccess">
+					<img src="webAssets/images/min3.png" alt="LiveAqua-Pesado-AllAccess">
+					<img src="webAssets/images/min4.png" alt="LiveAqua-Pesado-AllAccess">
+				</div>
+			</div>
+		</section>
+
+		<section class="modal">
+			<div class="container">
+				<div class="terminos-box">
+					<h4>
+						Términos y condiciones
+					</h4>
+					<p>
+						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+					</p>
+				</div>
+				<div class="aviso-box">
+					<h4>
+						Aviso de Privacidad
+					</h4>
+					<p>
+						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+					</p>
+				</div>
+			</div>
+			
+			
+		</section>
 
 
 
