@@ -18,10 +18,10 @@ class AppAsset extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-    		'webAssets/plugins/ionicons/css/ionicons.min.css',
-    		'webAssets/css/style.css'
+        'css/site.css',
     ];
     public $js = [
+    		'js/videoPreview.js'
     ];
     public $depends = [
          'yii\web\YiiAsset',

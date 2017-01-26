@@ -52,7 +52,7 @@ class EntUsuarios extends \yii\db\ActiveRecord
         		'message' => 'Télefono celular no coincide'
         				],
         		
-        	[['txt_cp'], 'string', 'max' => 5, 'min'=>5, 'tooShort'=>'Mínimo 5 dígitos'],
+        	[['txt_cp'], 'string', 'max' => 5],
             [['txt_nombre_completo',   'txt_ocupacion', 'txt_email', 'txt_url_video'], 'string', 'max' => 200],
             [['txt_telefono_celular', 'txt_telefono_casa', 'repeatCelular'], 'string', 'max' => 10],
         		[['txt_telefono_celular', 'txt_telefono_casa', 'repeatCelular'], 'string', 'min' => 10, 'tooShort'=>'Mínimo 10 digitos'],
