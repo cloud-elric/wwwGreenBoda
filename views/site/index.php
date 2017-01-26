@@ -127,30 +127,11 @@ $this->registerCssFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda-them
 							?>
 							
 							<?= $form->field($usuario, 'txt_nombre_completo',['template'=>'<i class="icono"></i>{input}{error}', 'options'=>['class'=>'input-group']])->textInput(['maxlength' => true, 'class'=>'regular', 'placeholder'=>'Nombre completo'])?>
+							<?= $form->field($usuario, 'txt_telefono_casa',['template'=>'<i class="icono"></i>{input}{error}', 'options'=>['class'=>'input-group']])->textInput(['maxlength' => true, 'class'=>'regular input-small', 'placeholder'=>'Télefono casa'])?>
+							<?= $form->field($usuario, 'txt_ocupacion',['template'=>'<i class="icono"></i>{input}{error}', 'options'=>['class'=>'input-group']])->textInput(['maxlength' => true, 'class'=>'regular input-small', 'placeholder'=>'Ocupación'])?>
+							<?= $form->field($usuario, 'txt_telefono_celular',['template'=>'<i class="icono"></i>{input}'.Html::activeTextInput($usuario, 'repeatCelular', ['class'=>'regular input-small input-confirma', 'placeholder'=>'Confirma celular']).'{error}', 'options'=>['class'=>'input-group']])->textInput(['maxlength' => true, 'class'=>'regular input-small', 'placeholder'=>'Celular'])?>
+							<?= $form->field($usuario, 'txt_email',['template'=>'<i class="icono"></i>{input}'.Html::activeTextInput($usuario, 'repeatEmail', ['class'=>'regular input-small input-confirma', 'placeholder'=>'Confirma correo']).'{error}', 'options'=>['class'=>'input-group']])->textInput(['maxlength' => true, 'class'=>'regular input-small', 'placeholder'=>'Correo electrónico'])?>
 								
-								<div class="input-group">
-									<i class="icono"></i>
-									<input type="text" id="entusuarios-txt_nombre_completo" class="regular input-small" name="EntUsuarios[txt_nombre_completo]" placeholder="Telefono casa" maxlength="200">
-									<div class="help-block">Mensaje de Error</div>
-								</div>
-								<div class="input-group">
-									<i class="icono"></i>
-									<input type="text" id="entusuarios-txt_nombre_completo" class="regular input-small" name="EntUsuarios[txt_nombre_completo]" placeholder="Ocupacion" maxlength="200">
-									<div class="help-block">Mensaje de Error</div>
-								</div>
-								<div class="input-group">
-									<i class="icono"></i>
-									<input type="text" id="entusuarios-txt_nombre_completo" class="regular input-small" name="EntUsuarios[txt_nombre_completo]" placeholder="Celular" maxlength="200">
-									<input type="text" id="entusuarios-txt_nombre_completo" class="regular input-small input-confirma" name="EntUsuarios[txt_nombre_completo]" placeholder="Confirmar Celular" maxlength="200">
-									<div class="help-block">Mensaje de Error</div>
-								</div>
-								<div class="input-group">
-									<i class="icono"></i>
-									<input type="text" id="entusuarios-txt_nombre_completo" class="regular input-small" name="EntUsuarios[txt_nombre_completo]" placeholder="Correo electrónico" maxlength="200">
-									<input type="text" id="entusuarios-txt_nombre_completo" class="regular input-small input-confirma" name="EntUsuarios[txt_nombre_completo]" placeholder="Confirmar Correo" maxlength="200">
-									<div class="help-block">Mensaje de Error</div>
-								</div>
-
 								<div class="acepto-terminos">
 									<div class="rkmd-checkbox checkbox-ripple">
 										<label class="input-checkbox">
