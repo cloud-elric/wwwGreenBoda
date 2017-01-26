@@ -21,6 +21,12 @@
 		"oAP": "\/.gitattributes",
 		"oF": 0
 		},
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/assets\/AppAsset.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -770,6 +776,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/mail\/layouts\/html.php",
+		"oF": 0
+		},
+	"\/models\/EntUsuarios.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/models\/EntUsuarios.php",
 		"oF": 0
 		},
 	"\/models\/User.php": {
@@ -4664,6 +4676,12 @@
 		"oAP": "\/views\/site\/error.php",
 		"oF": 0
 		},
+	"\/views\/site\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/site\/index.php",
+		"oF": 0
+		},
 	"\/views\/site\/login.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -4709,6 +4727,15 @@
 		"oA": 2,
 		"oAP": "\/web\/index.php",
 		"oF": 0
+		},
+	"\/web\/js\/videoPreview.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/js\/videoPreview-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/web\/plugins\/ladda-bootstrap\/dist\/ladda-themeless.min.css": {
 		"aP": 1,

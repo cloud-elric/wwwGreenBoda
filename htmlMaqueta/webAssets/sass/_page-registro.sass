@@ -26,27 +26,31 @@
 		min-height: 900px
 		padding: 0
 		padding-top: 50px
+		+respond-to(xs)
+			flex-flow: column
+			padding-top: 10px
+			min-height: 1600px
+			justify-content: flex-start
 		.leftSide,
 		.rightSide
 			width: 50%
 			background-color: transparent
 			text-align: center
+			height: auto
 			+respond-to(xs)
 				width: 100%
 				z-index: 20
 		.leftSide
 			padding: 30px 0
 			+respond-to(xs)
-				position: absolute
-				top: 0
-				right: 0
-				z-index: 999
 				padding: 0 20px
+				margin-bottom: 50px
 			img
 				width: 80%
 				padding: 50px
 				+respond-to(xs)
 					width: 95%
+					padding: 20px
 			.mecanica-del-sitio
 				display: block
 				background-color: $white
@@ -58,6 +62,9 @@
 				padding: 30px
 				border-radius: 5px
 				box-shadow: 0 10px 22px -7px rgba(0,0,0,0.4)
+				+respond-to(xs)
+					width: 100%
+					font-size: 12px
 				h2
 					font-family: $font-variant
 					text-transform: uppercase
@@ -71,10 +78,7 @@
 			//background-color: blue
 			position: relative
 			+respond-to(xs)
-				position: fixed
-				bottom: 40px
-				opacity: .4
-				padding-top: 90vh;
+				//background-color: blue
 			img
 				height: 70vh
 				width: auto
@@ -89,6 +93,9 @@
 			width: 100%
 			padding: 10px
 			padding-top: 50px
+			+respond-to(xs)
+				font-size: 10px
+				padding-top: 0
 			.step
 				display: block
 				height: 100px
@@ -107,21 +114,37 @@
 						font-family: $font-menu
 						text-align: center
 						font-size: 1.8em
+						+respond-to(xs)
+							line-height: 2.1em
 					span
 						color: $active
 						font-size: 1.3em
 						font-family: $font-menu
 						margin-left: 10px
 				.btn
-					margin-top: 10px
+					margin-top: 20px
 					margin-left: 50px
+					+respond-to(xs)
+						margin: 0
+						margin-top: 10px
+			.step1
+				+respond-to(xs)
+					text-align: center
+				.step-header
+					text-align: left
 			.step2
 				height: auto
+				margin-top: 20px
+				border-top: 1px solid grey
+				padding-top: 10px
 				.step-header
 				form
 					height: 100%
 					width: 100%
 					margin: 20px 0
+					//background-color: blue
+					+respond-to(xs)
+						text-align: center
 					.input-group
 						padding: 10px 10px 30px
 						display: flex
@@ -129,6 +152,8 @@
 						align-items:center
 						margin-bottom: 10px
 						position: relative
+						+respond-to(xs)
+							flex-flow: column 
 						i.icono
 							display: inline-block
 							height: 30px
@@ -136,6 +161,9 @@
 							background-color: #555
 							margin: 0 10px
 							border-radius: 15px
+							+respond-to(xs)
+								display: block
+								margin: 3px 0
 						input
 							display: inline-block
 							padding: 5px 0
@@ -143,10 +171,18 @@
 							width: 400px
 							text-indent: 1em
 							border: 1px solid lightgray
+							+respond-to(xs)
+								width: 100%
+								height: 30px
 						.input-small
 							width: 150px
+							+respond-to(xs)
+								width: 100%
 						.input-confirma
 							margin-left: 30px
+							+respond-to(xs)
+								margin-left: 0px
+								margin-top: 20px
 						.help-block
 							display: block
 							position: absolute
@@ -155,8 +191,15 @@
 							//background-color: red
 							color: red
 							font-family: $font-menu
+							+respond-to(xs)
+								left: 10px
 					.acepto-terminos
 						margin: 20px
+						+respond-to(xs)
+							margin: 5px
+							font-size: 1em
+							font-family: $font-menu
+							text-align: left
 						.rkmd-checkbox 
 							color: #818181
 							font-size: 15px
@@ -236,3 +279,7 @@
 							color: $active
 							text-decoration: underline
 							cursor: pointer
+				.btn
+					+respond-to(xs)
+						margin: 30px auto
+
