@@ -1,0 +1,6878 @@
+{
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"buildSteps": [
+	{
+		"name": "Process All Remaining Files and Folders",
+		"stepType": 1,
+		"uuidString": "A4972F0F-F613-4C35-B8E2-FC259049E96E"
+		}
+	],
+"creatorBuild": "25504",
+"files": {
+	"\/.bowerrc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.bowerrc",
+		"oF": 0
+		},
+	"\/.gitattributes": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitattributes",
+		"oF": 0
+		},
+	"\/assets\/AppAsset.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/AppAsset.php",
+		"oF": 0
+		},
+	"\/bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/bower-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/commands\/HelloController.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/commands\/HelloController.php",
+		"oF": 0
+		},
+	"\/composer.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/composer-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/composer.lock": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/composer.lock",
+		"oF": 0
+		},
+	"\/config\/console.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/config\/console.php",
+		"oF": 0
+		},
+	"\/config\/db.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/config\/db.php",
+		"oF": 0
+		},
+	"\/config\/params.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/config\/params.php",
+		"oF": 0
+		},
+	"\/config\/web.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/config\/web.php",
+		"oF": 0
+		},
+	"\/controllers\/SiteController.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/controllers\/SiteController.php",
+		"oF": 0
+		},
+	"\/htmlMaqueta\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/index.html",
+		"oF": 0
+		},
+	"\/htmlMaqueta\/webAssets\/css\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/css\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/htmlMaqueta\/webAssets\/css\/style.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/css\/style.css.map",
+		"oF": 0
+		},
+	"\/htmlMaqueta\/webAssets\/fonts\/fontAwesome\/fontawesome-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/fonts\/fontAwesome\/fontawesome-webfont.eot",
+		"oF": 0
+		},
+	"\/htmlMaqueta\/webAssets\/fonts\/fontAwesome\/fontawesome-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/fonts\/fontAwesome\/fontawesome-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/htmlMaqueta\/webAssets\/fonts\/fontAwesome\/fontawesome-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/fonts\/fontAwesome\/fontawesome-webfont.ttf",
+		"oF": 0
+		},
+	"\/htmlMaqueta\/webAssets\/fonts\/fontAwesome\/fontawesome-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/fonts\/fontAwesome\/fontawesome-webfont.woff",
+		"oF": 0
+		},
+	"\/htmlMaqueta\/webAssets\/fonts\/fontAwesome\/fontawesome-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/fonts\/fontAwesome\/fontawesome-webfont.woff2",
+		"oF": 0
+		},
+	"\/htmlMaqueta\/webAssets\/fonts\/fontAwesome\/FontAwesome.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/fonts\/fontAwesome\/FontAwesome.otf",
+		"oF": 0
+		},
+	"\/htmlMaqueta\/webAssets\/fonts\/ionicons\/ionicons.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/fonts\/ionicons\/ionicons.eot",
+		"oF": 0
+		},
+	"\/htmlMaqueta\/webAssets\/fonts\/ionicons\/ionicons.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/fonts\/ionicons\/ionicons.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/htmlMaqueta\/webAssets\/fonts\/ionicons\/ionicons.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/fonts\/ionicons\/ionicons.ttf",
+		"oF": 0
+		},
+	"\/htmlMaqueta\/webAssets\/fonts\/ionicons\/ionicons.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/fonts\/ionicons\/ionicons.woff",
+		"oF": 0
+		},
+	"\/htmlMaqueta\/webAssets\/fonts\/rbno3.1-bold-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/fonts\/rbno3.1-bold-webfont.woff",
+		"oF": 0
+		},
+	"\/htmlMaqueta\/webAssets\/fonts\/rbno3.1-bold-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/fonts\/rbno3.1-bold-webfont.woff2",
+		"oF": 0
+		},
+	"\/htmlMaqueta\/webAssets\/fonts\/rbno3.1-thin-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/fonts\/rbno3.1-thin-webfont.woff",
+		"oF": 0
+		},
+	"\/htmlMaqueta\/webAssets\/fonts\/rbno3.1-thin-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/fonts\/rbno3.1-thin-webfont.woff2",
+		"oF": 0
+		},
+	"\/htmlMaqueta\/webAssets\/fonts\/rene_bieder_-_rbno2.1a-bold-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/fonts\/rene_bieder_-_rbno2.1a-bold-webfont.woff",
+		"oF": 0
+		},
+	"\/htmlMaqueta\/webAssets\/fonts\/rene_bieder_-_rbno2.1a-bold-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/fonts\/rene_bieder_-_rbno2.1a-bold-webfont.woff2",
+		"oF": 0
+		},
+	"\/htmlMaqueta\/webAssets\/fonts\/rene_bieder_-_rbno2.1a-book-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/fonts\/rene_bieder_-_rbno2.1a-book-webfont.woff",
+		"oF": 0
+		},
+	"\/htmlMaqueta\/webAssets\/fonts\/rene_bieder_-_rbno2.1a-book-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/fonts\/rene_bieder_-_rbno2.1a-book-webfont.woff2",
+		"oF": 0
+		},
+	"\/htmlMaqueta\/webAssets\/fonts\/rene_bieder_-_rbno2.1a-light-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/fonts\/rene_bieder_-_rbno2.1a-light-webfont.woff",
+		"oF": 0
+		},
+	"\/htmlMaqueta\/webAssets\/fonts\/rene_bieder_-_rbno2.1a-light-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/fonts\/rene_bieder_-_rbno2.1a-light-webfont.woff2",
+		"oF": 0
+		},
+	"\/htmlMaqueta\/webAssets\/images\/barra-stars.png": {
+		"ft": 32768,
+		"iS": 5505,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/images\/barra-stars.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htmlMaqueta\/webAssets\/images\/grupo-pesado.png": {
+		"ft": 32768,
+		"iS": 918755,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/images\/grupo-pesado.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htmlMaqueta\/webAssets\/images\/logo-experiencia-all-access.png": {
+		"ft": 32768,
+		"iS": 73857,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/images\/logo-experiencia-all-access.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htmlMaqueta\/webAssets\/images\/logo-favc.png": {
+		"ft": 32768,
+		"iS": 3212,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/images\/logo-favc.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htmlMaqueta\/webAssets\/images\/logo-pesado-negro.png": {
+		"ft": 32768,
+		"iS": 4182,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/images\/logo-pesado-negro.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htmlMaqueta\/webAssets\/images\/logo-pesado.png": {
+		"ft": 32768,
+		"iS": 1901,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/images\/logo-pesado.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htmlMaqueta\/webAssets\/images\/logo-victoria.png": {
+		"ft": 32768,
+		"iS": 2877,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/images\/logo-victoria.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htmlMaqueta\/webAssets\/images\/siteBKGD.jpg": {
+		"ft": 16384,
+		"iS": 139864,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/images\/siteBKGD.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htmlMaqueta\/webAssets\/js\/site-custom-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/js\/site-custom-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/htmlMaqueta\/webAssets\/js\/site-custom.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/js\/site-custom-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/animate\/css\/animate.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/animate\/css\/animate-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/animsition\/css\/animsition.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/animsition\/css\/animsition.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/animsition\/js\/animsition.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/animsition\/js\/animsition.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/bootstrap\/css\/bootstrap.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/bootstrap\/css\/bootstrap-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/bootstrap\/css\/bootstrap.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/bootstrap\/css\/bootstrap.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/bootstrap\/js\/bootstrap.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/bootstrap\/js\/bootstrap.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/classie\/js\/classie.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/classie\/js\/classie-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/flexboxgrid\/css\/flexboxgrid.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/flexboxgrid\/css\/flexboxgrid.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/fontawesome\/css\/font-awesome.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/fontawesome\/css\/font-awesome-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/fontawesome\/css\/font-awesome.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/fontawesome\/css\/font-awesome.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/fontawesome\/font\/fontawesome-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/fontawesome\/font\/fontawesome-webfont.eot",
+		"oF": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/fontawesome\/font\/fontawesome-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/fontawesome\/font\/fontawesome-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/fontawesome\/font\/fontawesome-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/fontawesome\/font\/fontawesome-webfont.ttf",
+		"oF": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/fontawesome\/font\/fontawesome-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/fontawesome\/font\/fontawesome-webfont.woff",
+		"oF": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/fontawesome\/font\/fontawesome-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/fontawesome\/font\/fontawesome-webfont.woff2",
+		"oF": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/fontawesome\/font\/FontAwesome.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/fontawesome\/font\/FontAwesome.otf",
+		"oF": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/ionicons\/css\/ionicons.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/ionicons\/css\/ionicons.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/ionicons\/fonts\/ionicons.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/ionicons\/fonts\/ionicons.eot",
+		"oF": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/ionicons\/fonts\/ionicons.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/ionicons\/fonts\/ionicons.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/ionicons\/fonts\/ionicons.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/ionicons\/fonts\/ionicons.ttf",
+		"oF": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/ionicons\/fonts\/ionicons.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/ionicons\/fonts\/ionicons.woff",
+		"oF": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/jquery\/js\/jquery.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/jquery\/js\/jquery.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/ladda\/css\/ladda.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/ladda\/css\/ladda.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/ladda\/js\/ladda.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/ladda\/js\/ladda.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/ladda\/js\/spin.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/ladda\/js\/spin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/lazyload\/js\/jquery.lazyload.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/lazyload\/js\/jquery.lazyload-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/lazyload\/js\/jquery.lazyload.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/lazyload\/js\/jquery.lazyload.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/magnific-popup\/css\/magnific-popup.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/magnific-popup\/css\/magnific-popup-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/magnific-popup\/js\/jquery.magnific-popup.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/magnific-popup\/js\/jquery.magnific-popup-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/magnific-popup\/js\/jquery.magnific-popup.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/magnific-popup\/js\/jquery.magnific-popup.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/materialize\/css\/materialize.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/materialize\/css\/materialize.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/materialize\/js\/materialize.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/materialize\/js\/materialize.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/normalize\/css\/normalize.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/normalize\/css\/normalize-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/scrollstop\/js\/jquery.scrollstop.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/scrollstop\/js\/jquery.scrollstop-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/scrollstop\/js\/jquery.scrollstop.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/scrollstop\/js\/jquery.scrollstop.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/htmlMaqueta\/webAssets\/plugins\/waypoints\/js\/waypoints.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/plugins\/waypoints\/js\/waypoints.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/htmlMaqueta\/webAssets\/sass\/_basic.sass": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/htmlMaqueta\/webAssets\/sass\/_basic.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/htmlMaqueta\/webAssets\/sass\/_fonts.sass": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/htmlMaqueta\/webAssets\/sass\/_fonts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/htmlMaqueta\/webAssets\/sass\/_footer.sass": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/htmlMaqueta\/webAssets\/sass\/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/htmlMaqueta\/webAssets\/sass\/_header.sass": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/htmlMaqueta\/webAssets\/sass\/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/htmlMaqueta\/webAssets\/sass\/_mixins.sass": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/htmlMaqueta\/webAssets\/sass\/_mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/htmlMaqueta\/webAssets\/sass\/_page-home.sass": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/htmlMaqueta\/webAssets\/sass\/_page-home.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/htmlMaqueta\/webAssets\/sass\/_page-registro.sass": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/htmlMaqueta\/webAssets\/css\/_page-registro.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/htmlMaqueta\/webAssets\/sass\/_variables.sass": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/htmlMaqueta\/webAssets\/sass\/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/htmlMaqueta\/webAssets\/sass\/style.sass": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/css\/style.css",
+		"oF": 2,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/LICENSE.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/LICENSE.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/mail\/layouts\/html.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/mail\/layouts\/html.php",
+		"oF": 0
+		},
+	"\/models\/User.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/models\/User.php",
+		"oF": 0
+		},
+	"\/models\/Utils.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/models\/Utils.php",
+		"oF": 0
+		},
+	"\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/requirements.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/requirements.php",
+		"oF": 0
+		},
+	"\/runtime\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/.gitignore",
+		"oF": 0
+		},
+	"\/tests\/codeception.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/codeception.yml",
+		"oF": 0
+		},
+	"\/tests\/codeception\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/codeception\/.gitignore",
+		"oF": 0
+		},
+	"\/tests\/codeception\/_bootstrap.php": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/tests\/codeception\/_bootstrap.php",
+		"oF": 0
+		},
+	"\/tests\/codeception\/_output\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/codeception\/_output\/.gitignore",
+		"oF": 0
+		},
+	"\/tests\/codeception\/_pages\/AboutPage.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/codeception\/_pages\/AboutPage.php",
+		"oF": 0
+		},
+	"\/tests\/codeception\/_pages\/ContactPage.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/codeception\/_pages\/ContactPage.php",
+		"oF": 0
+		},
+	"\/tests\/codeception\/_pages\/LoginPage.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/codeception\/_pages\/LoginPage.php",
+		"oF": 0
+		},
+	"\/tests\/codeception\/acceptance.suite.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/codeception\/acceptance.suite.yml",
+		"oF": 0
+		},
+	"\/tests\/codeception\/acceptance\/_bootstrap.php": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/tests\/codeception\/acceptance\/_bootstrap.php",
+		"oF": 0
+		},
+	"\/tests\/codeception\/acceptance\/AboutCept.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/codeception\/acceptance\/AboutCept.php",
+		"oF": 0
+		},
+	"\/tests\/codeception\/acceptance\/ContactCept.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/codeception\/acceptance\/ContactCept.php",
+		"oF": 0
+		},
+	"\/tests\/codeception\/acceptance\/HomeCept.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/codeception\/acceptance\/HomeCept.php",
+		"oF": 0
+		},
+	"\/tests\/codeception\/acceptance\/LoginCept.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/codeception\/acceptance\/LoginCept.php",
+		"oF": 0
+		},
+	"\/tests\/codeception\/bin\/_bootstrap.php": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/tests\/codeception\/bin\/_bootstrap.php",
+		"oF": 0
+		},
+	"\/tests\/codeception\/bin\/yii": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/codeception\/bin\/yii",
+		"oF": 0
+		},
+	"\/tests\/codeception\/bin\/yii.bat": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/codeception\/bin\/yii.bat",
+		"oF": 0
+		},
+	"\/tests\/codeception\/config\/acceptance.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/codeception\/config\/acceptance.php",
+		"oF": 0
+		},
+	"\/tests\/codeception\/config\/config.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/codeception\/config\/config.php",
+		"oF": 0
+		},
+	"\/tests\/codeception\/config\/functional.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/codeception\/config\/functional.php",
+		"oF": 0
+		},
+	"\/tests\/codeception\/config\/unit.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/codeception\/config\/unit.php",
+		"oF": 0
+		},
+	"\/tests\/codeception\/fixtures\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/codeception\/fixtures\/.gitignore",
+		"oF": 0
+		},
+	"\/tests\/codeception\/functional.suite.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/codeception\/functional.suite.yml",
+		"oF": 0
+		},
+	"\/tests\/codeception\/functional\/_bootstrap.php": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/tests\/codeception\/functional\/_bootstrap.php",
+		"oF": 0
+		},
+	"\/tests\/codeception\/functional\/AboutCept.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/codeception\/functional\/AboutCept.php",
+		"oF": 0
+		},
+	"\/tests\/codeception\/functional\/ContactCept.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/codeception\/functional\/ContactCept.php",
+		"oF": 0
+		},
+	"\/tests\/codeception\/functional\/HomeCept.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/codeception\/functional\/HomeCept.php",
+		"oF": 0
+		},
+	"\/tests\/codeception\/functional\/LoginCept.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/codeception\/functional\/LoginCept.php",
+		"oF": 0
+		},
+	"\/tests\/codeception\/templates\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/codeception\/templates\/.gitignore",
+		"oF": 0
+		},
+	"\/tests\/codeception\/unit.suite.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/codeception\/unit.suite.yml",
+		"oF": 0
+		},
+	"\/tests\/codeception\/unit\/_bootstrap.php": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/tests\/codeception\/unit\/_bootstrap.php",
+		"oF": 0
+		},
+	"\/tests\/codeception\/unit\/fixtures\/.gitkeep": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/codeception\/unit\/fixtures\/.gitkeep",
+		"oF": 0
+		},
+	"\/tests\/codeception\/unit\/fixtures\/data\/.gitkeep": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/codeception\/unit\/fixtures\/data\/.gitkeep",
+		"oF": 0
+		},
+	"\/tests\/codeception\/unit\/models\/ContactFormTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/codeception\/unit\/models\/ContactFormTest.php",
+		"oF": 0
+		},
+	"\/tests\/codeception\/unit\/models\/LoginFormTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/codeception\/unit\/models\/LoginFormTest.php",
+		"oF": 0
+		},
+	"\/tests\/codeception\/unit\/models\/UserTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/codeception\/unit\/models\/UserTest.php",
+		"oF": 0
+		},
+	"\/tests\/codeception\/unit\/templates\/fixtures\/.gitkeep": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/codeception\/unit\/templates\/fixtures\/.gitkeep",
+		"oF": 0
+		},
+	"\/tests\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/tests\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/d3\/.bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/d3\/.bower-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/d3\/bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/d3\/bower-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/d3\/d3.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/d3\/d3-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/d3\/d3.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/d3\/d3.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/d3\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/d3\/LICENSE",
+		"oF": 0
+		},
+	"\/vendor\/bower\/d3\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/d3\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/vega-lite\/.bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/.bower-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/_config.yml": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/_config.yml",
+		"oF": 0
+		},
+	"\/vendor\/bower\/vega-lite\/_includes\/docs_toc.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/_includes\/docs_toc.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/vega-lite\/_includes\/showcase.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/vega-lite\/_includes\/showcase.html",
+		"oF": 0
+		},
+	"\/vendor\/bower\/vega-lite\/_layouts\/base.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/vega-lite\/_layouts\/base.html",
+		"oF": 0
+		},
+	"\/vendor\/bower\/vega-lite\/_layouts\/docs.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/vega-lite\/_layouts\/docs.html",
+		"oF": 0
+		},
+	"\/vendor\/bower\/vega-lite\/_layouts\/examples.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/vega-lite\/_layouts\/examples.html",
+		"oF": 0
+		},
+	"\/vendor\/bower\/vega-lite\/_layouts\/page.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/vega-lite\/_layouts\/page.html",
+		"oF": 0
+		},
+	"\/vendor\/bower\/vega-lite\/_layouts\/page_submenu.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/vega-lite\/_layouts\/page_submenu.html",
+		"oF": 0
+		},
+	"\/vendor\/bower\/vega-lite\/_layouts\/plain.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/vega-lite\/_layouts\/plain.html",
+		"oF": 0
+		},
+	"\/vendor\/bower\/vega-lite\/_layouts\/tutorials.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/vega-lite\/_layouts\/tutorials.html",
+		"oF": 0
+		},
+	"\/vendor\/bower\/vega-lite\/_layouts\/usage.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/vega-lite\/_layouts\/usage.html",
+		"oF": 0
+		},
+	"\/vendor\/bower\/vega-lite\/bin\/vl2png": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/vega-lite\/bin\/vl2png",
+		"oF": 0
+		},
+	"\/vendor\/bower\/vega-lite\/bin\/vl2svg": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/vega-lite\/bin\/vl2svg",
+		"oF": 0
+		},
+	"\/vendor\/bower\/vega-lite\/bin\/vl2vg": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/vega-lite\/bin\/vl2vg",
+		"oF": 0
+		},
+	"\/vendor\/bower\/vega-lite\/bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/bower-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/CONTRIBUTING.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/CONTRIBUTING.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/examples.test.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/examples.test.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/area.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/area-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/area_vertical.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/area_vertical-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/bar.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/bar-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/bar_1d.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/bar_1d-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/bar_aggregate.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/bar_aggregate-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/bar_aggregate_size.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/bar_aggregate_size-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/bar_aggregate_vertical.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/bar_aggregate_vertical-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/bar_filter_calc.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/bar_filter_calc-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/bar_grouped.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/bar_grouped-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/bar_grouped_horizontal.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/bar_grouped_horizontal-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/bar_layered_transparent.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/bar_layered_transparent-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/bar_yearmonth.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/bar_yearmonth-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/box_plot.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/box_plot-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/bubble_health_income.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/bubble_health_income-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/circle.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/circle-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/errorbar_aggregate.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/errorbar_aggregate-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/errorbar_horizontal_aggregate.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/errorbar_horizontal_aggregate-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/github_punchcard.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/github_punchcard-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/histogram.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/histogram-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/layer_bar_line.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/layer_bar_line-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/layer_bar_line_union.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/layer_bar_line_union-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/layer_histogram.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/layer_histogram-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/layer_line_color_rule.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/layer_line_color_rule-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/line.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/line-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/line_color.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/line_color-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/line_detail.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/line_detail-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/line_monotone.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/line_monotone-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/line_month.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/line_month-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/line_quarter.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/line_quarter-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/line_quarter_legend.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/line_quarter_legend-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/line_slope.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/line_slope-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/line_step.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/line_step-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/minimal.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/minimal-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/overlay_area_full.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/overlay_area_full-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/overlay_area_short.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/overlay_area_short-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/overlay_line_full.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/overlay_line_full-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/overlay_line_short.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/overlay_line_short-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/point_1d.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/point_1d-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/point_color.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/point_color-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/point_dot_timeunit_color.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/point_dot_timeunit_color-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/point_filled.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/point_filled-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/point_ordinal_color.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/point_ordinal_color-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/scatter.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/scatter-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_aggregate_detail.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_aggregate_detail-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_binned.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_binned-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_binned_color.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_binned_color-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_binned_size.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_binned_size-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_bubble.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_bubble-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_color.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_color-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_color_custom.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_color_custom-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_color_order.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_color_order-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_color_ordinal.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_color_ordinal-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_color_ordinal_custom.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_color_ordinal_custom-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_color_quantitative.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_color_quantitative-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_color_shape_constant.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_color_shape_constant-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_colored_with_shape.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_colored_with_shape-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_connected.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_connected-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_log.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_log-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_opacity.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/scatter_opacity-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/square.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/square-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/stacked_area.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/stacked_area-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/stacked_area_binned.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/stacked_area_binned-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/stacked_area_normalize.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/stacked_area_normalize-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/stacked_area_ordinal.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/stacked_area_ordinal-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/stacked_area_stream.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/stacked_area_stream-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/stacked_bar_1d.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/stacked_bar_1d-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/stacked_bar_h.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/stacked_bar_h-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/stacked_bar_h_order.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/stacked_bar_h_order-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/stacked_bar_normalize.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/stacked_bar_normalize-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/stacked_bar_population.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/stacked_bar_population-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/stacked_bar_size.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/stacked_bar_size-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/stacked_bar_sum_opacity.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/stacked_bar_sum_opacity-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/stacked_bar_v.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/stacked_bar_v-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/stacked_bar_weather.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/stacked_bar_weather-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/text_scatter_colored.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/text_scatter_colored-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/text_table_heatmap.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/text_table_heatmap-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/tick_dot.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/tick_dot-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/tick_dot_thickness.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/tick_dot_thickness-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/tick_strip.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/tick_strip-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/trellis_anscombe.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/trellis_anscombe-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/trellis_bar.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/trellis_bar-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/trellis_bar_histogram.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/trellis_bar_histogram-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/trellis_barley.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/trellis_barley-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/trellis_row_column.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/trellis_row_column-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/trellis_scatter.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/trellis_scatter-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/trellis_scatter_binned_row.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/trellis_scatter_binned_row-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/specs\/trellis_stacked_bar.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/specs\/trellis_stacked_bar-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/examples\/vl-examples.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/examples\/vl-examples-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/Gemfile": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/vega-lite\/Gemfile",
+		"oF": 0
+		},
+	"\/vendor\/bower\/vega-lite\/lib\/schema.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/lib\/schema-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/vega-lite\/LICENSE",
+		"oF": 0
+		},
+	"\/vendor\/bower\/vega-lite\/nodemon.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/nodemon-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/vega-lite\/scripts\/deploy-gh.sh": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/vega-lite\/scripts\/deploy-gh.sh",
+		"oF": 0
+		},
+	"\/vendor\/bower\/vega-lite\/scripts\/deploy.sh": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/vega-lite\/scripts\/deploy.sh",
+		"oF": 0
+		},
+	"\/vendor\/bower\/vega-lite\/scripts\/examples-compile.sh": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/vega-lite\/scripts\/examples-compile.sh",
+		"oF": 0
+		},
+	"\/vendor\/bower\/vega-lite\/scripts\/examples-diff.sh": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/vega-lite\/scripts\/examples-diff.sh",
+		"oF": 0
+		},
+	"\/vendor\/bower\/vega-lite\/scripts\/generate-images.sh": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/vega-lite\/scripts\/generate-images.sh",
+		"oF": 0
+		},
+	"\/vendor\/bower\/vega-lite\/scripts\/generate-toc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/vega-lite\/scripts\/generate-toc",
+		"oF": 0
+		},
+	"\/vendor\/bower\/vega-lite\/scripts\/index-examples": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/vega-lite\/scripts\/index-examples",
+		"oF": 0
+		},
+	"\/vendor\/bower\/vega-lite\/scripts\/pre-deploy.sh": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/vega-lite\/scripts\/pre-deploy.sh",
+		"oF": 0
+		},
+	"\/vendor\/bower\/vega-lite\/scripts\/update-data.sh": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/vega-lite\/scripts\/update-data.sh",
+		"oF": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/comparison.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/comparison.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/demo.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/demo.html",
+		"oF": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/docs\/aggregate.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/docs\/aggregate.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/docs\/axis.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/docs\/axis.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/docs\/bin.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/docs\/bin.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/docs\/composition.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/docs\/composition.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/docs\/config.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/docs\/config.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/docs\/data.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/docs\/data.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/docs\/encoding.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/docs\/encoding.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/docs\/facet.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/docs\/facet.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/docs\/label.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/docs\/label.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/docs\/legend.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/docs\/legend.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/docs\/mark.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/docs\/mark.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/docs\/overview.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/docs\/overview.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/docs\/scale.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/docs\/scale.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/docs\/size.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/docs\/size.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/docs\/sort.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/docs\/sort.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/docs\/spec.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/docs\/spec.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/docs\/timeunit.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/docs\/timeunit.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/docs\/transform.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/docs\/transform.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/examples\/gallery.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/examples\/gallery.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/index.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/index.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/static\/idl-logo.png": {
+		"ft": 32768,
+		"iS": 212,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/static\/idl-logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/static\/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/static\/main-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/static\/main.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/static\/main.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/static\/syntax.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/static\/syntax-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/static\/teaser.png": {
+		"ft": 32768,
+		"iS": 327030,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/static\/teaser.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/static\/test-gallery.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/static\/test-gallery-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/static\/test-gallery.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/static\/test-gallery.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/tutorials\/explore.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/tutorials\/explore.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/tutorials\/gettings_started.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/tutorials\/gettings_started.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/usage\/applications.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/usage\/applications.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/usage\/compile.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/usage\/compile.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/vega-lite\/site\/usage\/embed.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/site\/usage\/embed.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/aggregate.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/aggregate.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/axis.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/axis.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/bin.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/bin.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/channel.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/channel.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/axis.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/axis-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/axis.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/axis.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/common.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/common-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/common.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/common.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/compile.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/compile-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/compile.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/compile.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/config.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/config-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/config.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/config.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/data\/bin.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/data\/bin.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/data\/colorrank.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/data\/colorrank.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/data\/data.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/data\/data.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/data\/filter.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/data\/filter.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/data\/formatparse.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/data\/formatparse.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/data\/formula.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/data\/formula.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/data\/nonpositivenullfilter.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/data\/nonpositivenullfilter.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/data\/nullfilter.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/data\/nullfilter.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/data\/source.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/data\/source.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/data\/stackscale.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/data\/stackscale.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/data\/summary.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/data\/summary.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/data\/timeunit.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/data\/timeunit.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/data\/timeunitdomain.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/data\/timeunitdomain.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/facet.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/facet-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/facet.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/facet.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/layer.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/layer-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/layer.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/layer.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/layout.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/layout-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/layout.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/layout.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/legend.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/legend-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/legend.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/legend.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/mark\/area.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/mark\/area.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/mark\/bar.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/mark\/bar.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/mark\/line.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/mark\/line.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/mark\/mark.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/mark\/mark.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/mark\/point.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/mark\/point.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/mark\/rule.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/mark\/rule.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/mark\/text.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/mark\/text.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/mark\/tick.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/mark\/tick.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/model.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/model-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/model.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/model.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/scale.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/scale-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/scale.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/scale.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/time.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/time-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/time.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/time.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/unit.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/unit-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/compile\/unit.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/compile\/unit.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/config.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/config.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/data.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/data.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/encoding.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/encoding.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/facet.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/facet.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/fielddef.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/fielddef.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/legend.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/legend.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/mark.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/mark.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/scale.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/scale.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/shorthand.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/shorthand.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/sort.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/sort.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/spec.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/spec.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/stack.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/stack.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/timeunit.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/timeunit.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/transform.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/transform.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/type.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/type.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/util.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/util.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/validate.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/validate.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/vega.schema.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/vega.schema.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/src\/vl.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/src\/vl.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/test-gallery.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/vega-lite\/test-gallery.html",
+		"oF": 0
+		},
+	"\/vendor\/bower\/vega-lite\/tsconfig.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/tsconfig-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/tslint.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/tslint-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/typings\/assertion-error.d.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/typings\/assertion-error.d.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/typings\/chai.d.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/typings\/chai.d.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/typings\/d3.d.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/typings\/d3.d.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/typings\/datalib.d.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/typings\/datalib.d.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/typings\/json-stable-stringify.d.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/typings\/json-stable-stringify.d.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/typings\/mocha.d.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/typings\/mocha.d.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/typings\/node.d.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/typings\/node.d.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/typings\/vega-lite.d.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/typings\/vega-lite.d.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/typings\/vega.d.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/typings\/vega.d.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/vega-lite\/vega-lite-schema.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega-lite\/vega-lite-schema-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega-lite\/vega-lite.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/vega-lite-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/vega-lite\/vega-lite.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega-lite\/vega-lite.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/vega-lite\/vega-lite.min.js.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/vega-lite\/vega-lite.min.js.map",
+		"oF": 0
+		},
+	"\/vendor\/bower\/vega-lite\/vl.sublime-project": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/vega-lite\/vl.sublime-project",
+		"oF": 0
+		},
+	"\/vendor\/bower\/vega\/.bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega\/.bower-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega\/.jshintignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/vega\/.jshintignore",
+		"oF": 0
+		},
+	"\/vendor\/bower\/vega\/bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega\/bower-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/vega\/LICENSE",
+		"oF": 0
+		},
+	"\/vendor\/bower\/vega\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/vega\/vega-schema.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/vega\/vega-schema-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/vega\/vega.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega\/vega-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/vega\/vega.js.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/vega\/vega.js.map",
+		"oF": 0
+		},
+	"\/vendor\/bower\/vega\/vega.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/vega\/vega.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/viscompass\/.bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/viscompass\/.bower-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/viscompass\/bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/viscompass\/bower-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/viscompass\/compass.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/viscompass\/compass-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/viscompass\/compass.js.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/viscompass\/compass.js.map",
+		"oF": 0
+		},
+	"\/vendor\/bower\/viscompass\/compass.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/viscompass\/compass.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/viscompass\/compass.min.js.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/viscompass\/compass.min.js.map",
+		"oF": 0
+		},
+	"\/vendor\/bower\/viscompass\/css\/bootstrap-1.4.0.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/viscompass\/css\/bootstrap-1.4.0.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/vendor\/bower\/viscompass\/css\/bootstrap-2.0.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/viscompass\/css\/bootstrap-2.0.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/vendor\/bower\/viscompass\/css\/main.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/viscompass\/css\/main.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/vendor\/bower\/viscompass\/data\/birdstrikes.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/viscompass\/data\/birdstrikes-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/viscompass\/data\/birdstrikes\/birdstrikes-header-reformatted.csv": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/viscompass\/data\/birdstrikes\/birdstrikes-header-reformatted.csv",
+		"oF": 0
+		},
+	"\/vendor\/bower\/viscompass\/data\/birdstrikes\/birdstrikes-schema.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/viscompass\/data\/birdstrikes\/birdstrikes-schema-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/viscompass\/data\/birdstrikes\/birdstrikes.csv": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/viscompass\/data\/birdstrikes\/birdstrikes.csv",
+		"oF": 0
+		},
+	"\/vendor\/bower\/viscompass\/demo\/vrdemo.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/viscompass\/demo\/vrdemo-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/viscompass\/gulpfile.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/viscompass\/gulpfile-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/viscompass\/img\/glyphicons-halflings-white.png": {
+		"ft": 32768,
+		"iS": 4352,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/viscompass\/img\/glyphicons-halflings-white.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/vendor\/bower\/viscompass\/img\/glyphicons-halflings.png": {
+		"ft": 32768,
+		"iS": 4352,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/viscompass\/img\/glyphicons-halflings.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/vendor\/bower\/viscompass\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/viscompass\/index.html",
+		"oF": 0
+		},
+	"\/vendor\/bower\/viscompass\/lib\/bootstrap.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/viscompass\/lib\/bootstrap.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/viscompass\/lib\/clusterfck.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/viscompass\/lib\/clusterfck-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/viscompass\/lib\/d3.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/viscompass\/lib\/d3-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/viscompass\/lib\/less-1.2.0.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/viscompass\/lib\/less-1.2.0.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/viscompass\/lib\/lodash.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/viscompass\/lib\/lodash.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/viscompass\/lib\/require.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/viscompass\/lib\/require-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/viscompass\/lib\/topojson.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/viscompass\/lib\/topojson-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/viscompass\/lib\/vega.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/viscompass\/lib\/vega-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/viscompass\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/viscompass\/LICENSE",
+		"oF": 0
+		},
+	"\/vendor\/bower\/viscompass\/nodemon.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/viscompass\/nodemon-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/viscompass\/old-scripts\/app.build.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/viscompass\/old-scripts\/app.build-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/viscompass\/old-scripts\/chartTemplate.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/viscompass\/old-scripts\/chartTemplate-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/viscompass\/old-scripts\/chartTemplates.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/viscompass\/old-scripts\/chartTemplates-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/viscompass\/old-scripts\/dataTypes.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/viscompass\/old-scripts\/dataTypes-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/viscompass\/old-scripts\/demo-birdstrike.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/viscompass\/old-scripts\/demo-birdstrike-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/viscompass\/old-scripts\/encodings.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/viscompass\/old-scripts\/encodings-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/vendor\/bower\/viscompass\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/viscompass\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/viscompass\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/viscompass\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/bower\/viscompass\/scripts\/deploy.sh": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/bower\/viscompass\/scripts\/deploy.sh",
+		"oF": 0
+		},
+	"\/vendor\/bower\/viscompass\/src\/cluster\/cluster.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/viscompass\/src\/cluster\/cluster.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/viscompass\/src\/cluster\/clusterconsts.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/viscompass\/src\/cluster\/clusterconsts.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/viscompass\/src\/cluster\/distance.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/viscompass\/src\/cluster\/distance.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/viscompass\/src\/consts.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/viscompass\/src\/consts.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/viscompass\/src\/cp.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/viscompass\/src\/cp.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/viscompass\/src\/gen\/aggregates.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/viscompass\/src\/gen\/aggregates.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/viscompass\/src\/gen\/encodings.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/viscompass\/src\/gen\/encodings.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/viscompass\/src\/gen\/gen.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/viscompass\/src\/gen\/gen.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/viscompass\/src\/gen\/marks.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/viscompass\/src\/gen\/marks.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/viscompass\/src\/gen\/projections.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/viscompass\/src\/gen\/projections.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/viscompass\/src\/gen\/scales.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/viscompass\/src\/gen\/scales.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/viscompass\/src\/gen\/specs.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/viscompass\/src\/gen\/specs.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/viscompass\/src\/rank\/rank.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/viscompass\/src\/rank\/rank.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/viscompass\/src\/rank\/rankEncodings.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/viscompass\/src\/rank\/rankEncodings.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/viscompass\/src\/schema.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/viscompass\/src\/schema.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/viscompass\/src\/util.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/viscompass\/src\/util.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/viscompass\/tsconfig.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/viscompass\/tsconfig-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/viscompass\/tslint.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/viscompass\/tslint-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/bower\/viscompass\/typings\/chai.d.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/viscompass\/typings\/chai.d.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/viscompass\/typings\/clusterfck.d.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/vendor\/bower\/viscompass\/typings\/clusterfck.d.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/vendor\/bower\/viscompass\/typings\/mocha.d.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 0,
+		"oAP": "\/vendor\/bower\/viscompass\/typings\/mocha.d.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/views\/layouts\/main.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/layouts\/main.php",
+		"oF": 0
+		},
+	"\/views\/site\/about.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/site\/about.php",
+		"oF": 0
+		},
+	"\/views\/site\/contact.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/site\/contact.php",
+		"oF": 0
+		},
+	"\/views\/site\/error.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/site\/error.php",
+		"oF": 0
+		},
+	"\/views\/site\/login.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/site\/login.php",
+		"oF": 0
+		},
+	"\/web\/.htaccess": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/web\/.htaccess",
+		"oF": 0
+		},
+	"\/web\/assets\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/web\/assets\/.gitignore",
+		"oF": 0
+		},
+	"\/web\/css\/site.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/web\/css\/site-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/web\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/web\/favicon.ico",
+		"oF": 0
+		},
+	"\/web\/index-test.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/web\/index-test.php",
+		"oF": 0
+		},
+	"\/web\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/web\/index.php",
+		"oF": 0
+		},
+	"\/web\/plugins\/ladda-bootstrap\/dist\/ladda-themeless.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/web\/plugins\/ladda-bootstrap\/dist\/ladda-themeless.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/web\/plugins\/ladda-bootstrap\/dist\/ladda.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/plugins\/ladda-bootstrap\/dist\/ladda.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/plugins\/ladda-bootstrap\/dist\/spin.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/plugins\/ladda-bootstrap\/dist\/spin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/plugins\/sweetAlert\/css\/sweetalert.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/web\/plugins\/sweetAlert\/css\/sweetalert-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/web\/plugins\/sweetAlert\/js\/sweetalert.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/plugins\/sweetAlert\/js\/sweetalert.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/robots.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/web\/robots.txt",
+		"oF": 0
+		},
+	"\/yii": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/yii",
+		"oF": 0
+		},
+	"\/yii.bat": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/yii.bat",
+		"oF": 0
+		}
+	},
+"hooks": [
+	],
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"creationDate": 507054225,
+	"displayValue": "wwwGreenBoda",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "meme-krieger"
+	},
+"projectSettings": {
+	"abortBuildOnError": 1,
+	"alwaysUseExternalServer": 0,
+	"animateCSSInjections": 1,
+	"autoBuildNewItems": 1,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"babelAuxiliaryCommentAfter": "",
+	"babelAuxiliaryCommentBefore": "",
+	"babelConfigFileHandlingType": 0,
+	"babelCustomPluginsList": "",
+	"babelCustomPresetsList": "",
+	"babelInsertModuleIDs": 0,
+	"babelModuleID": "",
+	"babelNoComments": 0,
+	"babelPlugins": {
+		"async-generator-functions": {
+			"active": 0
+			},
+		"async-to-generator": {
+			"active": 0
+			},
+		"async-to-module-method": {
+			"active": 0
+			},
+		"class-properties": {
+			"active": 0
+			},
+		"decorators": {
+			"active": 0
+			},
+		"decorators-legacy": {
+			"active": 0
+			},
+		"do-expressions": {
+			"active": 0
+			},
+		"es2015-arrow-functions": {
+			"active": 0
+			},
+		"es2015-block-scoped-functions": {
+			"active": 0
+			},
+		"es2015-block-scoping": {
+			"active": 0
+			},
+		"es2015-classes": {
+			"active": 0
+			},
+		"es2015-computed-properties": {
+			"active": 0
+			},
+		"es2015-constants": {
+			"active": 0
+			},
+		"es2015-destructuring": {
+			"active": 0
+			},
+		"es2015-duplicate-keys": {
+			"active": 0
+			},
+		"es2015-for-of": {
+			"active": 0
+			},
+		"es2015-function-name": {
+			"active": 0
+			},
+		"es2015-literals": {
+			"active": 0
+			},
+		"es2015-modules-amd": {
+			"active": 0
+			},
+		"es2015-modules-commonjs": {
+			"active": 0
+			},
+		"es2015-modules-systemjs": {
+			"active": 0
+			},
+		"es2015-modules-umd": {
+			"active": 0
+			},
+		"es2015-object-super": {
+			"active": 0
+			},
+		"es2015-parameters": {
+			"active": 0
+			},
+		"es2015-shorthand-properties": {
+			"active": 0
+			},
+		"es2015-spread": {
+			"active": 0
+			},
+		"es2015-sticky-regex": {
+			"active": 0
+			},
+		"es2015-template-literals": {
+			"active": 0
+			},
+		"es2015-typeof-symbol": {
+			"active": 0
+			},
+		"es2015-unicode-regex": {
+			"active": 0
+			},
+		"es3-member-expression-literals": {
+			"active": 0
+			},
+		"es3-property-literals": {
+			"active": 0
+			},
+		"es5-property-mutators": {
+			"active": 0
+			},
+		"eval": {
+			"active": 0
+			},
+		"exponentiation-operator": {
+			"active": 0
+			},
+		"export-extensions": {
+			"active": 0
+			},
+		"external-helpers": {
+			"active": 0
+			},
+		"flow-comments": {
+			"active": 0
+			},
+		"flow-strip-types": {
+			"active": 0
+			},
+		"function-bind": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
+		"jscript": {
+			"active": 0
+			},
+		"member-expression-literals": {
+			"active": 0
+			},
+		"merge-sibling-variables": {
+			"active": 0
+			},
+		"minify-booleans": {
+			"active": 0
+			},
+		"node-env-inline": {
+			"active": 0
+			},
+		"object-assign": {
+			"active": 0
+			},
+		"object-rest-spread": {
+			"active": 0
+			},
+		"object-set-prototype-of-to-assign": {
+			"active": 0
+			},
+		"property-literals": {
+			"active": 0
+			},
+		"proto-to-assign": {
+			"active": 0
+			},
+		"react-constant-elements": {
+			"active": 0
+			},
+		"react-display-name": {
+			"active": 0
+			},
+		"react-inline-elements": {
+			"active": 0
+			},
+		"react-jsx": {
+			"active": 0
+			},
+		"react-jsx-compat": {
+			"active": 0
+			},
+		"react-jsx-self": {
+			"active": 0
+			},
+		"react-jsx-source": {
+			"active": 0
+			},
+		"regenerator": {
+			"active": 0
+			},
+		"remove-console": {
+			"active": 0
+			},
+		"remove-debugger": {
+			"active": 0
+			},
+		"runtime": {
+			"active": 0
+			},
+		"simplify-comparison-operators": {
+			"active": 0
+			},
+		"strict-mode": {
+			"active": 0
+			},
+		"syntax-async-generators": {
+			"active": 0
+			},
+		"syntax-class-properties": {
+			"active": 0
+			},
+		"syntax-decorators": {
+			"active": 0
+			},
+		"syntax-do-expressions": {
+			"active": 0
+			},
+		"syntax-export-extensions": {
+			"active": 0
+			},
+		"syntax-flow": {
+			"active": 0
+			},
+		"syntax-function-bind": {
+			"active": 0
+			},
+		"syntax-function-sent": {
+			"active": 0
+			},
+		"syntax-jsx": {
+			"active": 0
+			},
+		"syntax-object-rest-spread": {
+			"active": 0
+			},
+		"undeclared-variables-check": {
+			"active": 0
+			},
+		"undefined-to-void": {
+			"active": 0
+			}
+		},
+	"babelPresetType": 193,
+	"babelRetainLines": 0,
+	"bowerAbbreviatedPath": "bower_components",
+	"bowerAutoCreateInfoFile": 1,
+	"bowerInstallDevDependencies": 0,
+	"bowerSaveDependencies": 1,
+	"bowerSaveDevDependencies": 0,
+	"bowerUseExactVersion": 0,
+	"browserRefreshDelay": 0,
+	"buildFolderActive": 0,
+	"buildFolderName": "build",
+	"cleanBuild": 1,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"esLintConfigFileHandlingType": 0,
+	"esLintECMAVersion": 7,
+	"esLintEnvironmentsMask": 1,
+	"esLintRules": {
+		"accessor-pairs": {
+			"active": 0,
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			},
+		"array-bracket-spacing": {
+			"active": 0,
+			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
+			},
+		"array-callback-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"arrow-body-style": {
+			"active": 0,
+			"optionString": "'as-needed', {'requireReturnForObjectLiteral': false}"
+			},
+		"arrow-parens": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true}"
+			},
+		"block-scoped-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"block-spacing": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"brace-style": {
+			"active": 0,
+			"optionString": "'1tbs', {'allowSingleLine': true}"
+			},
+		"callback-return": {
+			"active": 0,
+			"optionString": "['callback', 'cb', 'next']"
+			},
+		"camelcase": {
+			"active": 0,
+			"optionString": "{'properties': 'always'}"
+			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
+		"class-methods-use-this": {
+			"active": 0,
+			"optionString": "{'exceptMethods': []}"
+			},
+		"comma-dangle": {
+			"active": 1,
+			"optionString": "'never'"
+			},
+		"comma-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"comma-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"complexity": {
+			"active": 0,
+			"optionString": "20"
+			},
+		"computed-property-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"consistent-return": {
+			"active": 0,
+			"optionString": "{'treatUndefinedAsUnspecified': false}"
+			},
+		"consistent-this": {
+			"active": 0,
+			"optionString": "'that'"
+			},
+		"constructor-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"curly": {
+			"active": 0,
+			"optionString": "'all'"
+			},
+		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"dot-location": {
+			"active": 0,
+			"optionString": "'object'"
+			},
+		"dot-notation": {
+			"active": 0,
+			"optionString": "{'allowKeywords': false}"
+			},
+		"eol-last": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"eqeqeq": {
+			"active": 0,
+			"optionString": "'always', {'null': 'always'}"
+			},
+		"func-call-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"func-name-matching": {
+			"active": 0,
+			"optionString": "'always', {'includeCommonJSModuleExports': false}"
+			},
+		"func-names": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"func-style": {
+			"active": 0,
+			"optionString": "'expression'"
+			},
+		"generator-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': false}"
+			},
+		"global-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"guard-for-in": {
+			"active": 0,
+			"optionString": ""
+			},
+		"handle-callback-err": {
+			"active": 0,
+			"optionString": "'err'"
+			},
+		"id-blacklist": {
+			"active": 0,
+			"optionString": "'data', 'err', 'e', 'cb', 'callback'"
+			},
+		"id-length": {
+			"active": 0,
+			"optionString": "{'min': 2, 'max': 1000, 'properties': 'always', 'exceptions': ['x', 'i', 'y']}"
+			},
+		"id-match": {
+			"active": 0,
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"indent": {
+			"active": 0,
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1, }"
+			},
+		"init-declarations": {
+			"active": 0,
+			"optionString": "'always',  {'ignoreForLoopInit': true}"
+			},
+		"jsx-quotes": {
+			"active": 0,
+			"optionString": "'prefer-double'"
+			},
+		"key-spacing": {
+			"active": 0,
+			"optionString": "{'singleLine': {'beforeColon': false, 'afterColon': true, 'mode':'strict'}, 'multiLine': {'beforeColon': false, 'afterColon': true, 'align': 'value', 'mode':'minimum'}}"
+			},
+		"keyword-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true, 'overrides': {}}"
+			},
+		"line-comment-position": {
+			"active": 0,
+			"optionString": "{'position': 'above'}"
+			},
+		"linebreak-style": {
+			"active": 0,
+			"optionString": "'unix'"
+			},
+		"lines-around-comment": {
+			"active": 0,
+			"optionString": "{'beforeBlockComment': true}"
+			},
+		"lines-around-directive": {
+			"active": 0,
+			"optionString": "{'before': 'always', 'after': 'always'}"
+			},
+		"max-depth": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-len": {
+			"active": 0,
+			"optionString": "{'code': 80, 'comments': 80, 'tabWidth': 4, 'ignoreUrls': true, 'ignoreStrings': true, 'ignoreTemplateLiterals': true, 'ignoreRegExpLiterals': true}"
+			},
+		"max-lines": {
+			"active": 0,
+			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-nested-callbacks": {
+			"active": 0,
+			"optionString": "{'max': 10}"
+			},
+		"max-params": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-statements": {
+			"active": 0,
+			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
+			},
+		"multiline-ternary": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"new-cap": {
+			"active": 0,
+			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
+			},
+		"new-parens": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-after-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"newline-before-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-per-chained-call": {
+			"active": 0,
+			"optionString": "{'ignoreChainWithDepth': 2}"
+			},
+		"no-alert": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-array-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-bitwise": {
+			"active": 0,
+			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-caller": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-case-declarations": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-catch-shadow": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-class-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-cond-assign": {
+			"active": 1,
+			"optionString": "'except-parens'"
+			},
+		"no-confusing-arrow": {
+			"active": 0,
+			"optionString": "{'allowParens': false}"
+			},
+		"no-console": {
+			"active": 1,
+			"optionString": "{'allow': ['warn', 'error']}"
+			},
+		"no-const-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-constant-condition": {
+			"active": 1,
+			"optionString": "{'checkLoops': true}"
+			},
+		"no-continue": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-control-regex": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-debugger": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-delete-var": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-div-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-dupe-args": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-keys": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-duplicate-imports": {
+			"active": 0,
+			"optionString": "{'includeExports': false}"
+			},
+		"no-else-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-empty": {
+			"active": 1,
+			"optionString": "{'allowEmptyCatch': false}"
+			},
+		"no-empty-character-class": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-empty-function": {
+			"active": 0,
+			"optionString": "{'allow': []}"
+			},
+		"no-empty-pattern": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-eq-null": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-eval": {
+			"active": 0,
+			"optionString": "{'allowIndirect': false}"
+			},
+		"no-ex-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extend-native": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-extra-bind": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-boolean-cast": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extra-labels": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-parens": {
+			"active": 1,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false}"
+			},
+		"no-extra-semi": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-fallthrough": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-floating-decimal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-func-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-global-assign": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-implicit-coercion": {
+			"active": 0,
+			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
+			},
+		"no-implicit-globals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-implied-eval": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inline-comments": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inner-declarations": {
+			"active": 1,
+			"optionString": "'functions'"
+			},
+		"no-invalid-regexp": {
+			"active": 1,
+			"optionString": "{'allowConstructorFlags': ['u', 'y']}"
+			},
+		"no-invalid-this": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-irregular-whitespace": {
+			"active": 1,
+			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
+			},
+		"no-iterator": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-label-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-labels": {
+			"active": 0,
+			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
+			},
+		"no-lone-blocks": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-lonely-if": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-loop-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-magic-numbers": {
+			"active": 0,
+			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
+			},
+		"no-mixed-operators": {
+			"active": 0,
+			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			},
+		"no-mixed-requires": {
+			"active": 0,
+			"optionString": "{'grouping': false, 'allowCall': false }"
+			},
+		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-spaces": {
+			"active": 0,
+			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
+			},
+		"no-multi-str": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multiple-empty-lines": {
+			"active": 0,
+			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
+			},
+		"no-negated-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-nested-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-object": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-symbol": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-new-wrappers": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-obj-calls": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-param-reassign": {
+			"active": 0,
+			"optionString": "{'props': false}"
+			},
+		"no-path-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-plusplus": {
+			"active": 0,
+			"optionString": "{'allowForLoopAfterthoughts': false}"
+			},
+		"no-process-env": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-process-exit": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-redeclare": {
+			"active": 1,
+			"optionString": "{'builtinGlobals': false}"
+			},
+		"no-regex-spaces": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-restricted-globals": {
+			"active": 0,
+			"optionString": "'event', 'fdescribe'"
+			},
+		"no-restricted-imports": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-modules": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-properties": {
+			"active": 0,
+			"optionString": "[{'object': 'disallowedObjectName', 'property': 'disallowedPropertyName'}, {'object': 'disallowedObjectName', 'property': 'anotherDisallowedPropertyName', 'message': 'Please use allowedObjectName.allowedPropertyName.'}]"
+			},
+		"no-restricted-syntax": {
+			"active": 0,
+			"optionString": "'FunctionExpression', 'WithStatement'"
+			},
+		"no-return-assign": {
+			"active": 0,
+			"optionString": "'except-parens'"
+			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-script-url": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-self-assign": {
+			"active": 1,
+			"optionString": "{'props': false}"
+			},
+		"no-self-compare": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sequences": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-shadow": {
+			"active": 0,
+			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
+			},
+		"no-shadow-restricted-names": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sparse-arrays": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sync": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-template-curly-in-string": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-this-before-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-throw-literal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-trailing-spaces": {
+			"active": 0,
+			"optionString": "{'skipBlankLines': false}"
+			},
+		"no-undef": {
+			"active": 1,
+			"optionString": "{'typeof': false}"
+			},
+		"no-undef-init": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-undefined": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-underscore-dangle": {
+			"active": 0,
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false}"
+			},
+		"no-unexpected-multiline": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unmodified-loop-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unneeded-ternary": {
+			"active": 0,
+			"optionString": "{'defaultAssignment': true}"
+			},
+		"no-unreachable": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-finally": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-negation": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unused-expressions": {
+			"active": 0,
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false}"
+			},
+		"no-unused-labels": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-vars": {
+			"active": 1,
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none'}"
+			},
+		"no-use-before-define": {
+			"active": 0,
+			"optionString": "{'functions': true, 'classes': true}"
+			},
+		"no-useless-call": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-computed-key": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-useless-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-rename": {
+			"active": 0,
+			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
+			},
+		"no-useless-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-void": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-warning-comments": {
+			"active": 0,
+			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
+			},
+		"no-whitespace-before-property": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-with": {
+			"active": 0,
+			"optionString": ""
+			},
+		"object-curly-newline": {
+			"active": 0,
+			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
+			},
+		"object-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"object-property-newline": {
+			"active": 0,
+			"optionString": "{'allowMultiplePropertiesPerLine': true}"
+			},
+		"object-shorthand": {
+			"active": 0,
+			"optionString": "'always', {'avoidQuotes': false, 'ignoreConstructors': false}"
+			},
+		"one-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"one-var-declaration-per-line": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-assignment": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-linebreak": {
+			"active": 0,
+			"optionString": "'after', {'overrides': {'?': 'after', '+=': 'none'}}"
+			},
+		"padded-blocks": {
+			"active": 0,
+			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
+			},
+		"prefer-arrow-callback": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-const": {
+			"active": 0,
+			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
+		"prefer-numeric-literals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-rest-params": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-spread": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-template": {
+			"active": 0,
+			"optionString": ""
+			},
+		"quote-props": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"quotes": {
+			"active": 0,
+			"optionString": "'double', {'avoidEscape': true, 'allowTemplateLiterals': true}"
+			},
+		"radix": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"require-jsdoc": {
+			"active": 0,
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-yield": {
+			"active": 0,
+			"optionString": ""
+			},
+		"rest-spread-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"semi": {
+			"active": 0,
+			"optionString": "'always', {'omitLastInOneLineBlock': false}"
+			},
+		"semi-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"sort-imports": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
+			},
+		"sort-keys": {
+			"active": 0,
+			"optionString": "'asc', {'caseSensitive': true, 'natural': false}"
+			},
+		"sort-vars": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false}"
+			},
+		"space-before-blocks": {
+			"active": 0,
+			"optionString": "{'functions': 'always', 'keywords': 'always', 'classes': 'always'}"
+			},
+		"space-before-function-paren": {
+			"active": 0,
+			"optionString": "{'anonymous': 'always', 'named': 'never'}"
+			},
+		"space-in-parens": {
+			"active": 0,
+			"optionString": "'never', {'exceptions': []}"
+			},
+		"space-infix-ops": {
+			"active": 0,
+			"optionString": "{'int32Hint': false}"
+			},
+		"space-unary-ops": {
+			"active": 0,
+			"optionString": "{'words': true, 'nonwords': false, 'overrides': {}}"
+			},
+		"spaced-comment": {
+			"active": 0,
+			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			},
+		"strict": {
+			"active": 0,
+			"optionString": "'safe'"
+			},
+		"symbol-description": {
+			"active": 0,
+			"optionString": ""
+			},
+		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"unicode-bom": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"use-isnan": {
+			"active": 1,
+			"optionString": ""
+			},
+		"valid-jsdoc": {
+			"active": 0,
+			"optionString": "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
+			},
+		"valid-typeof": {
+			"active": 1,
+			"optionString": "{'requireStringLiterals': true}"
+			},
+		"vars-on-top": {
+			"active": 0,
+			"optionString": ""
+			},
+		"wrap-iife": {
+			"active": 0,
+			"optionString": "'outside'"
+			},
+		"wrap-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"yield-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"yoda": {
+			"active": 0,
+			"optionString": "'never', {'exceptRange': false, 'onlyEquality': false}"
+			}
+		},
+	"esLintSourceType": 0,
+	"externalServerAddress": "http:\/\/localhost:8888",
+	"gitIgnoreBuildFolder": 1,
+	"hideConfigFile": 0,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es6": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"for": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"languageDefaultsCOFFEE": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"languageDefaultsCSS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.css",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsGIF": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.gif",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsHAML": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"escapeHTMLCharacters": 0,
+		"noEscapeInAttributes": 0,
+		"outputFormat": 2,
+		"outputStyle": 0,
+		"useCDATA": 0,
+		"useDoubleQuotes": 0,
+		"useUnixNewlines": 0
+		},
+	"languageDefaultsJPG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.jpg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsJS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 0
+		},
+	"languageDefaultsJSON": {
+		"autoOutputAction": 1,
+		"autoOutputPathFilenamePattern": "*-min.json",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"orderOutput": 0,
+		"outputStyle": 1
+		},
+	"languageDefaultsJSX": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "jsx",
+		"autoOutputPathReplace2": "js",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsKIT": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "kit",
+		"autoOutputPathReplace2": "html",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsLESS": {
+		"allowInsecureImports": 0,
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "less",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 1,
+		"disableJavascript": 0,
+		"ieCompatibility": 1,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"languageDefaultsMARKDOWN": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"maskEmailAddresses": 1,
+		"outputFormat": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"languageDefaultsOTHER": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.*",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsPNG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.png",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsPUG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileDebug": 1,
+		"outputStyle": 0
+		},
+	"languageDefaultsSASS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "sass",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 3,
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 1
+		},
+	"languageDefaultsSLIM": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileOnly": 0,
+		"logicless": 0,
+		"outputFormat": 0,
+		"outputStyle": 1,
+		"railsCompatible": 0
+		},
+	"languageDefaultsSTYLUS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "stylus",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"importCSS": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsSVG": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.svg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"pluginMask": 3758088159
+		},
+	"languageDefaultsTS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createDeclarationFile": 0,
+		"createSourceMap": 0,
+		"jsxMode": 0,
+		"minifyOutput": 0,
+		"moduleResolutionType": 0,
+		"moduleType": 2,
+		"noImplicitAny": 0,
+		"preserveConstEnums": 0,
+		"removeComments": 0,
+		"suppressImplicitAnyIndexErrors": 0,
+		"targetECMAVersion": 0
+		},
+	"languageDefaultsUserDefined": [
+		],
+	"previewPathAddition": "",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"sourceFolderName": "source",
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "3"
+}
