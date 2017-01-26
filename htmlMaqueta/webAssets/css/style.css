@@ -411,7 +411,7 @@ header {
 /*  Page-Home
 	@mixin ========================================================================= */
 .page-home {
-  display: block;
+  display: none;
   height: calc(100% - 120px);
   position: relative;
   overflow: auto;
@@ -844,6 +844,110 @@ header {
         @media screen and (max-width: 767px) {
           .page-registro .page-container .participa-forma-wrapper .step2 .btn {
             margin: 30px auto; } }
+
+.page-premios {
+  display: block;
+  height: calc(100% - 120px); }
+  .page-premios .container {
+    padding: 20px;
+    text-align: center; }
+    .page-premios .container .box {
+      display: block;
+      background-color: #FFF;
+      width: 50%;
+      margin: 0 auto;
+      padding: 10px 15px;
+      border-radius: 6px;
+      box-shadow: 0 10px 22px -7px rgba(0, 0, 0, 0.4); }
+      @media screen and (max-width: 767px) {
+        .page-premios .container .box {
+          width: 90%; } }
+      .page-premios .container .box h2 {
+        font-family: "rb-bold", sans-serif;
+        font-size: 1.4em; }
+        @media screen and (max-width: 767px) {
+          .page-premios .container .box h2 {
+            font-size: .9em; } }
+    .page-premios .container img {
+      width: 40%;
+      margin: 40px 0; }
+      @media screen and (max-width: 767px) {
+        .page-premios .container img {
+          width: 90%; } }
+    .page-premios .container .text {
+      width: 70%;
+      margin: 0 auto;
+      border-bottom: 1px solid #CC1313;
+      padding-bottom: 10px; }
+      @media screen and (max-width: 767px) {
+        .page-premios .container .text {
+          width: 90%; } }
+      .page-premios .container .text h3 {
+        font-family: "rbCond-bold", sans-serif;
+        font-size: 1.7em;
+        line-height: 1.3em; }
+        @media screen and (max-width: 767px) {
+          .page-premios .container .text h3 {
+            font-size: 1.2em;
+            text-align: left;
+            line-height: 1.5em; } }
+    .page-premios .container .gallery {
+      margin-top: 20px;
+      width: 100%; }
+      .page-premios .container .gallery img {
+        margin: 0;
+        width: 25%;
+        float: left; }
+        @media screen and (max-width: 767px) {
+          .page-premios .container .gallery img {
+            float: none;
+            width: 100%; } }
+
+.logo-pesado {
+  margin: 0 5px;
+  background: url("../images/logo-pesado-negro.png") no-repeat;
+  background-size: contain;
+  background-position: 0 16px;
+  text-indent: -99999;
+  color: transparent;
+  font-size: 1.3em; }
+  @media screen and (max-width: 767px) {
+    .logo-pesado {
+      background-position: 0 10px; } }
+
+.modal {
+  display: none;
+  height: calc(100% - 120px); }
+  .modal .container {
+    padding-top: 50px;
+    padding-bottom: 100px; }
+    .modal .container .terminos-box,
+    .modal .container .aviso-box {
+      width: 100%;
+      height: auto;
+      margin: 0 auto; }
+      @media screen and (max-width: 767px) {
+        .modal .container .terminos-box,
+        .modal .container .aviso-box {
+          font-size: 12px; } }
+      .modal .container .terminos-box h4,
+      .modal .container .aviso-box h4 {
+        background-color: #FFF;
+        padding: 10px 20px;
+        font-family: "rb-bold", sans-serif;
+        margin-bottom: 20px;
+        width: 40%;
+        border-radius: 6px;
+        box-shadow: 0 10px 22px -7px rgba(0, 0, 0, 0.4); }
+        @media screen and (max-width: 767px) {
+          .modal .container .terminos-box h4,
+          .modal .container .aviso-box h4 {
+            width: 100%;
+            font-size: 1.2em; } }
+      .modal .container .terminos-box p,
+      .modal .container .aviso-box p {
+        font-size: 1.2em;
+        font-family: 'Arial'; }
 
 /*!
 	-----------------------------------------------------------------------------
