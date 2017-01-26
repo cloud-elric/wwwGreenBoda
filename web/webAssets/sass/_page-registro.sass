@@ -1,0 +1,238 @@
+/*!
+	-----------------------------------------------------------------------------
+
+	4.1 - Page-Registro
+
+	-----------------------------------------------------------------------------
+	*/
+
+/*  Page-Registro
+	========================================================================== */
+
+.page-registro
+	display: none
+	//background-color: pink
+	width: 100%
+	position: relative
+	height: auto
+	overflow: hidden
+	transition: opacity .3s	ease-out
+	.page-container
+		display: flex
+		justify-content: center
+		align-items: top
+		max-width: 100%
+		height: 100%
+		min-height: 900px
+		padding: 0
+		padding-top: 50px
+		.leftSide,
+		.rightSide
+			width: 50%
+			background-color: transparent
+			text-align: center
+			+respond-to(xs)
+				width: 100%
+				z-index: 20
+		.leftSide
+			padding: 30px 0
+			+respond-to(xs)
+				position: absolute
+				top: 0
+				right: 0
+				z-index: 999
+				padding: 0 20px
+			img
+				width: 80%
+				padding: 50px
+				+respond-to(xs)
+					width: 95%
+			.mecanica-del-sitio
+				display: block
+				background-color: $white
+				height: auto
+				text-align: left
+				width: 70%
+				margin: 0 auto
+				font-family: $font-variant
+				padding: 30px
+				border-radius: 5px
+				box-shadow: 0 10px 22px -7px rgba(0,0,0,0.4)
+				h2
+					font-family: $font-variant
+					text-transform: uppercase
+					margin-bottom: 20px
+				ol
+					padding-left: 25px
+					li
+						font-size: 1.5em
+						margin: 15px 0
+		.rightSide
+			//background-color: blue
+			position: relative
+			+respond-to(xs)
+				position: fixed
+				bottom: 40px
+				opacity: .4
+				padding-top: 90vh;
+			img
+				height: 70vh
+				width: auto
+				z-index: -1
+				opacity: .3
+		.participa-forma-wrapper
+			display: block
+			position: absolute
+			top: 0
+			right: 0
+			height: auto
+			width: 100%
+			padding: 10px
+			padding-top: 50px
+			.step
+				display: block
+				height: 100px
+				width: 100%
+				margin-bottom: 10px
+				text-align: left
+				position: relative
+				.step-header
+					.bullet
+						display: inline-block
+						height: 40px
+						width: 40px
+						background-color: $white
+						border-radius: 50%
+						line-height: 1.3em
+						font-family: $font-menu
+						text-align: center
+						font-size: 1.8em
+					span
+						color: $active
+						font-size: 1.3em
+						font-family: $font-menu
+						margin-left: 10px
+				.btn
+					margin-top: 10px
+					margin-left: 50px
+			.step2
+				height: auto
+				.step-header
+				form
+					height: 100%
+					width: 100%
+					margin: 20px 0
+					.input-group
+						padding: 10px 10px 30px
+						display: flex
+						justify-content: flex-start
+						align-items:center
+						margin-bottom: 10px
+						position: relative
+						i.icono
+							display: inline-block
+							height: 30px
+							width: 30px
+							background-color: #555
+							margin: 0 10px
+							border-radius: 15px
+						input
+							display: inline-block
+							padding: 5px 0
+							border-radius: 3px
+							width: 400px
+							text-indent: 1em
+							border: 1px solid lightgray
+						.input-small
+							width: 150px
+						.input-confirma
+							margin-left: 30px
+						.help-block
+							display: block
+							position: absolute
+							bottom: 5px
+							left: 60px
+							//background-color: red
+							color: red
+							font-family: $font-menu
+					.acepto-terminos
+						margin: 20px
+						.rkmd-checkbox 
+							color: #818181
+							font-size: 15px
+							font-weight: bold
+							font-family: 'Roboto', sans-serif
+							letter-spacing: .5px
+							display: inline-block
+							.input-checkbox 
+								position: relative
+								display: inline-block
+								width: 32px
+								height: 32px
+								text-align: center
+								vertical-align: -9px
+								input[type="checkbox"] 
+									visibility: hidden
+									position: absolute
+									left: 7px
+									bottom: 7px
+									margin: 0
+									padding: 0
+									outline: none
+									cursor: pointer
+									opacity: 0
+									& + .checkbox:before 
+										position: absolute
+										left: 4px
+										bottom: 8px
+										width: 18px
+										height: 18px
+										font-family: 'Material Icons'
+										font-weight: normal
+										font-style: normal
+										font-size: 24px
+										line-height: 1
+										text-transform: none
+										letter-spacing: normal
+										word-wrap: normal
+										white-space: nowrap
+										direction: ltr
+										vertical-align: -6px
+										/* Support for all WebKit browsers. */
+										-webkit-font-smoothing: antialiased
+										/* Support for Safari and Chrome. */
+										text-rendering: optimizeLegibility
+										/* Support for Firefox. */
+										-moz-osx-font-smoothing: grayscale
+										/* Support for IE. */
+										font-feature-settings: 'liga'
+										transition: all .2s ease
+										z-index: 1
+									& + .checkbox:before
+										content: "\e835"
+										color: #717171 
+									&:checked + .checkbox:before
+										content: "\e834" 
+									&:active:not(:disabled) + .checkbox:before
+										transform: scale3d(0.88, 0.88, 1); 
+									&:disabled + .checkbox:before
+										color: rgba(0,0,0,0.157) !important;
+							.rkmd-checkbox
+								&.checkbox-ripple
+									.ripple
+										position: absolute
+										top: 0px
+										left: 0px
+										width: 32px
+										height: 32px
+										border-radius: 50%
+										transform: scale(0)
+										&.animated
+										display: block
+										animation-name: checkbox-ripple
+										animation-duration: 400ms
+										animation-timing-function: ease-out
+						span
+							color: $active
+							text-decoration: underline
+							cursor: pointer
