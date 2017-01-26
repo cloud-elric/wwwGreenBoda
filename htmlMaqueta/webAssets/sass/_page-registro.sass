@@ -110,10 +110,12 @@
 						width: 40px
 						background-color: $white
 						border-radius: 50%
-						line-height: 1.3em
+						border: 1px solid $active
+						line-height: 1.25em
 						font-family: $font-menu
 						text-align: center
 						font-size: 1.8em
+						text-align: center
 						+respond-to(xs)
 							line-height: 2.1em
 					span
@@ -161,9 +163,16 @@
 							background-color: #555
 							margin: 0 10px
 							border-radius: 15px
+							color: white;
+							font-size: 20px;
+							line-height: 30px
+							text-align: center
 							+respond-to(xs)
 								display: block
 								margin: 3px 0
+								position: absolute
+								top: -10px
+								left: -5px
 						input
 							display: inline-block
 							padding: 5px 0
@@ -173,7 +182,7 @@
 							border: 1px solid lightgray
 							+respond-to(xs)
 								width: 100%
-								height: 30px
+								height: 35px
 						.input-small
 							width: 150px
 							+respond-to(xs)
@@ -182,7 +191,7 @@
 							margin-left: 30px
 							+respond-to(xs)
 								margin-left: 0px
-								margin-top: 20px
+								margin-top: 15px
 						.help-block
 							display: block
 							position: absolute
@@ -252,10 +261,10 @@
 										transition: all .2s ease
 										z-index: 1
 									& + .checkbox:before
-										content: "\e835"
+										content: "\e834"
 										color: #717171 
 									&:checked + .checkbox:before
-										content: "\e834" 
+										content: "\e835" 
 									&:active:not(:disabled) + .checkbox:before
 										transform: scale3d(0.88, 0.88, 1); 
 									&:disabled + .checkbox:before

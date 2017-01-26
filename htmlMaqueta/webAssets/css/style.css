@@ -648,10 +648,12 @@ header {
           width: 40px;
           background-color: #FFF;
           border-radius: 50%;
-          line-height: 1.3em;
+          border: 1px solid #CC1313;
+          line-height: 1.25em;
           font-family: "rb-bold", sans-serif;
           text-align: center;
-          font-size: 1.8em; }
+          font-size: 1.8em;
+          text-align: center; }
           @media screen and (max-width: 767px) {
             .page-registro .page-container .participa-forma-wrapper .step .step-header .bullet {
               line-height: 2.1em; } }
@@ -704,11 +706,18 @@ header {
               width: 30px;
               background-color: #555;
               margin: 0 10px;
-              border-radius: 15px; }
+              border-radius: 15px;
+              color: white;
+              font-size: 20px;
+              line-height: 30px;
+              text-align: center; }
               @media screen and (max-width: 767px) {
                 .page-registro .page-container .participa-forma-wrapper .step2 form .input-group i.icono {
                   display: block;
-                  margin: 3px 0; } }
+                  margin: 3px 0;
+                  position: absolute;
+                  top: -10px;
+                  left: -5px; } }
             .page-registro .page-container .participa-forma-wrapper .step2 form .input-group input {
               display: inline-block;
               padding: 5px 0;
@@ -719,7 +728,7 @@ header {
               @media screen and (max-width: 767px) {
                 .page-registro .page-container .participa-forma-wrapper .step2 form .input-group input {
                   width: 100%;
-                  height: 30px; } }
+                  height: 35px; } }
             .page-registro .page-container .participa-forma-wrapper .step2 form .input-group .input-small {
               width: 150px; }
               @media screen and (max-width: 767px) {
@@ -730,7 +739,7 @@ header {
               @media screen and (max-width: 767px) {
                 .page-registro .page-container .participa-forma-wrapper .step2 form .input-group .input-confirma {
                   margin-left: 0px;
-                  margin-top: 20px; } }
+                  margin-top: 15px; } }
             .page-registro .page-container .participa-forma-wrapper .step2 form .input-group .help-block {
               display: block;
               position: absolute;
@@ -803,10 +812,10 @@ header {
                     transition: all .2s ease;
                     z-index: 1; }
                   .page-registro .page-container .participa-forma-wrapper .step2 form .acepto-terminos .rkmd-checkbox .input-checkbox input[type="checkbox"] + .checkbox:before {
-                    content: "\e835";
+                    content: "\e834";
                     color: #717171; }
                   .page-registro .page-container .participa-forma-wrapper .step2 form .acepto-terminos .rkmd-checkbox .input-checkbox input[type="checkbox"]:checked + .checkbox:before {
-                    content: "\e834"; }
+                    content: "\e835"; }
                   .page-registro .page-container .participa-forma-wrapper .step2 form .acepto-terminos .rkmd-checkbox .input-checkbox input[type="checkbox"]:active:not(:disabled) + .checkbox:before {
                     -webkit-transform: scale3d(0.88, 0.88, 1);
                             transform: scale3d(0.88, 0.88, 1); }
