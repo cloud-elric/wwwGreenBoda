@@ -558,11 +558,21 @@ header {
     min-height: 900px;
     padding: 0;
     padding-top: 50px; }
+    @media screen and (max-width: 767px) {
+      .page-registro .page-container {
+        -ms-flex-flow: column;
+            flex-flow: column;
+        padding-top: 10px;
+        min-height: 1600px;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start; } }
     .page-registro .page-container .leftSide,
     .page-registro .page-container .rightSide {
       width: 50%;
       background-color: transparent;
-      text-align: center; }
+      text-align: center;
+      height: auto; }
       @media screen and (max-width: 767px) {
         .page-registro .page-container .leftSide,
         .page-registro .page-container .rightSide {
@@ -572,17 +582,15 @@ header {
       padding: 30px 0; }
       @media screen and (max-width: 767px) {
         .page-registro .page-container .leftSide {
-          position: absolute;
-          top: 0;
-          right: 0;
-          z-index: 999;
-          padding: 0 20px; } }
+          padding: 0 20px;
+          margin-bottom: 50px; } }
       .page-registro .page-container .leftSide img {
         width: 80%;
         padding: 50px; }
         @media screen and (max-width: 767px) {
           .page-registro .page-container .leftSide img {
-            width: 95%; } }
+            width: 95%;
+            padding: 20px; } }
       .page-registro .page-container .leftSide .mecanica-del-sitio {
         display: block;
         background-color: #FFF;
@@ -594,6 +602,10 @@ header {
         padding: 30px;
         border-radius: 5px;
         box-shadow: 0 10px 22px -7px rgba(0, 0, 0, 0.4); }
+        @media screen and (max-width: 767px) {
+          .page-registro .page-container .leftSide .mecanica-del-sitio {
+            width: 100%;
+            font-size: 12px; } }
         .page-registro .page-container .leftSide .mecanica-del-sitio h2 {
           font-family: "rbCond-bold", sans-serif;
           text-transform: uppercase;
@@ -605,12 +617,6 @@ header {
             margin: 15px 0; }
     .page-registro .page-container .rightSide {
       position: relative; }
-      @media screen and (max-width: 767px) {
-        .page-registro .page-container .rightSide {
-          position: fixed;
-          bottom: 40px;
-          opacity: .4;
-          padding-top: 90vh; } }
       .page-registro .page-container .rightSide img {
         height: 70vh;
         width: auto;
@@ -625,6 +631,10 @@ header {
       width: 100%;
       padding: 10px;
       padding-top: 50px; }
+      @media screen and (max-width: 767px) {
+        .page-registro .page-container .participa-forma-wrapper {
+          font-size: 10px;
+          padding-top: 0; } }
       .page-registro .page-container .participa-forma-wrapper .step {
         display: block;
         height: 100px;
@@ -638,24 +648,44 @@ header {
           width: 40px;
           background-color: #FFF;
           border-radius: 50%;
-          line-height: 1.3em;
+          border: 1px solid #CC1313;
+          line-height: 1.25em;
           font-family: "rb-bold", sans-serif;
           text-align: center;
-          font-size: 1.8em; }
+          font-size: 1.8em;
+          text-align: center; }
+          @media screen and (max-width: 767px) {
+            .page-registro .page-container .participa-forma-wrapper .step .step-header .bullet {
+              line-height: 2.1em; } }
         .page-registro .page-container .participa-forma-wrapper .step .step-header span {
           color: #CC1313;
           font-size: 1.3em;
           font-family: "rb-bold", sans-serif;
           margin-left: 10px; }
         .page-registro .page-container .participa-forma-wrapper .step .btn {
-          margin-top: 10px;
+          margin-top: 20px;
           margin-left: 50px; }
+          @media screen and (max-width: 767px) {
+            .page-registro .page-container .participa-forma-wrapper .step .btn {
+              margin: 0;
+              margin-top: 10px; } }
+      @media screen and (max-width: 767px) {
+        .page-registro .page-container .participa-forma-wrapper .step1 {
+          text-align: center; } }
+      .page-registro .page-container .participa-forma-wrapper .step1 .step-header {
+        text-align: left; }
       .page-registro .page-container .participa-forma-wrapper .step2 {
-        height: auto; }
+        height: auto;
+        margin-top: 20px;
+        border-top: 1px solid grey;
+        padding-top: 10px; }
         .page-registro .page-container .participa-forma-wrapper .step2 form {
           height: 100%;
           width: 100%;
           margin: 20px 0; }
+          @media screen and (max-width: 767px) {
+            .page-registro .page-container .participa-forma-wrapper .step2 form {
+              text-align: center; } }
           .page-registro .page-container .participa-forma-wrapper .step2 form .input-group {
             padding: 10px 10px 30px;
             display: -webkit-box;
@@ -666,13 +696,28 @@ header {
                     justify-content: flex-start;
             margin-bottom: 10px;
             position: relative; }
+            @media screen and (max-width: 767px) {
+              .page-registro .page-container .participa-forma-wrapper .step2 form .input-group {
+                -ms-flex-flow: column;
+                    flex-flow: column; } }
             .page-registro .page-container .participa-forma-wrapper .step2 form .input-group i.icono {
               display: inline-block;
               height: 30px;
               width: 30px;
               background-color: #555;
               margin: 0 10px;
-              border-radius: 15px; }
+              border-radius: 15px;
+              color: white;
+              font-size: 20px;
+              line-height: 30px;
+              text-align: center; }
+              @media screen and (max-width: 767px) {
+                .page-registro .page-container .participa-forma-wrapper .step2 form .input-group i.icono {
+                  display: block;
+                  margin: 3px 0;
+                  position: absolute;
+                  top: -10px;
+                  left: -5px; } }
             .page-registro .page-container .participa-forma-wrapper .step2 form .input-group input {
               display: inline-block;
               padding: 5px 0;
@@ -680,10 +725,21 @@ header {
               width: 400px;
               text-indent: 1em;
               border: 1px solid lightgray; }
+              @media screen and (max-width: 767px) {
+                .page-registro .page-container .participa-forma-wrapper .step2 form .input-group input {
+                  width: 100%;
+                  height: 35px; } }
             .page-registro .page-container .participa-forma-wrapper .step2 form .input-group .input-small {
               width: 150px; }
+              @media screen and (max-width: 767px) {
+                .page-registro .page-container .participa-forma-wrapper .step2 form .input-group .input-small {
+                  width: 100%; } }
             .page-registro .page-container .participa-forma-wrapper .step2 form .input-group .input-confirma {
               margin-left: 30px; }
+              @media screen and (max-width: 767px) {
+                .page-registro .page-container .participa-forma-wrapper .step2 form .input-group .input-confirma {
+                  margin-left: 0px;
+                  margin-top: 15px; } }
             .page-registro .page-container .participa-forma-wrapper .step2 form .input-group .help-block {
               display: block;
               position: absolute;
@@ -691,8 +747,17 @@ header {
               left: 60px;
               color: red;
               font-family: "rb-bold", sans-serif; }
+              @media screen and (max-width: 767px) {
+                .page-registro .page-container .participa-forma-wrapper .step2 form .input-group .help-block {
+                  left: 10px; } }
           .page-registro .page-container .participa-forma-wrapper .step2 form .acepto-terminos {
             margin: 20px; }
+            @media screen and (max-width: 767px) {
+              .page-registro .page-container .participa-forma-wrapper .step2 form .acepto-terminos {
+                margin: 5px;
+                font-size: 1em;
+                font-family: "rb-bold", sans-serif;
+                text-align: left; } }
             .page-registro .page-container .participa-forma-wrapper .step2 form .acepto-terminos .rkmd-checkbox {
               color: #818181;
               font-size: 15px;
@@ -747,10 +812,10 @@ header {
                     transition: all .2s ease;
                     z-index: 1; }
                   .page-registro .page-container .participa-forma-wrapper .step2 form .acepto-terminos .rkmd-checkbox .input-checkbox input[type="checkbox"] + .checkbox:before {
-                    content: "\e835";
+                    content: "\e834";
                     color: #717171; }
                   .page-registro .page-container .participa-forma-wrapper .step2 form .acepto-terminos .rkmd-checkbox .input-checkbox input[type="checkbox"]:checked + .checkbox:before {
-                    content: "\e834"; }
+                    content: "\e835"; }
                   .page-registro .page-container .participa-forma-wrapper .step2 form .acepto-terminos .rkmd-checkbox .input-checkbox input[type="checkbox"]:active:not(:disabled) + .checkbox:before {
                     -webkit-transform: scale3d(0.88, 0.88, 1);
                             transform: scale3d(0.88, 0.88, 1); }
@@ -776,6 +841,9 @@ header {
               color: #CC1313;
               text-decoration: underline;
               cursor: pointer; }
+        @media screen and (max-width: 767px) {
+          .page-registro .page-container .participa-forma-wrapper .step2 .btn {
+            margin: 30px auto; } }
 
 /*!
 	-----------------------------------------------------------------------------
