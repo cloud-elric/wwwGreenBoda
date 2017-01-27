@@ -63,7 +63,7 @@ $this->registerCssFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda-them
 ] );
 
 ?>
-<section class="page-home js-page-home">
+<section class="page-home js-page-home active">
 	<div class="page-container">
 		<div class="leftSide">
 			<img src="webAssets/images/logo-experiencia-all-access.png"
@@ -164,7 +164,7 @@ $this->registerCssFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda-them
 
 </section>
 
-<section class="page-premios active">
+<section class="page-premios">
 			<div class="container">
 				<div class="box">
 					<h2>
