@@ -28,9 +28,6 @@ phpunit.phar
 
 #uploads
 /web/uploads
-<<<<<<< HEAD
-=======
 
 .codekit3
->>>>>>> origin/master
 *.codekit3
