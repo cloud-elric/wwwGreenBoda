@@ -29,4 +29,4 @@ phpunit.phar
 #uploads
 /web/uploads
 
-.codekit3
+*.codekit3
