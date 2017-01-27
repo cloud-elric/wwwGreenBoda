@@ -97,22 +97,6 @@
 		"oAP": "\/htmlMaqueta\/index.html",
 		"oF": 0
 		},
-	"\/htmlMaqueta\/webAssets\/css\/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/htmlMaqueta\/webAssets\/css\/style-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/htmlMaqueta\/webAssets\/css\/style.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/htmlMaqueta\/webAssets\/css\/style.css.map",
-		"oF": 0
-		},
 	"\/htmlMaqueta\/webAssets\/fonts\/fontAwesome\/fontawesome-webfont.eot": {
 		"ft": 8192,
 		"oA": 2,
@@ -756,19 +740,6 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/htmlMaqueta\/webAssets\/css\/_page-home.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/htmlMaqueta\/webAssets\/sass\/_page-premios.sass": {
-		"aP": 1,
-		"bl": 1,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/htmlMaqueta\/webAssets\/css\/_page-premios.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -4732,12 +4703,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/views\/site\/error.php",
-		"oF": 0
-		},
-	"\/views\/site\/index.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/views\/site\/index.php",
 		"oF": 0
 		},
 	"\/views\/site\/login.php": {

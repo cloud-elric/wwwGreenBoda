@@ -411,7 +411,7 @@ header {
 /*  Page-Home
 	@mixin ========================================================================= */
 .page-home {
-  display: none;
+  display: block;
   height: calc(100% - 120px);
   position: relative;
   overflow: auto;
@@ -540,6 +540,7 @@ header {
   width: 100%;
   position: relative;
   height: auto;
+  min-height: calc(100% - 120px);
   overflow: hidden;
   -webkit-transition: opacity .3s	ease-out;
   transition: opacity .3s	ease-out; }
@@ -758,95 +759,18 @@ header {
                 font-size: 1em;
                 font-family: "rb-bold", sans-serif;
                 text-align: left; } }
-            .page-registro .page-container .participa-forma-wrapper .step2 form .acepto-terminos .rkmd-checkbox {
-              color: #818181;
-              font-size: 15px;
-              font-weight: bold;
-              font-family: 'Roboto', sans-serif;
-              letter-spacing: .5px;
-              display: inline-block; }
-              .page-registro .page-container .participa-forma-wrapper .step2 form .acepto-terminos .rkmd-checkbox .input-checkbox {
-                position: relative;
-                display: inline-block;
-                width: 32px;
-                height: 32px;
-                text-align: center;
-                vertical-align: -9px; }
-                .page-registro .page-container .participa-forma-wrapper .step2 form .acepto-terminos .rkmd-checkbox .input-checkbox input[type="checkbox"] {
-                  visibility: hidden;
-                  position: absolute;
-                  left: 7px;
-                  bottom: 7px;
-                  margin: 0;
-                  padding: 0;
-                  outline: none;
-                  cursor: pointer;
-                  opacity: 0; }
-                  .page-registro .page-container .participa-forma-wrapper .step2 form .acepto-terminos .rkmd-checkbox .input-checkbox input[type="checkbox"] + .checkbox:before {
-                    position: absolute;
-                    left: 4px;
-                    bottom: 8px;
-                    width: 18px;
-                    height: 18px;
-                    font-family: 'Material Icons';
-                    font-weight: normal;
-                    font-style: normal;
-                    font-size: 24px;
-                    line-height: 1;
-                    text-transform: none;
-                    letter-spacing: normal;
-                    word-wrap: normal;
-                    white-space: nowrap;
-                    direction: ltr;
-                    vertical-align: -6px;
-                    /* Support for all WebKit browsers. */
-                    -webkit-font-smoothing: antialiased;
-                    /* Support for Safari and Chrome. */
-                    text-rendering: optimizeLegibility;
-                    /* Support for Firefox. */
-                    -moz-osx-font-smoothing: grayscale;
-                    /* Support for IE. */
-                    -webkit-font-feature-settings: 'liga';
-                            font-feature-settings: 'liga';
-                    -webkit-transition: all .2s ease;
-                    transition: all .2s ease;
-                    z-index: 1; }
-                  .page-registro .page-container .participa-forma-wrapper .step2 form .acepto-terminos .rkmd-checkbox .input-checkbox input[type="checkbox"] + .checkbox:before {
-                    content: "\e834";
-                    color: #717171; }
-                  .page-registro .page-container .participa-forma-wrapper .step2 form .acepto-terminos .rkmd-checkbox .input-checkbox input[type="checkbox"]:checked + .checkbox:before {
-                    content: "\e835"; }
-                  .page-registro .page-container .participa-forma-wrapper .step2 form .acepto-terminos .rkmd-checkbox .input-checkbox input[type="checkbox"]:active:not(:disabled) + .checkbox:before {
-                    -webkit-transform: scale3d(0.88, 0.88, 1);
-                            transform: scale3d(0.88, 0.88, 1); }
-                  .page-registro .page-container .participa-forma-wrapper .step2 form .acepto-terminos .rkmd-checkbox .input-checkbox input[type="checkbox"]:disabled + .checkbox:before {
-                    color: rgba(0, 0, 0, 0.157) !important; }
-              .page-registro .page-container .participa-forma-wrapper .step2 form .acepto-terminos .rkmd-checkbox .rkmd-checkbox.checkbox-ripple .ripple {
-                position: absolute;
-                top: 0px;
-                left: 0px;
-                width: 32px;
-                height: 32px;
-                border-radius: 50%;
-                -webkit-transform: scale(0);
-                        transform: scale(0);
-                display: block;
-                -webkit-animation-name: checkbox-ripple;
-                        animation-name: checkbox-ripple;
-                -webkit-animation-duration: 400ms;
-                        animation-duration: 400ms;
-                -webkit-animation-timing-function: ease-out;
-                        animation-timing-function: ease-out; }
-            .page-registro .page-container .participa-forma-wrapper .step2 form .acepto-terminos span {
-              color: #CC1313;
-              text-decoration: underline;
-              cursor: pointer; }
+          .page-registro .page-container .participa-forma-wrapper .step2 form .checkbox {
+            margin-right: 10px; }
+          .page-registro .page-container .participa-forma-wrapper .step2 form span {
+            color: #CC1313;
+            text-decoration: underline;
+            cursor: pointer; }
         @media screen and (max-width: 767px) {
           .page-registro .page-container .participa-forma-wrapper .step2 .btn {
             margin: 30px auto; } }
 
 .page-premios {
-  display: block;
+  display: none;
   width: 100%;
   position: relative;
   height: calc(100% - 120px);
@@ -922,7 +846,7 @@ header {
 
 .modal {
   display: none;
-  height: calc(100% - 120px); }
+  height: auto; }
   .modal .container {
     padding-top: 50px;
     padding-bottom: 100px; }
@@ -930,7 +854,8 @@ header {
     .modal .container .aviso-box {
       width: 100%;
       height: auto;
-      margin: 0 auto; }
+      margin: 0 auto;
+      margin-bottom: 40px; }
       @media screen and (max-width: 767px) {
         .modal .container .terminos-box,
         .modal .container .aviso-box {
@@ -949,10 +874,27 @@ header {
           .modal .container .aviso-box h4 {
             width: 100%;
             font-size: 1.2em; } }
+      .modal .container .terminos-box h5, .modal .container .terminos-box h6,
+      .modal .container .aviso-box h5,
+      .modal .container .aviso-box h6 {
+        font-size: 1.3em;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-family: "rb-bold", sans-serif; }
+      .modal .container .terminos-box h5,
+      .modal .container .aviso-box h5 {
+        margin-top: 40px;
+        font-size: 1.5em; }
       .modal .container .terminos-box p,
       .modal .container .aviso-box p {
         font-size: 1.2em;
-        font-family: 'Arial'; }
+        font-family: 'Arial';
+        margin-bottom: 10px; }
+      .modal .container .terminos-box span,
+      .modal .container .aviso-box span {
+        color: #CC1313;
+        font-family: "rb-bold", sans-serif;
+        font-size: 1.3em; }
 
 /*!
 	-----------------------------------------------------------------------------
