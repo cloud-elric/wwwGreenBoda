@@ -847,10 +847,9 @@ header {
 
 .page-premios {
   display: block;
-  background-color: pink;
   width: 100%;
   position: relative;
-  height: auto;
+  height: calc(100% - 120px);
   overflow: hidden;
   -webkit-transition: opacity .3s	ease-out;
   transition: opacity .3s	ease-out; }
