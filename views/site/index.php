@@ -145,7 +145,7 @@ $this->registerCssFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda-them
 								<div class="acepto-terminos">
 						<div class="rkmd-checkbox checkbox-ripple">
 							<label class="input-checkbox"> <input type="checkbox"
-								id="checkbox-1" checked> <span class="checkbox"></span>
+								id="checkbox-1"> <span class="checkbox"></span>
 							</label>
 						</div>
 						He leído y acepto los <span class="terminos-trigger">términos y

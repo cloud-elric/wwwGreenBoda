@@ -847,7 +847,13 @@ header {
 
 .page-premios {
   display: block;
-  height: calc(100% - 120px); }
+  background-color: pink;
+  width: 100%;
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  -webkit-transition: opacity .3s	ease-out;
+  transition: opacity .3s	ease-out; }
   .page-premios .container {
     padding: 20px;
     text-align: center; }

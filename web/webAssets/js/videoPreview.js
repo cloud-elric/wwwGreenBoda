@@ -25,10 +25,66 @@ $(document)
 							return false;
 						}
 
+						elementoActivo.removeClass('active');
 						elementoActivo.css('display', 'none');
 						$('.page-registro').css('display', 'block');
 						$('.page-registro').addClass('active');
 						
+					});
+					
+					$('.terminos-trigger').on('click', function(e){
+						e.preventDefault();
+						var elementoActivo = $('.active');
+						if(elementoActivo.hasClass('modal')){
+							return false;
+						}
+
+						elementoActivo.removeClass('active');
+						elementoActivo.css('display', 'none');
+						$('.modal').css('display', 'block');
+						$('.modal').addClass('active');
+						
+					});
+					
+					$('.js-terminos-y-condiciones').on('click', function(e){
+						e.preventDefault();
+						var elementoActivo = $('.active');
+						if(elementoActivo.hasClass('modal')){
+							return false;
+						}
+
+						elementoActivo.removeClass('active');
+						elementoActivo.css('display', 'none');
+						$('.modal').css('display', 'block');
+						$('.modal').addClass('active');
+						
+					});
+					
+					$('.aviso-trigger').on('click', function(e){
+						e.preventDefault();
+						var elementoActivo = $('.active');
+						if(elementoActivo.hasClass('modal')){
+							return false;
+						}
+
+						elementoActivo.removeClass('active');
+						elementoActivo.css('display', 'none');
+						$('.modal').css('display', 'block');
+						$('.modal').addClass('active');
+						
+					});
+					
+					$('.js-premios').on('click', function(e){
+						e.preventDefault();
+						
+						var elementoActivo = $('.active');
+						if(elementoActivo.hasClass('page-premios')){
+							return false;
+						}
+						elementoActivo.removeClass('active');
+						elementoActivo.css('display', 'none');
+						$('.page-premios').css('display', 'block');
+						$('.page-premios').addClass('active');
 					});
 					
 					// Al campo de texto número validara solo numeros	
@@ -83,14 +139,38 @@ $(document)
 
 									});
 
+					// Envia la informacion y valida antes
 					$('#guardar-registro').on('click', function(e) {
 						e.preventDefault();
-						 
+						
+						if(!($('#entusuarios-video').val())){
+							swal(
+									"Espera",
+									"Estas olvidando agregar tu video",
+									"warning");
+						}
+						
+						 if(!($('#checkbox-1').prop('checked'))){
+							 swal(
+										"Espera",
+										"Debes de aceptar los términos, condiciones y el aviso de privacidad",
+										"warning");
+							 return false;
+						 }
+//						if(validarFormulario()){
+//							return false;
+//						}
 						$('form').submit();
 					});
 
 				});
-
+//function validarFormulario(){
+//	
+//	if(!$('#entusuarios-txt_cp').val()){
+//		return true;
+//	}
+//	
+//}
 var viewer = {
 	start : function(e) {
 		$("#container-video-viewer").html('Cargando video.....');
