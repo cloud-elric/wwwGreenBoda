@@ -105,14 +105,29 @@ $(document)
 					$('#entusuarios-txt_cp').keydown(function(e) {
 						validarSoloNumeros(e);
 					});
+					
+					$("#js-boton-subir-video").on('click', function(e){
+						e.preventDefault();
+						$("#entusuarios-video").trigger('click');
+					});
 
 					// Listener cuando cambia de archivo el input
 					$('#entusuarios-video')
 							.on(
 									'change',
 									function() {
+										
+										var l = Ladda.create(document.getElementById('js-boton-subir-video'));
+										 l.start();
 										// Se asigna archivo a variable	
 										file = this.files[0];
+										
+										var filename = $(this).val();
+										
+										if (filename.substring(3, 11) == 'fakepath') {
+									        filename = filename.substring(12);
+									        $('#js-archivo-agregado').html(filename);
+									    }
 										
 										// Se asigna la extension del archivo
 										extensionFile = file.type;
@@ -128,6 +143,8 @@ $(document)
 											$('#container-video-viewer').html(
 													'');
 											clearFileInput($(this))
+											l.stop();
+											$('#js-archivo-agregado').html('');
 											return false;
 										}
 
@@ -150,7 +167,7 @@ $(document)
 									"warning");
 						}
 						
-						 if(!($('#checkbox-1').prop('checked'))){
+						 if(!($('#entusuarios-leido').prop('checked'))){
 							 swal(
 										"Espera",
 										"Debes de aceptar los términos, condiciones y el aviso de privacidad",
@@ -174,8 +191,12 @@ $(document)
 var viewer = {
 	start : function(e) {
 		$("#container-video-viewer").html('Cargando video.....');
+		
 	},
 	end : function(e) {
+		
+		 var l = Ladda.create(document.getElementById('js-boton-subir-video'));
+		 l.stop();
 		$("#container-video-viewer").html('Video Cargado.....');
 		var url = URL.createObjectURL(file);
 		$('#container-video-viewer').html(
@@ -226,6 +247,7 @@ $('body').on(
 									document.getElementById("form-registro")
 											.reset();
 									$("#container-video-viewer").html('');
+									$('#js-archivo-agregado').html('');
 									l.stop();
 								},
 								error : function() {
