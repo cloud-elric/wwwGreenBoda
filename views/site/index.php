@@ -156,6 +156,10 @@ $this->registerCssFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda-them
 						id="guardar-registro">
 						<span class="ladda-label">Registrar</span>
 					</div>
+					
+					<div class="input-group" id="js-mesaje-de-espera">
+					
+					</div>
 
 							<?php ActiveForm::end(); ?>
 
