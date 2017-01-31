@@ -49,7 +49,7 @@ $this->registerJsFile ( '@web/webAssets/js/site-custom-min.js', [
 		] 
 ] );
 
-$this->registerJsFile ( '@web/webAssets/js/videoPreview.js', [ 
+$this->registerJsFile ( '@web/webAssets/js/user.js', [ 
 		'depends' => [ 
 				\app\assets\AppAsset::className () 
 		] 
@@ -98,11 +98,9 @@ $this->registerCssFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda-them
 			<div class="mecanica-del-sitio" id="js-mecanicas-box">
 				<h2>¿Como Ganar?</h2>
 				<ol>
-					<li>Sube tu video de 30 segundos contandonos porqué PESADO es parte
-						de tu vida</li>
-					<li>Los videos más prendidos los escojera @betozapata</li>
-					<li>Podrás ganar una #ExperienciaAllAccess al concierto de PESADO
-						en la Arena Monterrey</li>
+					<li>Sube una imagen que represente porqué PESADO es parte de tu vida</li>
+					<li>Las mejores imágenes las escojera @betozapata</li>
+					<li>Podrás ganar una #ExperienciaAllAccess al concierto de PESADO en la Arena Monterrey</li>
 				</ol>
 			</div>
 
@@ -114,15 +112,17 @@ $this->registerCssFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda-them
 				<div class="step step1">
 					<div class="step-header">
 						<div class="bullet">1</div>
-						<span>Sube tu video más prendido</span>
+						<span>Sube tu imagen</span>
 					</div>
 					<div class="btn ladda-button" data-style="zoom-in" id="js-boton-subir-video">
-						<label for="entusuarios-video"  class="ladda-label">Subir video</label>
+						<label for="entusuarios-video"  class="ladda-label">Seleccionar imágen</label>
 					</div>
 					
 					<!--<div id="container-video-viewer"></div> -->
 					<div id="js-archivo-agregado" class="nombre-video"></div>
 				</div>
+
+
 				<div class="step step2">
 					<div class="step-header">
 						<div class="bullet">2</div>

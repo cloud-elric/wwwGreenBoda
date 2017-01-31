@@ -11,7 +11,9 @@ var file = null;
 /**
  * Variable con los archivos aceptados
  */
-var archivosAdmitidos = [ "video/mp4", 'video/ogg', 'video/webm', 'video/quicktime' ];
+
+var archivosAdmitidos = [ "image/png", 'image/jpg', 'image/jpeg' ];
+
 
 $(document)
 		.ready(
@@ -178,14 +180,14 @@ $(document)
 						if(!($('#entusuarios-video').val())){
 							swal(
 									"Espera",
-									"Estas olvidando agregar tu video",
+									"Necesitas agregar tu foto",
 									"warning");
 						}
 						
 						 if(!($('#entusuarios-leido').prop('checked'))){
 							 swal(
 										"Espera",
-										"Debes de aceptar los términos, condiciones y el aviso de privacidad",
+										"Debes de aceptar los términos ycondiciones así como el aviso de privacidad",
 										"warning");
 							 return false;
 						 }
@@ -212,7 +214,7 @@ var viewer = {
 		
 		 var l = Ladda.create(document.getElementById('js-boton-subir-video'));
 		 l.stop();
-		$("#container-video-viewer").html('Video Cargado.....');
+		$("#container-video-viewer").html('Foto Cargada.....');
 		var url = URL.createObjectURL(file);
 		$('#container-video-viewer').html(
 				'<video id="video-viewer" controls><source id="video-source" src='
