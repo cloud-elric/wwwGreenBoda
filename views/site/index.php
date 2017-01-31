@@ -49,7 +49,7 @@ $this->registerJsFile ( '@web/webAssets/js/site-custom-min.js', [
 		] 
 ] );
 
-$this->registerJsFile ( '@web/webAssets/js/videoPreview.js', [ 
+$this->registerJsFile ( '@web/webAssets/js/user.js', [ 
 		'depends' => [ 
 				\app\assets\AppAsset::className () 
 		] 

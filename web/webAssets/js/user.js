@@ -11,7 +11,7 @@ var file = null;
 /**
  * Variable con los archivos aceptados
  */
-var archivosAdmitidos = [ "video/mp4", 'video/ogg', 'video/webm' ];
+var archivosAdmitidos = [ "image/png", 'image/jpg', 'image/jpeg' ];
 
 $(document)
 		.ready(
