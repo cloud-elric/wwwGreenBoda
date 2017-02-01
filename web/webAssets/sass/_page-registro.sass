@@ -15,6 +15,7 @@
 	width: 100%
 	position: relative
 	height: auto
+	min-height: calc(100% - 120px)
 	overflow: hidden
 	transition: opacity .3s	ease-out
 	.page-container
@@ -29,7 +30,7 @@
 		+respond-to(xs)
 			flex-flow: column
 			padding-top: 10px
-			min-height: 1600px
+			min-height: 1800px
 			justify-content: flex-start
 		.leftSide,
 		.rightSide
@@ -155,7 +156,7 @@
 						margin-bottom: 10px
 						position: relative
 						+respond-to(xs)
-							flex-flow: column 
+							flex-flow: column
 						i.icono
 							display: inline-block
 							height: 30px
@@ -173,6 +174,7 @@
 								position: absolute
 								top: -10px
 								left: -5px
+						textarea,
 						input
 							display: inline-block
 							padding: 5px 0
@@ -183,6 +185,8 @@
 							+respond-to(xs)
 								width: 100%
 								height: 35px
+						textarea
+							height: 120px
 						.input-small
 							width: 150px
 							+respond-to(xs)
@@ -209,21 +213,21 @@
 							font-size: 1em
 							font-family: $font-menu
 							text-align: left
-						.rkmd-checkbox 
+						.rkmd-checkbox
 							color: #818181
 							font-size: 15px
 							font-weight: bold
 							font-family: 'Roboto', sans-serif
 							letter-spacing: .5px
 							display: inline-block
-							.input-checkbox 
+							.input-checkbox
 								position: relative
 								display: inline-block
 								width: 32px
 								height: 32px
 								text-align: center
 								vertical-align: -9px
-								input[type="checkbox"] 
+								input[type="checkbox"]
 									visibility: hidden
 									position: absolute
 									left: 7px
@@ -233,7 +237,7 @@
 									outline: none
 									cursor: pointer
 									opacity: 0
-									& + .checkbox:before 
+									& + .checkbox:before
 										position: absolute
 										left: 4px
 										bottom: 8px
@@ -262,11 +266,11 @@
 										z-index: 1
 									& + .checkbox:before
 										content: "\e834"
-										color: #717171 
+										color: #717171
 									&:checked + .checkbox:before
-										content: "\e835" 
+										content: "\e835"
 									&:active:not(:disabled) + .checkbox:before
-										transform: scale3d(0.88, 0.88, 1); 
+										transform: scale3d(0.88, 0.88, 1);
 									&:disabled + .checkbox:before
 										color: rgba(0,0,0,0.157) !important;
 							.rkmd-checkbox
@@ -291,4 +295,3 @@
 				.btn
 					+respond-to(xs)
 						margin: 30px auto
-

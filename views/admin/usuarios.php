@@ -7,10 +7,17 @@ echo ListView::widget( [
 	'dataProvider' => $dataProvider,
 	'itemView' => '_item',
 ] );
+
+$this->registerJsFile ( '@web/webAssets/plugins/animsition/js/animsition.min.js', [
+		'depends' => [
+				\app\assets\AppAsset::className ()
+		]
+] );
+
 ?>
 
 <div id="myModal" class="modal" style="
-    
+
     width: 100%;
     height: 100%;
     position: fixed;
@@ -32,14 +39,14 @@ echo ListView::widget( [
     border-radius: 10px;
 	">
 		<div class="contenedor-video">
-			
+
 		</div>
-	
+
 	</div>
 </div>
 
 
-<?php 
+<?php
 $this->registerJs ( "
 
 $('.js-btn-video').on('click', function(event) {
@@ -49,8 +56,8 @@ $('.js-btn-video').on('click', function(event) {
 	$('.contenedor-video').html('<video id=\'video-viewer\' controls  width=\'100%\'><source id=\'video-source\' src=\''+url+'\' type=\'video/mp4\'></video>');
    	$('.modal').css('display', 'flex');
 });
-		
-var modal = document.getElementById('myModal');		
+
+var modal = document.getElementById('myModal');
 $(document).on({
 	'click' : function(e) {
 		e.preventDefault();
@@ -59,7 +66,6 @@ $(document).on({
     	}
 	}
 }, '.modal');
-		
+
 ", View::POS_END );
 ?>
-

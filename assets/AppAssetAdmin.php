@@ -18,10 +18,10 @@ class AppAssetAdmin extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-       	'css/asdfg.css'
+       	'webAssets/css/styleadmin.css'
     ];
     public $js = [
-    	
+
     ];
     public $depends = [
         'yii\web\YiiAsset',

@@ -1,14 +1,16 @@
 .page-premios
-	display: block
+	display: none
 	//background-color: pink
 	width: 100%
 	position: relative
-	height: calc(100% - 120px)
+	height: auto
+	min-height: calc(100% - 120px)
 	overflow: hidden
 	transition: opacity .3s	ease-out
 	.container
 		padding: 20px
 		text-align: center
+		overflow: hidden
 		.box
 			display: block
 			background-color: $white
@@ -44,6 +46,12 @@
 					font-size: 1.2em
 					text-align: left
 					line-height: 1.5em
+			ul
+				list-style: none
+				margin: 20px 0
+				font-size: 1.5em
+			p
+				font-size: 1.5em
 		.gallery
 			margin-top: 20px
 			width: 100%

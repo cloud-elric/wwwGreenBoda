@@ -9,7 +9,7 @@
 	*/
 /*!
 	--------------------------------------------------------
-	lideres.sass
+	Pesado All Access .sass
 	--------------------------------------------------------
 	0.0 - Tipografía
 	1.0 - Normalizar
@@ -412,7 +412,8 @@ header {
 	@mixin ========================================================================= */
 .page-home {
   display: block;
-  height: calc(100% - 120px);
+  height: auto;
+  min-height: calc(100% - 120px);
   position: relative;
   overflow: auto;
   -webkit-transition: opacity .3s	ease-out;
@@ -470,7 +471,9 @@ header {
         .page-home .page-container .leftSide .leftSide-home-txt h2 {
           font-family: "rbCond-bold", sans-serif;
           font-size: 2em;
-          margin-bottom: 30px; }
+          margin: 0 auto;
+          margin-bottom: 30px;
+          max-width: 600px; }
           @media screen and (max-width: 767px) {
             .page-home .page-container .leftSide .leftSide-home-txt h2 {
               margin-bottom: 60px; } }
@@ -492,7 +495,7 @@ header {
           width: 200px;
           padding: 0; }
         .page-home .page-container .leftSide .leftSide-home-txt .cta {
-          margin-top: 20px; }
+          margin-top: 50px; }
           @media screen and (max-width: 767px) {
             .page-home .page-container .leftSide .leftSide-home-txt .cta {
               display: block;
@@ -540,6 +543,7 @@ header {
   width: 100%;
   position: relative;
   height: auto;
+  min-height: calc(100% - 120px);
   overflow: hidden;
   -webkit-transition: opacity .3s	ease-out;
   transition: opacity .3s	ease-out; }
@@ -563,7 +567,7 @@ header {
         -ms-flex-flow: column;
             flex-flow: column;
         padding-top: 10px;
-        min-height: 1600px;
+        min-height: 1800px;
         -webkit-box-pack: start;
             -ms-flex-pack: start;
                 justify-content: flex-start; } }
@@ -669,16 +673,11 @@ header {
             .page-registro .page-container .participa-forma-wrapper .step .btn {
               margin: 0;
               margin-top: 10px; } }
-      .page-registro .page-container .participa-forma-wrapper .step1 {
-        height: auto; }
-        @media screen and (max-width: 767px) {
-          .page-registro .page-container .participa-forma-wrapper .step1 {
-            text-align: center; } }
-        .page-registro .page-container .participa-forma-wrapper .step1 .step-header {
-          text-align: left; }
-        .page-registro .page-container .participa-forma-wrapper .step1 .nombre-video {
-          margin-top: 10px;
-          margin-left: 50px; }
+      @media screen and (max-width: 767px) {
+        .page-registro .page-container .participa-forma-wrapper .step1 {
+          text-align: center; } }
+      .page-registro .page-container .participa-forma-wrapper .step1 .step-header {
+        text-align: left; }
       .page-registro .page-container .participa-forma-wrapper .step2 {
         height: auto;
         margin-top: 20px;
@@ -723,6 +722,7 @@ header {
                   position: absolute;
                   top: -10px;
                   left: -5px; } }
+            .page-registro .page-container .participa-forma-wrapper .step2 form .input-group textarea,
             .page-registro .page-container .participa-forma-wrapper .step2 form .input-group input {
               display: inline-block;
               padding: 5px 0;
@@ -731,9 +731,12 @@ header {
               text-indent: 1em;
               border: 1px solid lightgray; }
               @media screen and (max-width: 767px) {
+                .page-registro .page-container .participa-forma-wrapper .step2 form .input-group textarea,
                 .page-registro .page-container .participa-forma-wrapper .step2 form .input-group input {
                   width: 100%;
                   height: 35px; } }
+            .page-registro .page-container .participa-forma-wrapper .step2 form .input-group textarea {
+              height: 120px; }
             .page-registro .page-container .participa-forma-wrapper .step2 form .input-group .input-small {
               width: 150px; }
               @media screen and (max-width: 767px) {
@@ -861,7 +864,8 @@ header {
   transition: opacity .3s	ease-out; }
   .page-premios .container {
     padding: 20px;
-    text-align: center; }
+    text-align: center;
+    overflow: hidden; }
     .page-premios .container .box {
       display: block;
       background-color: #FFF;
@@ -902,6 +906,12 @@ header {
             font-size: 1.2em;
             text-align: left;
             line-height: 1.5em; } }
+      .page-premios .container .text ul {
+        list-style: none;
+        margin: 20px 0;
+        font-size: 1.5em; }
+      .page-premios .container .text p {
+        font-size: 1.5em; }
     .page-premios .container .gallery {
       margin-top: 20px;
       width: 100%; }
@@ -928,7 +938,8 @@ header {
 
 .modal {
   display: none;
-  height: calc(100% - 120px); }
+  height: auto;
+  min-height: calc(100% - 120px); }
   .modal .container {
     padding-top: 50px;
     padding-bottom: 100px; }
@@ -943,11 +954,12 @@ header {
           font-size: 12px; } }
       .modal .container .terminos-box h4,
       .modal .container .aviso-box h4 {
+        margin-top: 50px;
         background-color: #FFF;
         padding: 10px 20px;
         font-family: "rb-bold", sans-serif;
         margin-bottom: 20px;
-        width: 40%;
+        width: 100%;
         border-radius: 6px;
         box-shadow: 0 10px 22px -7px rgba(0, 0, 0, 0.4); }
         @media screen and (max-width: 767px) {
@@ -955,10 +967,24 @@ header {
           .modal .container .aviso-box h4 {
             width: 100%;
             font-size: 1.2em; } }
-      .modal .container .terminos-box p,
-      .modal .container .aviso-box p {
-        font-size: 1.2em;
+      .modal .container .terminos-box p, .modal .container .terminos-box ul, .modal .container .terminos-box li,
+      .modal .container .aviso-box p,
+      .modal .container .aviso-box ul,
+      .modal .container .aviso-box li {
+        font-size: 1em;
         font-family: 'Arial'; }
+      .modal .container .terminos-box ul,
+      .modal .container .aviso-box ul {
+        padding-left: 15px; }
+        .modal .container .terminos-box ul li,
+        .modal .container .aviso-box ul li {
+          margin: 5px; }
+      .modal .container .terminos-box h6,
+      .modal .container .aviso-box h6 {
+        font-size: 1.5em;
+        font-family: "rb-bold", sans-serif;
+        margin-bottom: 10px;
+        margin-top: 40px; }
 
 /*!
 	-----------------------------------------------------------------------------

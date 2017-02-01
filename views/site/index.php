@@ -96,7 +96,7 @@ $this->registerCssFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda-them
 			<img src="webAssets/images/logo-experiencia-all-access.png"
 				alt="All Access con Gruopo Pesado">
 			<div class="mecanica-del-sitio" id="js-mecanicas-box">
-				<h2>¿Como Ganar?</h2>
+				<h2>¿Cómo Ganar?</h2>
 				<ol>
 					<li>Sube una fotografía donde muestres ¿Por qué PESADO es parte importante de tu vida?, describe tu foto (600 caracteres).</li>
 					<li>Las fotografías más originales serán seleccionadas por PESADO.</li>
@@ -128,8 +128,8 @@ $this->registerCssFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda-them
 					<div class="step-header">
 						<div class="bullet">2</div>
 						<span>LLena correctamente los datos</span>
-					</div>
-							<?php
+						</div>
+						<?php
 
 							$form = ActiveForm::begin ( [
 									'id' => 'form-registro',
@@ -138,9 +138,7 @@ $this->registerCssFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda-them
 									]
 							] );
 							?>
-							
-							<!-- DEBES DAR ESTILO A UN TEXTAREA -->
-							<?= $form->field($usuario, 'txt_descripcion',['template'=>'<i class="icono ion-ios-person"></i>{input}{error}', 'options'=>['class'=>'input-group']])->textarea(['maxlength' => true, 'class'=>'regular', 'placeholder'=>'Describe tu foto'])?>
+							<?= $form->field($usuario, 'txt_descripcion',['template'=>'<i class="icono ion-document-text"></i>{input}{error}', 'options'=>['class'=>'input-group']])->textarea(['maxlength' => true, 'class'=>'regular', 'placeholder'=>'Describe tu foto'])?>
 							<?= $form->field($usuario, 'video',['template'=>'{input}'])->fileInput(['style'=>'display:none;'])?>
 							<?= $form->field($usuario, 'txt_nombre_completo',['template'=>'<i class="icono ion-ios-person"></i>{input}{error}', 'options'=>['class'=>'input-group']])->textInput(['maxlength' => true, 'class'=>'regular', 'placeholder'=>'Nombre completo'])?>
 							<?= $form->field($usuario, 'txt_telefono_casa',['template'=>'<i class="icono ion-ios-telephone"></i>{input}{error}'.$form->field ( $usuario, 'txt_cp', [ 'template' => '<i class="icono ion-earth"></i>{input}{error}','options' => [ 'class' => 'input-group','tag' => false ] ] )->textInput ( [ 'maxlength' => true,'class' => 'regular input-small','placeholder' => 'Codigo postal' ] ), 'options'=>['class'=>'input-group']])->textInput(['maxlength' => true, 'class'=>'regular input-small', 'placeholder'=>'Télefono casa'])?>
@@ -149,11 +147,8 @@ $this->registerCssFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda-them
 							<?= $form->field($usuario, 'txt_email',['template'=>'<i class="icono ion-ios-email"></i>{input}'.Html::activeTextInput($usuario, 'repeatEmail', ['class'=>'regular input-small input-confirma', 'placeholder'=>'Confirma correo']).'{error}', 'options'=>['class'=>'input-group']])->textInput(['maxlength' => true, 'class'=>'regular input-small', 'placeholder'=>'Correo electrónico'])?>
 
 							<div class="acepto-terminos">
-						<input type="checkbox" id="entusuarios-leido" class="checkbox"
-							name="EntUsuarios[entusuarios-leido]" value="1"> He leído y
-						acepto los <span class="terminos-trigger">términos y condiciones</span>
-						y el <span class="aviso-trigger">aviso de privacidad</span>
-					</div>
+								<input type="checkbox" id="entusuarios-leido" class="checkbox" name="EntUsuarios[entusuarios-leido]" value="1"> He leído y acepto los <span class="terminos-trigger">términos y condiciones</span> y el <span class="aviso-trigger">aviso de privacidad</span>
+							</div>
 
 
 					<div class="btn ladda-button" data-style="zoom-in"
@@ -209,22 +204,69 @@ $this->registerCssFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda-them
 <section class="modal">
 	<div class="container">
 		<div class="terminos-box">
-			<h4>Términos y condiciones</h4>
-			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-				accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-				quae ab illo inventore veritatis et quasi architecto beatae vitae
-				dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-				aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-				eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-				qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-				sed quia non numquam eius modi tempora incidunt ut labore et dolore
-				magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
-				nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
-				aliquid ex ea commodi consequatur? Quis autem vel eum iure
-				reprehenderit qui in ea voluptate velit esse quam nihil molestiae
-				consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
-				pariatur?</p>
+
+			<h4 > BASES Y CONDICIONES EXPERIENCIA ALL ACCESS </h4>
+
+			<p>Aviso de promoción PFC.C.A.-000375/17</p>
+
+
+			<h6>Cómo Ganar</h6>
+			<ul>
+				<li>Debes ser mayor de edad.</li>
+				<li>Solo participan personas con nacionalidad mexicana (o con FM2 vigente), residan en Monterrey Nuevo León.</li>
+				<li>Del 2 de febrero al 14 de febrero de 2017 a las 18:00 Hrs, podrás registrarse y subir una foto donde exprese PORQUE GRUPO PESADO ES IMPORTANTE EN TU VIDA en el micro sitió <a href="http://www.pesadoallaccess.mx">pesadoallaccess.mx</a>.</li>
+				<li>Se cerrará participación el día 14 de febrero de 2017 a las 18:00 Hrs.</li>
+				<li>El día 15 de febrero GRUPO PESADO seleccionará a 5 ganadores de la EXPERIENCIA ALL ACCESS.</li>
+				<li>La publicación de ganadores se realizará en las redes sociales de GRUPO PESADO <a href="https://www.facebook.com/GrupoPesado">https://www.facebook.com/GrupoPesado</a> el 15 de febrero de 2017 a las 18:00Hrs.</li>
+			</ul>
+
+
+			<h6>Qué Puedo ganar</h6>
+				<p>Una de las 5 EXPERIENCIA ALL ACCESS con GRUPO PESADO el 17 de febrero de 2017.</p>
+				<p>*Indispensable presentar identificación oficial vigente para hacer entrega del incentivo.</p>
+
+			<h6>Qúe incluye la Experiencia All Access</h6>
+			<ul>
+				<li>Entrada doble para 2 adultos a Concierto, Súper Palco, Soundcheck,  Meet&Greet con GRUPO PESADO en Arena Monterrey  el 17 de febrero de 2017.</li>
+			</ul>
+
+
+			<h6>Condiciones para la entrega de la Experiencia All Access</h6>
+			<p>La entrega se realizar el día 17 de febrero a las 14:00Hrs en Arena Monterrey en el acceso G4, con un representante del operado y Grupo PESADO. Para cualquier duda pueden contactarnos al 01 800 4671897.</p>
+
+
+			<h6>RESTRICCIONES</h6>
+			<ul>
+				<li>El formato de la fotografía debe ser en formato JPG, PNG o GIF.</li>
+				<li>Se descartaran fotografías que en su contenido muestren desnudos, actos violentos, uso o consumo de sustancias nocivas para la salud (drogas, alcohol) o armas.</li>
+				<li>No participan personas involucradas en la realización de la promoción.</li>
+				<li>No participan menores de edad.</li>
+				<li>Limitado a una participación por persona.</li>
+				<li>El premio no podrá ser canjeado por dinero en efectivo.</li>
+				<li>El premio tiene una vigencia para disfrutarse el 17 de febrero de 2017, no sujeta a cambio, si el ganador no puede hacer uso de esta cortesía en las fechas indicadas, pierde el derecho a reclamar el incentivo.</li>
+			</ul>
+
+
+			<h6>Responsable de la promoción</h6>
+			<p>El organizador responsable y encargado de la promoción es PUBLICIDAD Y SOLUCIONES GREEN S.A DE C.V PSG061123PQ9 con domicilio en Santa Brígida 19, Jardines de Santa Mónica, C.P. 54050, Tlalnepantla de Baz Estado de México.</p>
+
+			<p>GRUPO PESADO se deslinda de la ejecución de la promoción.</p>
+
+
+			<h6>Autorización</h6>
+			<p>El participante que resulte ganador de LA PROMOCIóN, autoriza expresa e irrevocablemente a PUBLICIDAD Y SOLUCIONES GREEN S.A. DE C.V. y GRUPO PESADO o cualquier otra empresa que ésta determine, a difundir en los medios que estime conveniente, su nombre y apellido completo, país y ciudad de origen, fotografías y uso de imagen o retrato, videos y en general todos aquellos datos que pudieran requerirse con motivo de la difusión de esta promoción, renunciando expresa e irrevocablemente, desde la aceptación de las bases, a cualquier tipo de compensación económica, remuneración, regalía o retribución alguna por dicho uso.</p>
+			<p>El participante ganador cuyos datos, imagen, retrato, video y/o alguno de los señalados  anteriormente, entiende y acepta que el uso de dicha imagen no se lleva acabo con fines de lucro directo ni indirecto, sino para dar claridad y transparencia sobre los resultados de la presente promoción.</p>
+
+			<h6>PRIVACIDAD Y PROTECCIÓN DE DATOS PERSONALES.</h6>
+			<p>PUBLICIDAD Y SOLUCIONES GREEN S.A. DE C.V<strong>.</strong> con domicilio en Santa Brígida 19, Jardines de Santa Mónica, C.P. 54055, Tlalnepantla de Baz Estado de México, es el responsable del tratamiento de sus datos personales, y se han adoptado los niveles de seguridad de protección de datos personales legalmente requeridos y procuran instalar aquellos otros medios y medidas técnicas adicionales a su alcance para evitar la pérdida, mal uso, alteración, acceso no autorizado y robo de los mismos. Usted podrá consultar el Aviso de Privacidad completo publicado en la página de internet, <a href="http://www.participagana.com.mx">www.participagana.com.mx</a></p>
+			<p> </p>
+			<p> </p>
+			<p><em>Las presentes bases de participación están sujetas a cambio sin previo aviso. Para cualquier duda acerca de la promoción comunícate al 01 800 467 1897  o escríbenos al correo electrónico </em><a href="mailto:promociones@participagana.com.mx">promociones@participagana.com.mx</a></p>
 		</div>
+
+
+
+
 		<div class="aviso-box">
 			<h4>Aviso de Privacidad</h4>
 

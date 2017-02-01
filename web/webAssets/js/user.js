@@ -30,7 +30,7 @@ $(document)
 						elementoActivo.css('display', 'none');
 						$('.page-registro').css('display', 'block');
 						$('.page-registro').addClass('active');
-
+						toggleMenu()
 					});
 
 					$('.js-inicio').on('click', function(e) {
@@ -73,7 +73,7 @@ $(document)
 						elementoActivo.css('display', 'none');
 						$('.modal').css('display', 'block');
 						$('.modal').addClass('active');
-
+						toggleMenu()
 					});
 
 					$('.aviso-trigger').on('click', function(e) {
@@ -101,6 +101,7 @@ $(document)
 						elementoActivo.css('display', 'none');
 						$('.page-premios').css('display', 'block');
 						$('.page-premios').addClass('active');
+						toggleMenu()
 					});
 
 					// Al campo de texto número validara solo numeros
@@ -297,7 +298,7 @@ $('body')
 // ********************************************************************************************************
 /**
  * Valida que cuando se aprieta un boton sea solo números
- * 
+ *
  * @param e
  */
 function validarSoloNumeros(e) {
@@ -317,9 +318,14 @@ function validarSoloNumeros(e) {
 	}
 }
 
+
+function toggleMenu(){
+	$('.js-toggle-menu').trigger('click')
+};
+
 /**
  * Limpia un campo de File input
- * 
+ *
  * @param $input
  */
 function clearFileInput($input) {
