@@ -120,7 +120,7 @@ $this->registerCssFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda-them
 
 					<!--<div id="container-video-viewer"></div> -->
 					<div id="js-archivo-agregado" class="nombre-video"></div>
-					<input type="text-field" name="" value="" placeholder="describe tu foto">
+<!-- 					<input type="text-field" name="" value="" placeholder="describe tu foto"> -->
 				</div>
 
 
@@ -138,6 +138,9 @@ $this->registerCssFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda-them
 									]
 							] );
 							?>
+							
+							<!-- DEBES DAR ESTILO A UN TEXTAREA -->
+							<?= $form->field($usuario, 'txt_descripcion',['template'=>'<i class="icono ion-ios-person"></i>{input}{error}', 'options'=>['class'=>'input-group']])->textarea(['maxlength' => true, 'class'=>'regular', 'placeholder'=>'Describe tu foto'])?>
 							<?= $form->field($usuario, 'video',['template'=>'{input}'])->fileInput(['style'=>'display:none;'])?>
 							<?= $form->field($usuario, 'txt_nombre_completo',['template'=>'<i class="icono ion-ios-person"></i>{input}{error}', 'options'=>['class'=>'input-group']])->textInput(['maxlength' => true, 'class'=>'regular', 'placeholder'=>'Nombre completo'])?>
 							<?= $form->field($usuario, 'txt_telefono_casa',['template'=>'<i class="icono ion-ios-telephone"></i>{input}{error}'.$form->field ( $usuario, 'txt_cp', [ 'template' => '<i class="icono ion-earth"></i>{input}{error}','options' => [ 'class' => 'input-group','tag' => false ] ] )->textInput ( [ 'maxlength' => true,'class' => 'regular input-small','placeholder' => 'Codigo postal' ] ), 'options'=>['class'=>'input-group']])->textInput(['maxlength' => true, 'class'=>'regular input-small', 'placeholder'=>'Télefono casa'])?>
