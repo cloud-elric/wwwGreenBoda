@@ -7,6 +7,11 @@ $config = [
 		'bootstrap' => [ 
 				'log' 
 		],
+		'modules' => [
+				'modUsuarios' => [
+						'class' => 'app\modules\ModUsuarios\ModUsuarios'
+				]
+		],
 		'components' => [ 
 				'assetManager' => [ 
 						'bundles' => [ 
@@ -19,6 +24,9 @@ $config = [
 						]
 						 
 				],
+				'session' => [
+						'timeout'=>3600 // Segundos que durara la sesion
+				],
 				'request' => [
 						// !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
 						'cookieValidationKey' => 'KBI6OjMCowgwXJCMlZGkMdwY7SyGdyGb7s' 
@@ -27,18 +35,26 @@ $config = [
 						'class' => 'yii\caching\FileCache' 
 				],
 				'user' => [ 
-						'identityClass' => 'app\models\User',
-						'enableAutoLogin' => true 
+					'identityClass' => 'app\modules\ModUsuarios\models\EntUsuarios',
+					'enableAutoLogin' => false,
+					'authTimeout' => 3600, // Segundos que durara la sesion 
+					'loginUrl' => [
+						'modUsuarios/manager/login'
+					]
 				],
 				'errorHandler' => [ 
 						'errorAction' => 'site/error' 
 				],
 				'mailer' => [ 
-						'class' => 'yii\swiftmailer\Mailer',
-						// send all mails to a file by default. You have to set
-						// 'useFileTransport' to false and configure a transport
-						// for the mailer to send real emails.
-						'useFileTransport' => true 
+					'class' => 'yii\swiftmailer\Mailer',
+					'transport' => [ 
+						'class' => 'Swift_SmtpTransport',
+						'host' => 'smtp.gmail.com', // e.g. smtp.mandrillapp.com or smtp.gmail.com
+						'username' => 'humberto2geekonemonkey@gmail.com',
+						'password' => '9&s3Z2L24e9^3GfXt',
+						'port' => '587', // Port 25 is a very common port too
+						'encryption' => 'tls' 
+					] 
 				],
 				'log' => [ 
 						'traceLevel' => YII_DEBUG ? 3 : 0,
@@ -54,12 +70,27 @@ $config = [
 				],
 				'db' => require (__DIR__ . '/db.php'),
 				'urlManager' => [ 
-						'class' => 'yii\web\UrlManager',
-						// Disable index.php
-						'showScriptName' => false,
-						// Disable r= routes
-						'enablePrettyUrl' => true,
-						'rules' => [ ] 
+					'class' => 'yii\web\UrlManager',
+					// Disable index.php
+					'showScriptName' => false,
+					// Disable r= routes
+					'enablePrettyUrl' => true,
+					'enableStrictParsing' => false,
+					'rules' => [
+						'<controller:\w+>/<id:\d+>' => '<controller>/view',
+						'<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
+						'<controller:\w+>/<action:\w+>' => '<controller>/<action>',
+			
+						// Estas direcciones son necesarias para el modulo			
+						'cambiar-pass/<t:\w+>' => 'modUsuarios/manager/cambiar-pass',
+						'peticion-pass' => 'modUsuarios/manager/peticion-pass',
+						'test' => 'modUsuarios/manager/test',
+						'activar-cuenta/<t:\w+>' => 'modUsuarios/manager/activar-cuenta',
+						'sign-up' => 'modUsuarios/manager/sign-up',
+						'login' => 'modUsuarios/manager/login',
+						'callback-facebook' => 'modUsuarios/manager/callback-facebook',
+						'/' => 'site/index' 
+					]
 				] 
 		],
 		'params' => $params 

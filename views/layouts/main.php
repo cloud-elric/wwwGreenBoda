@@ -26,7 +26,7 @@ AppAsset::register ( $this );
 	<header>
 		<div class="container">
 			<div class="logo">
-				<img src="webAssets/images/logo-pesado-negro.png" alt="">
+				<img src="webAssets/images/logo-pesado-negro.png" alt="" class="js-inicio">
 			</div>
 			<nav class="main-nav">
 				<ul>

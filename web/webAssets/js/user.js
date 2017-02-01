@@ -11,7 +11,9 @@ var file = null;
 /**
  * Variable con los archivos aceptados
  */
-var archivosAdmitidos = [ "video/mp4", 'video/ogg', 'video/webm' ];
+
+var archivosAdmitidos = [ "image/png", 'image/jpg', 'image/jpeg' ];
+
 
 $(document)
 		.ready(
@@ -29,6 +31,21 @@ $(document)
 						elementoActivo.css('display', 'none');
 						$('.page-registro').css('display', 'block');
 						$('.page-registro').addClass('active');
+						
+					});
+					
+					$('.js-inicio').on('click', function(e){
+						e.preventDefault();
+						var elementoActivo = $('.active');
+						if(elementoActivo.hasClass('page-home')){
+							return false;
+						}
+
+						elementoActivo.removeClass('active');
+						elementoActivo.css('display', 'none');
+						$('.page-home').css('display', 'block');
+						$('.page-home').css('opacity', '1');
+						$('.page-home').addClass('active');
 						
 					});
 					
@@ -105,21 +122,36 @@ $(document)
 					$('#entusuarios-txt_cp').keydown(function(e) {
 						validarSoloNumeros(e);
 					});
+					
+					$("#js-boton-subir-video").on('click', function(e){
+						e.preventDefault();
+						$("#entusuarios-video").trigger('click');
+					});
 
 					// Listener cuando cambia de archivo el input
 					$('#entusuarios-video')
 							.on(
 									'change',
 									function() {
+										
+										var l = Ladda.create(document.getElementById('js-boton-subir-video'));
+										 l.start();
 										// Se asigna archivo a variable	
 										file = this.files[0];
+										
+										var filename = $(this).val();
+										
+										if (filename.substring(3, 11) == 'fakepath') {
+									        filename = filename.substring(12);
+									        $('#js-archivo-agregado').html(filename);
+									    }
 										
 										// Se asigna la extension del archivo
 										extensionFile = file.type;
 
 										// Validacion del archivo
 										if (!((extensionFile == archivosAdmitidos[0])
-												|| (extensionFile == archivosAdmitidos[1]) || (extensionFile == archivosAdmitidos[2]))) {
+												|| (extensionFile == archivosAdmitidos[1]) || (extensionFile == archivosAdmitidos[2]) || (extensionFile == archivosAdmitidos[3]))) {
 											swal(
 													"Espera",
 													"Archivo no admitido por el sistema",
@@ -128,6 +160,8 @@ $(document)
 											$('#container-video-viewer').html(
 													'');
 											clearFileInput($(this))
+											l.stop();
+											$('#js-archivo-agregado').html('');
 											return false;
 										}
 
@@ -146,14 +180,14 @@ $(document)
 						if(!($('#entusuarios-video').val())){
 							swal(
 									"Espera",
-									"Estas olvidando agregar tu video",
+									"Necesitas agregar tu foto",
 									"warning");
 						}
 						
-						 if(!($('#checkbox-1').prop('checked'))){
+						 if(!($('#entusuarios-leido').prop('checked'))){
 							 swal(
 										"Espera",
-										"Debes de aceptar los términos, condiciones y el aviso de privacidad",
+										"Debes de aceptar los términos ycondiciones así como el aviso de privacidad",
 										"warning");
 							 return false;
 						 }
@@ -174,9 +208,13 @@ $(document)
 var viewer = {
 	start : function(e) {
 		$("#container-video-viewer").html('Cargando video.....');
+		
 	},
 	end : function(e) {
-		$("#container-video-viewer").html('Video Cargado.....');
+		
+		 var l = Ladda.create(document.getElementById('js-boton-subir-video'));
+		 l.stop();
+		$("#container-video-viewer").html('Foto Cargada.....');
 		var url = URL.createObjectURL(file);
 		$('#container-video-viewer').html(
 				'<video id="video-viewer" controls><source id="video-source" src='
@@ -197,7 +235,10 @@ $('body').on(
 
 					 var l = Ladda.create(document.getElementById('guardar-registro'));
 					 l.start();
+					 $('#js-mesaje-de-espera').html('Tu video se esta cargando espera unos minutos.');
+					 
 					if (form.find('.has-error').length) {
+						$('#js-mesaje-de-espera').html('');
 						l.stop();
 						
 						return false;
@@ -226,7 +267,9 @@ $('body').on(
 									document.getElementById("form-registro")
 											.reset();
 									$("#container-video-viewer").html('');
+									$('#js-archivo-agregado').html('');
 									l.stop();
+									$('#js-mesaje-de-espera').html('');
 								},
 								error : function() {
 

@@ -28,9 +28,8 @@ phpunit.phar
 
 #uploads
 /web/uploads
-<<<<<<< HEAD
-=======
 
-.codekit3
->>>>>>> origin/master
-*.codekit3
+#assets web
+/web/assets
+
+config.codekit3
