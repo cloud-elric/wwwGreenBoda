@@ -33,6 +33,12 @@
 		"oAP": "\/assets\/AppAsset.php",
 		"oF": 0
 		},
+	"\/assets\/AppAssetAdmin.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/AppAssetAdmin.php",
+		"oF": 0
+		},
 	"\/bower.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -83,6 +89,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/config\/web.php",
+		"oF": 0
+		},
+	"\/controllers\/AdminController.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/controllers\/AdminController.php",
 		"oF": 0
 		},
 	"\/controllers\/SiteController.php": {
@@ -240,102 +252,6 @@
 		"oA": 2,
 		"oAP": "\/htmlMaqueta\/webAssets\/fonts\/rene_bieder_-_rbno2.1a-light-webfont.woff2",
 		"oF": 0
-		},
-	"\/htmlMaqueta\/webAssets\/images\/barra-stars.png": {
-		"ft": 32768,
-		"iS": 5505,
-		"oA": 0,
-		"oAP": "\/htmlMaqueta\/webAssets\/images\/barra-stars.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/htmlMaqueta\/webAssets\/images\/grupo-pesado.png": {
-		"ft": 32768,
-		"iS": 918755,
-		"oA": 0,
-		"oAP": "\/htmlMaqueta\/webAssets\/images\/grupo-pesado.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/htmlMaqueta\/webAssets\/images\/logo-experiencia-all-access.png": {
-		"ft": 32768,
-		"iS": 73857,
-		"oA": 0,
-		"oAP": "\/htmlMaqueta\/webAssets\/images\/logo-experiencia-all-access.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/htmlMaqueta\/webAssets\/images\/logo-favc.png": {
-		"ft": 32768,
-		"iS": 3212,
-		"oA": 0,
-		"oAP": "\/htmlMaqueta\/webAssets\/images\/logo-favc.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/htmlMaqueta\/webAssets\/images\/logo-pesado-negro.png": {
-		"ft": 32768,
-		"iS": 4182,
-		"oA": 0,
-		"oAP": "\/htmlMaqueta\/webAssets\/images\/logo-pesado-negro.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/htmlMaqueta\/webAssets\/images\/logo-pesado.png": {
-		"ft": 32768,
-		"iS": 1901,
-		"oA": 0,
-		"oAP": "\/htmlMaqueta\/webAssets\/images\/logo-pesado.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/htmlMaqueta\/webAssets\/images\/logo-victoria.png": {
-		"ft": 32768,
-		"iS": 2877,
-		"oA": 0,
-		"oAP": "\/htmlMaqueta\/webAssets\/images\/logo-victoria.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/htmlMaqueta\/webAssets\/images\/min1.png": {
-		"ft": 32768,
-		"iS": 115097,
-		"oA": 0,
-		"oAP": "\/htmlMaqueta\/webAssets\/images\/min1.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/htmlMaqueta\/webAssets\/images\/min2.png": {
-		"ft": 32768,
-		"iS": 150344,
-		"oA": 0,
-		"oAP": "\/htmlMaqueta\/webAssets\/images\/min2.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/htmlMaqueta\/webAssets\/images\/min3.png": {
-		"ft": 32768,
-		"iS": 139743,
-		"oA": 0,
-		"oAP": "\/htmlMaqueta\/webAssets\/images\/min3.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/htmlMaqueta\/webAssets\/images\/min4.png": {
-		"ft": 32768,
-		"iS": 148785,
-		"oA": 0,
-		"oAP": "\/htmlMaqueta\/webAssets\/images\/min4.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/htmlMaqueta\/webAssets\/images\/siteBKGD.jpg": {
-		"ft": 16384,
-		"iS": 139864,
-		"oA": 0,
-		"oAP": "\/htmlMaqueta\/webAssets\/images\/siteBKGD.jpg",
-		"oF": 0,
-		"opt": 0
 		},
 	"\/htmlMaqueta\/webAssets\/js\/site-custom-min.js": {
 		"ft": 64,
@@ -842,6 +758,12 @@
 		"oAP": "\/models\/EntUsuarios.php",
 		"oF": 0
 		},
+	"\/models\/LoginForm.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/models\/LoginForm.php",
+		"oF": 0
+		},
 	"\/models\/User.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -852,6 +774,210 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/models\/Utils.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/controllers\/DefaultController.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/controllers\/DefaultController.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/controllers\/ManagerController.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/controllers\/ManagerController.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/data\/migrate.sql": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/data\/migrate.sql",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/email\/activarCuenta.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/email\/activarCuenta.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/email\/activarCuentaText.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/email\/activarCuentaText.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/email\/layouts\/example.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/email\/layouts\/example.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/email\/layouts\/html.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/email\/layouts\/html.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/email\/layouts\/text.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/email\/layouts\/text.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/email\/recuperarPassword.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/email\/recuperarPassword.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/email\/recuperarPasswordText.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/email\/recuperarPasswordText.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/filters\/SesionFilter.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/filters\/SesionFilter.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/models\/CatStatusSesiones.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/models\/CatStatusSesiones.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/models\/CatStatusUsuarios.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/models\/CatStatusUsuarios.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/models\/ContactForm.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/models\/ContactForm.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/models\/EntSesiones.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/models\/EntSesiones.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/models\/EntUsuarios.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/models\/EntUsuarios.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/models\/EntUsuariosActivacion.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/models\/EntUsuariosActivacion.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/models\/EntUsuariosCambioPass.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/models\/EntUsuariosCambioPass.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/models\/EntUsuariosFacebook.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/models\/EntUsuariosFacebook.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/models\/LoginForm.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/models\/LoginForm.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/models\/SearchUsuarios.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/models\/SearchUsuarios.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/models\/User.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/models\/User.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/models\/Utils.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/models\/Utils.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/ModUsuarios.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/ModUsuarios.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/views\/default\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/views\/default\/index.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/views\/manager\/_form.php": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/modules\/ModUsuarios\/views\/manager\/_form.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/views\/manager\/_search.php": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/modules\/ModUsuarios\/views\/manager\/_search.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/views\/manager\/cambiarPass.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/views\/manager\/cambiarPass.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/views\/manager\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/views\/manager\/index.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/views\/manager\/login.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/views\/manager\/login.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/views\/manager\/peticionPass.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/views\/manager\/peticionPass.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/views\/manager\/signUp.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/views\/manager\/signUp.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/views\/manager\/update.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/views\/manager\/update.php",
+		"oF": 0
+		},
+	"\/modules\/ModUsuarios\/views\/manager\/view.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/ModUsuarios\/views\/manager\/view.php",
 		"oF": 0
 		},
 	"\/README.md": {
@@ -1118,10 +1244,52 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/views\/admin\/_item.php": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/views\/admin\/_item.php",
+		"oF": 0
+		},
+	"\/views\/admin\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/admin\/index.php",
+		"oF": 0
+		},
+	"\/views\/admin\/itemGanador.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/admin\/itemGanador.php",
+		"oF": 0
+		},
+	"\/views\/admin\/usuarios.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/admin\/usuarios.php",
+		"oF": 0
+		},
+	"\/views\/admin\/verGanadores.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/admin\/verGanadores.php",
+		"oF": 0
+		},
+	"\/views\/admin\/verVideo.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/admin\/verVideo.php",
+		"oF": 0
+		},
 	"\/views\/layouts\/main.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/views\/layouts\/main.php",
+		"oF": 0
+		},
+	"\/views\/layouts\/mainAdmin.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/layouts\/mainAdmin.php",
 		"oF": 0
 		},
 	"\/views\/site\/about.php": {
@@ -1448,13 +1616,31 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/web\/webAssets\/js\/videoPreview.js": {
+	"\/web\/webAssets\/js\/user-min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/web\/webAssets\/js\/videoPreview-min.js",
+		"oAP": "\/web\/webAssets\/js\/user-min-min.js",
 		"oF": 0,
 		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/webAssets\/js\/user.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/webAssets\/js\/user-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/web\/webAssets\/js\/videoPreview-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/webAssets\/js\/videoPreview-min-min.js",
+		"oF": 0,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/web\/webAssets\/plugins\/animate\/css\/animate.css": {
@@ -3316,7 +3502,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http:\/\/localhost:81",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
