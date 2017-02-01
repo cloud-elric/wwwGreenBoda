@@ -29,7 +29,7 @@ phpunit.phar
 #uploads
 /web/uploads
 
-#assets
+#assets web
 /web/assets
 
 .codekit3
