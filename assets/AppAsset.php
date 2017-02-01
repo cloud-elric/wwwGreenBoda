@@ -23,7 +23,7 @@ class AppAsset extends AssetBundle
     ];
     public $js = [
 
-    	'js/videoPreview.js',
+    	//'js/videoPreview.js',
 
     ];
     public $depends = [

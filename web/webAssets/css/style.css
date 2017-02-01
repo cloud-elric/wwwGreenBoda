@@ -9,7 +9,7 @@
 	*/
 /*!
 	--------------------------------------------------------
-	Pesado All Access .sass
+	lideres.sass
 	--------------------------------------------------------
 	0.0 - Tipografía
 	1.0 - Normalizar
@@ -411,7 +411,7 @@ header {
 /*  Page-Home
 	@mixin ========================================================================= */
 .page-home {
-  display: none;
+  display: block;
   height: calc(100% - 120px);
   position: relative;
   overflow: auto;
@@ -492,7 +492,7 @@ header {
           width: 200px;
           padding: 0; }
         .page-home .page-container .leftSide .leftSide-home-txt .cta {
-          margin-top: 50px; }
+          margin-top: 20px; }
           @media screen and (max-width: 767px) {
             .page-home .page-container .leftSide .leftSide-home-txt .cta {
               display: block;
@@ -669,11 +669,16 @@ header {
             .page-registro .page-container .participa-forma-wrapper .step .btn {
               margin: 0;
               margin-top: 10px; } }
-      @media screen and (max-width: 767px) {
-        .page-registro .page-container .participa-forma-wrapper .step1 {
-          text-align: center; } }
-      .page-registro .page-container .participa-forma-wrapper .step1 .step-header {
-        text-align: left; }
+      .page-registro .page-container .participa-forma-wrapper .step1 {
+        height: auto; }
+        @media screen and (max-width: 767px) {
+          .page-registro .page-container .participa-forma-wrapper .step1 {
+            text-align: center; } }
+        .page-registro .page-container .participa-forma-wrapper .step1 .step-header {
+          text-align: left; }
+        .page-registro .page-container .participa-forma-wrapper .step1 .nombre-video {
+          margin-top: 10px;
+          margin-left: 50px; }
       .page-registro .page-container .participa-forma-wrapper .step2 {
         height: auto;
         margin-top: 20px;
@@ -846,10 +851,11 @@ header {
             margin: 30px auto; } }
 
 .page-premios {
-  display: block;
+  display: none;
   width: 100%;
   position: relative;
-  height: calc(100% - 120px);
+  height: auto;
+  min-height: calc(100% - 120px);
   overflow: hidden;
   -webkit-transition: opacity .3s	ease-out;
   transition: opacity .3s	ease-out; }
@@ -922,8 +928,7 @@ header {
 
 .modal {
   display: none;
-  height: auto;
-  min-height: calc(100% - 120px); }
+  height: calc(100% - 120px); }
   .modal .container {
     padding-top: 50px;
     padding-bottom: 100px; }

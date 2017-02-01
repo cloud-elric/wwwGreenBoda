@@ -14,16 +14,15 @@ var file = null;
 
 var archivosAdmitidos = [ "image/png", 'image/jpg', 'image/jpeg', 'image/gif' ];
 
-
 $(document)
 		.ready(
 				function() {
 
 					//
-					$('.js-participa-aqui').on('click', function(e){
+					$('.js-participa-aqui').on('click', function(e) {
 						e.preventDefault();
 						var elementoActivo = $('.active');
-						if(elementoActivo.hasClass('page-registro')){
+						if (elementoActivo.hasClass('page-registro')) {
 							return false;
 						}
 
@@ -34,10 +33,10 @@ $(document)
 
 					});
 
-					$('.js-inicio').on('click', function(e){
+					$('.js-inicio').on('click', function(e) {
 						e.preventDefault();
 						var elementoActivo = $('.active');
-						if(elementoActivo.hasClass('page-home')){
+						if (elementoActivo.hasClass('page-home')) {
 							return false;
 						}
 
@@ -49,10 +48,10 @@ $(document)
 
 					});
 
-					$('.terminos-trigger').on('click', function(e){
+					$('.terminos-trigger').on('click', function(e) {
 						e.preventDefault();
 						var elementoActivo = $('.active');
-						if(elementoActivo.hasClass('modal')){
+						if (elementoActivo.hasClass('modal')) {
 							return false;
 						}
 
@@ -63,10 +62,10 @@ $(document)
 
 					});
 
-					$('.js-terminos-y-condiciones').on('click', function(e){
+					$('.js-terminos-y-condiciones').on('click', function(e) {
 						e.preventDefault();
 						var elementoActivo = $('.active');
-						if(elementoActivo.hasClass('modal')){
+						if (elementoActivo.hasClass('modal')) {
 							return false;
 						}
 
@@ -77,10 +76,10 @@ $(document)
 
 					});
 
-					$('.aviso-trigger').on('click', function(e){
+					$('.aviso-trigger').on('click', function(e) {
 						e.preventDefault();
 						var elementoActivo = $('.active');
-						if(elementoActivo.hasClass('modal')){
+						if (elementoActivo.hasClass('modal')) {
 							return false;
 						}
 
@@ -91,11 +90,11 @@ $(document)
 
 					});
 
-					$('.js-premios').on('click', function(e){
+					$('.js-premios').on('click', function(e) {
 						e.preventDefault();
 
 						var elementoActivo = $('.active');
-						if(elementoActivo.hasClass('page-premios')){
+						if (elementoActivo.hasClass('page-premios')) {
 							return false;
 						}
 						elementoActivo.removeClass('active');
@@ -123,7 +122,7 @@ $(document)
 						validarSoloNumeros(e);
 					});
 
-					$("#js-boton-subir-video").on('click', function(e){
+					$("#js-boton-subir-video").on('click', function(e) {
 						e.preventDefault();
 						$("#entusuarios-video").trigger('click');
 					});
@@ -134,24 +133,28 @@ $(document)
 									'change',
 									function() {
 
-										var l = Ladda.create(document.getElementById('js-boton-subir-video'));
-										 l.start();
+										var l = Ladda
+												.create(document
+														.getElementById('js-boton-subir-video'));
+										l.start();
 										// Se asigna archivo a variable
 										file = this.files[0];
 
 										var filename = $(this).val();
 
 										if (filename.substring(3, 11) == 'fakepath') {
-									        filename = filename.substring(12);
-									        $('#js-archivo-agregado').html(filename);
-									    }
+											filename = filename.substring(12);
+											$('#js-archivo-agregado').html(
+													filename);
+										}
 
 										// Se asigna la extension del archivo
 										extensionFile = file.type;
 
 										// Validacion del archivo
 										if (!((extensionFile == archivosAdmitidos[0])
-												|| (extensionFile == archivosAdmitidos[1]) || (extensionFile == archivosAdmitidos[2]) || (extensionFile == archivosAdmitidos[3]))) {
+												|| (extensionFile == archivosAdmitidos[1])
+												|| (extensionFile == archivosAdmitidos[2]) || (extensionFile == archivosAdmitidos[3]))) {
 											swal(
 													"Espera",
 													"debes subir un archivo con extension Jpg, Gif o Png",
@@ -174,37 +177,41 @@ $(document)
 									});
 
 					// Envia la informacion y valida antes
-					$('#guardar-registro').on('click', function(e) {
-						e.preventDefault();
+					$('#guardar-registro')
+							.on(
+									'click',
+									function(e) {
+										e.preventDefault();
 
-						if(!($('#entusuarios-video').val())){
-							swal(
-									"Espera",
-									"Necesitas agregar tu foto",
-									"warning");
-						}
+										if (!($('#entusuarios-video').val())) {
+											swal(
+													"Espera",
+													"Necesitas agregar tu foto",
+													"warning");
+										}
 
-						 if(!($('#entusuarios-leido').prop('checked'))){
-							 swal(
-										"Espera",
-										"Debes de aceptar los términos ycondiciones así como el aviso de privacidad",
-										"warning");
-							 return false;
-						 }
-//						if(validarFormulario()){
-//							return false;
-//						}
-						$('form').submit();
-					});
+										if (!($('#entusuarios-leido')
+												.prop('checked'))) {
+											swal(
+													"Espera",
+													"Debes de aceptar los términos ycondiciones así como el aviso de privacidad",
+													"warning");
+											return false;
+										}
+										// if(validarFormulario()){
+										// return false;
+										// }
+										$('form').submit();
+									});
 
 				});
-//function validarFormulario(){
+// function validarFormulario(){
 //
-//	if(!$('#entusuarios-txt_cp').val()){
-//		return true;
-//	}
+// if(!$('#entusuarios-txt_cp').val()){
+// return true;
+// }
 //
-//}
+// }
 var viewer = {
 	start : function(e) {
 		$("#container-video-viewer").html('Cargando video.....');
@@ -212,8 +219,8 @@ var viewer = {
 	},
 	end : function(e) {
 
-		 var l = Ladda.create(document.getElementById('js-boton-subir-video'));
-		 l.stop();
+		var l = Ladda.create(document.getElementById('js-boton-subir-video'));
+		l.stop();
 		$("#container-video-viewer").html('Foto Cargada.....');
 		var url = URL.createObjectURL(file);
 		$('#container-video-viewer').html(
@@ -227,15 +234,18 @@ var viewer = {
 	}
 }
 
-$('body').on(
+$('body')
+		.on(
 				'beforeSubmit',
 				'form',
 				function() {
 					var form = $(this);
 
-					 var l = Ladda.create(document.getElementById('guardar-registro'));
-					 l.start();
-					 $('#js-mesaje-de-espera').html('Tu video se esta cargando espera unos minutos.');
+					var l = Ladda.create(document
+							.getElementById('guardar-registro'));
+					l.start();
+					$('#js-mesaje-de-espera').html(
+							'Tu video se esta cargando espera unos minutos.');
 
 					if (form.find('.has-error').length) {
 						$('#js-mesaje-de-espera').html('');
@@ -287,7 +297,7 @@ $('body').on(
 // ********************************************************************************************************
 /**
  * Valida que cuando se aprieta un boton sea solo números
- *
+ * 
  * @param e
  */
 function validarSoloNumeros(e) {
@@ -309,7 +319,7 @@ function validarSoloNumeros(e) {
 
 /**
  * Limpia un campo de File input
- *
+ * 
  * @param $input
  */
 function clearFileInput($input) {
