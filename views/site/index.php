@@ -5,60 +5,60 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $usuario app\models\EntUsuarios */
 /* @var $form yii\widgets\ActiveForm */
-$this->title = 'Registra tu video';
+$this->title = 'PESADO Experiencia All Access';
 
-$this->registerJsFile ( '@web/webAssets/plugins/sweetAlert/js/sweetalert.min.js', [ 
-		'depends' => [ 
-				\app\assets\AppAsset::className () 
-		] 
+$this->registerJsFile ( '@web/webAssets/plugins/sweetAlert/js/sweetalert.min.js', [
+		'depends' => [
+				\app\assets\AppAsset::className ()
+		]
 ] );
 
-$this->registerCssFile ( '@web/webAssets/plugins/sweetAlert/css/sweetalert.css', [ 
-		'depends' => [ 
-				\app\assets\AppAsset::className () 
-		] 
+$this->registerCssFile ( '@web/webAssets/plugins/sweetAlert/css/sweetalert.css', [
+		'depends' => [
+				\app\assets\AppAsset::className ()
+		]
 ] );
 
-$this->registerJsFile ( '@web/webAssets/plugins/ladda/js/spin.min.js', [ 
-		'depends' => [ 
-				\app\assets\AppAsset::className () 
-		] 
+$this->registerJsFile ( '@web/webAssets/plugins/ladda/js/spin.min.js', [
+		'depends' => [
+				\app\assets\AppAsset::className ()
+		]
 ] );
 
-$this->registerJsFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda.min.js', [ 
-		'depends' => [ 
-				\app\assets\AppAsset::className () 
-		] 
+$this->registerJsFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda.min.js', [
+		'depends' => [
+				\app\assets\AppAsset::className ()
+		]
 ] );
 
-$this->registerJsFile ( '@web/webAssets/plugins/animsition/js/animsition.min.js', [ 
-		'depends' => [ 
-				\app\assets\AppAsset::className () 
-		] 
+$this->registerJsFile ( '@web/webAssets/plugins/animsition/js/animsition.min.js', [
+		'depends' => [
+				\app\assets\AppAsset::className ()
+		]
 ] );
 
-$this->registerCssFile ( '@web/webAssets/plugins/animsition/css/animsition.min.css', [ 
-		'depends' => [ 
-				\app\assets\AppAsset::className () 
-		] 
+$this->registerCssFile ( '@web/webAssets/plugins/animsition/css/animsition.min.css', [
+		'depends' => [
+				\app\assets\AppAsset::className ()
+		]
 ] );
 
-$this->registerJsFile ( '@web/webAssets/js/site-custom-min.js', [ 
-		'depends' => [ 
-				\app\assets\AppAsset::className () 
-		] 
+$this->registerJsFile ( '@web/webAssets/js/site-custom-min.js', [
+		'depends' => [
+				\app\assets\AppAsset::className ()
+		]
 ] );
 
-$this->registerJsFile ( '@web/webAssets/js/user.js', [ 
-		'depends' => [ 
-				\app\assets\AppAsset::className () 
-		] 
+$this->registerJsFile ( '@web/webAssets/js/user.js', [
+		'depends' => [
+				\app\assets\AppAsset::className ()
+		]
 ] );
 
-$this->registerCssFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda-themeless.min.css', [ 
-		'depends' => [ 
-				\app\assets\AppAsset::className () 
-		] 
+$this->registerCssFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda-themeless.min.css', [
+		'depends' => [
+				\app\assets\AppAsset::className ()
+		]
 ] );
 
 ?>
@@ -69,10 +69,10 @@ $this->registerCssFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda-them
 				alt="All Access con Gruopo Pesado">
 			<div class="leftSide-home-txt" id="js-toggle-home-txt">
 				<h2>
-					Disfruta en el mejor hotel de Monterrey <br> <span>La experiencia
-						previa al Palomazo</span> <br> y vive el concierto en palco
+					Participa en el concurso para ganar una de las 5 experiencias con PESADO en la Arena Monterrey <br> <span> Previa al palomazo y vive el concierto en súper palco.</span> <br> y vive el concierto en súper palco.
 				</h2>
 				<h3>La victoria es compartir los mejores momentos</h3>
+
 				<img class="img-stars" src="webAssets/images/barra-stars.png" alt="">
 				<div class="cta js-participa-cta">
 					<a href="" class="js-participa-aqui">Participa</a> <i
@@ -98,8 +98,8 @@ $this->registerCssFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda-them
 			<div class="mecanica-del-sitio" id="js-mecanicas-box">
 				<h2>¿Como Ganar?</h2>
 				<ol>
-					<li>Sube una imagen que represente porqué PESADO es parte de tu vida</li>
-					<li>Las mejores imágenes las escojera @betozapata</li>
+					<li>Sube una fotografía donde muestres ¿Por qué PESADO es parte importante de tu vida?, describe tu foto (600 caracteres).</li>
+					<li>Las fotografías más originales serán seleccionadas por PESADO.</li>
 					<li>Podrás ganar una #ExperienciaAllAccess al concierto de PESADO en la Arena Monterrey</li>
 				</ol>
 			</div>
@@ -112,14 +112,15 @@ $this->registerCssFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda-them
 				<div class="step step1">
 					<div class="step-header">
 						<div class="bullet">1</div>
-						<span>Sube tu imagen</span>
+						<span>Sube tu foto (.JPG, .GIF, .PNG)</span>
 					</div>
 					<div class="btn ladda-button" data-style="zoom-in" id="js-boton-subir-video">
 						<label for="entusuarios-video"  class="ladda-label">Seleccionar imágen</label>
 					</div>
-					
+
 					<!--<div id="container-video-viewer"></div> -->
 					<div id="js-archivo-agregado" class="nombre-video"></div>
+					<input type="text-field" name="" value="" placeholder="describe tu foto">
 				</div>
 
 
@@ -129,21 +130,21 @@ $this->registerCssFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda-them
 						<span>LLena correctamente los datos</span>
 					</div>
 							<?php
-							
-							$form = ActiveForm::begin ( [ 
+
+							$form = ActiveForm::begin ( [
 									'id' => 'form-registro',
-									'options' => [ 
-											'enctype' => 'multipart/form-data' 
-									] 
+									'options' => [
+											'enctype' => 'multipart/form-data'
+									]
 							] );
 							?>
-							<?= $form->field($usuario, 'video',['template'=>'{input}'])->fileInput(['style'=>'display:none;'])?>	
+							<?= $form->field($usuario, 'video',['template'=>'{input}'])->fileInput(['style'=>'display:none;'])?>
 							<?= $form->field($usuario, 'txt_nombre_completo',['template'=>'<i class="icono ion-ios-person"></i>{input}{error}', 'options'=>['class'=>'input-group']])->textInput(['maxlength' => true, 'class'=>'regular', 'placeholder'=>'Nombre completo'])?>
 							<?= $form->field($usuario, 'txt_telefono_casa',['template'=>'<i class="icono ion-ios-telephone"></i>{input}{error}'.$form->field ( $usuario, 'txt_cp', [ 'template' => '<i class="icono ion-earth"></i>{input}{error}','options' => [ 'class' => 'input-group','tag' => false ] ] )->textInput ( [ 'maxlength' => true,'class' => 'regular input-small','placeholder' => 'Codigo postal' ] ), 'options'=>['class'=>'input-group']])->textInput(['maxlength' => true, 'class'=>'regular input-small', 'placeholder'=>'Télefono casa'])?>
 							<?= $form->field($usuario, 'txt_ocupacion',['template'=>'<i class="icono ion-briefcase"></i>{input}{error}', 'options'=>['class'=>'input-group']])->textInput(['maxlength' => true, 'class'=>'regular input-small', 'placeholder'=>'Ocupación'])?>
 							<?= $form->field($usuario, 'txt_telefono_celular',['template'=>'<i class="icono ion-iphone"></i>{input}'.Html::activeTextInput($usuario, 'repeatCelular', ['class'=>'regular input-small input-confirma', 'placeholder'=>'Confirma celular']).'{error}', 'options'=>['class'=>'input-group']])->textInput(['maxlength' => true, 'class'=>'regular input-small', 'placeholder'=>'Celular'])?>
 							<?= $form->field($usuario, 'txt_email',['template'=>'<i class="icono ion-ios-email"></i>{input}'.Html::activeTextInput($usuario, 'repeatEmail', ['class'=>'regular input-small input-confirma', 'placeholder'=>'Confirma correo']).'{error}', 'options'=>['class'=>'input-group']])->textInput(['maxlength' => true, 'class'=>'regular input-small', 'placeholder'=>'Correo electrónico'])?>
-							
+
 							<div class="acepto-terminos">
 						<input type="checkbox" id="entusuarios-leido" class="checkbox"
 							name="EntUsuarios[entusuarios-leido]" value="1"> He leído y
@@ -156,9 +157,9 @@ $this->registerCssFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda-them
 						id="guardar-registro">
 						<span class="ladda-label">Registrar</span>
 					</div>
-					
+
 					<div class="input-group" id="js-mesaje-de-espera">
-					
+
 					</div>
 
 							<?php ActiveForm::end(); ?>
@@ -181,17 +182,23 @@ $this->registerCssFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda-them
 			alt="All Access con Gruopo Pesado">
 		<div class="text">
 			<h3>
-				Regalandote una noche en el hotel Live Aqua que incluye una tarde de
-				spa con tu pareja, Comida Gourmet y entradas Dobles para el
-				concierto de <span class="logo-pesado">Pesado</span> en el palco de
-				la Arena Monterrey.
+				Regalándote una experiencia en el concierto de <span class="logo-pesado">Pesado</span> este 17 de Febrero en la Arena Monterrey que incluye:
 			</h3>
+			<ul>
+				<li>1 pase doble en Súper Palco</li>
+				<li>Soundcheck</li>
+				<li>Meet&Greet</li>
+				<li>All Access</li>
+			</ul>
+			<p>¡Regístrate y Gana solo tenemos 5 pases dobles!</p>
+			<h4>El 15 de febrero se darán a conocer los ganadores.</h4>
 		</div>
+
 		<div class="gallery">
-			<img src="webAssets/images/min1.png" alt="LiveAqua-Pesado-AllAccess">
-			<img src="webAssets/images/min2.png" alt="LiveAqua-Pesado-AllAccess">
-			<img src="webAssets/images/min3.png" alt="LiveAqua-Pesado-AllAccess">
-			<img src="webAssets/images/min4.png" alt="LiveAqua-Pesado-AllAccess">
+			<img src="webAssets/images/min1.png" alt="Pesado-AllAccess">
+			<img src="webAssets/images/min2.png" alt="Pesado-AllAccess">
+			<img src="webAssets/images/min3.png" alt="Pesado-AllAccess">
+			<img src="webAssets/images/min4.png" alt="Pesado-AllAccess">
 		</div>
 	</div>
 </section>

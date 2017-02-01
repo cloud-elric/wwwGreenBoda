@@ -50,15 +50,15 @@ AppAsset::register ( $this );
 			</a>
 		</div>
 	</header>
-	
+
 	<?= $content?>
 
 <!-- .footer -->
 	<footer class="footer">
 		<div class="container">
-			<img src="webAssets/images/logo-favc.png" alt=""> <img
+			<!-- <img src="webAssets/images/logo-favc.png" alt=""> <img
 				src="webAssets/images/logo-pesado.png" alt=""> <img
-				src="webAssets/images/logo-victoria.png" alt="">
+				src="webAssets/images/logo-victoria.png" alt=""> -->
 		</div>
 	</footer>
 	<!-- end - .footer -->

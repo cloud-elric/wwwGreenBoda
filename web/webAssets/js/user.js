@@ -12,14 +12,14 @@ var file = null;
  * Variable con los archivos aceptados
  */
 
-var archivosAdmitidos = [ "image/png", 'image/jpg', 'image/jpeg' ];
+var archivosAdmitidos = [ "image/png", 'image/jpg', 'image/jpeg', 'image/gif' ];
 
 
 $(document)
 		.ready(
 				function() {
-					
-					// 
+
+					//
 					$('.js-participa-aqui').on('click', function(e){
 						e.preventDefault();
 						var elementoActivo = $('.active');
@@ -31,9 +31,9 @@ $(document)
 						elementoActivo.css('display', 'none');
 						$('.page-registro').css('display', 'block');
 						$('.page-registro').addClass('active');
-						
+
 					});
-					
+
 					$('.js-inicio').on('click', function(e){
 						e.preventDefault();
 						var elementoActivo = $('.active');
@@ -46,9 +46,9 @@ $(document)
 						$('.page-home').css('display', 'block');
 						$('.page-home').css('opacity', '1');
 						$('.page-home').addClass('active');
-						
+
 					});
-					
+
 					$('.terminos-trigger').on('click', function(e){
 						e.preventDefault();
 						var elementoActivo = $('.active');
@@ -60,9 +60,9 @@ $(document)
 						elementoActivo.css('display', 'none');
 						$('.modal').css('display', 'block');
 						$('.modal').addClass('active');
-						
+
 					});
-					
+
 					$('.js-terminos-y-condiciones').on('click', function(e){
 						e.preventDefault();
 						var elementoActivo = $('.active');
@@ -74,9 +74,9 @@ $(document)
 						elementoActivo.css('display', 'none');
 						$('.modal').css('display', 'block');
 						$('.modal').addClass('active');
-						
+
 					});
-					
+
 					$('.aviso-trigger').on('click', function(e){
 						e.preventDefault();
 						var elementoActivo = $('.active');
@@ -88,12 +88,12 @@ $(document)
 						elementoActivo.css('display', 'none');
 						$('.modal').css('display', 'block');
 						$('.modal').addClass('active');
-						
+
 					});
-					
+
 					$('.js-premios').on('click', function(e){
 						e.preventDefault();
-						
+
 						var elementoActivo = $('.active');
 						if(elementoActivo.hasClass('page-premios')){
 							return false;
@@ -103,26 +103,26 @@ $(document)
 						$('.page-premios').css('display', 'block');
 						$('.page-premios').addClass('active');
 					});
-					
-					// Al campo de texto número validara solo numeros	
+
+					// Al campo de texto número validara solo numeros
 					$('#entusuarios-txt_telefono_celular').keydown(function(e) {
 						validarSoloNumeros(e);
 					});
-					// Al campo de texto número validara solo numeros	
+					// Al campo de texto número validara solo numeros
 					$('#entusuarios-repeatcelular').keydown(function(e) {
 						validarSoloNumeros(e);
 					});
-					
-					// Al campo de texto número validara solo numeros	
+
+					// Al campo de texto número validara solo numeros
 					$('#entusuarios-txt_telefono_casa').keydown(function(e) {
 						validarSoloNumeros(e);
 					});
-					
-					// Al campo de texto número validara solo numeros	
+
+					// Al campo de texto número validara solo numeros
 					$('#entusuarios-txt_cp').keydown(function(e) {
 						validarSoloNumeros(e);
 					});
-					
+
 					$("#js-boton-subir-video").on('click', function(e){
 						e.preventDefault();
 						$("#entusuarios-video").trigger('click');
@@ -133,19 +133,19 @@ $(document)
 							.on(
 									'change',
 									function() {
-										
+
 										var l = Ladda.create(document.getElementById('js-boton-subir-video'));
 										 l.start();
-										// Se asigna archivo a variable	
+										// Se asigna archivo a variable
 										file = this.files[0];
-										
+
 										var filename = $(this).val();
-										
+
 										if (filename.substring(3, 11) == 'fakepath') {
 									        filename = filename.substring(12);
 									        $('#js-archivo-agregado').html(filename);
 									    }
-										
+
 										// Se asigna la extension del archivo
 										extensionFile = file.type;
 
@@ -154,7 +154,7 @@ $(document)
 												|| (extensionFile == archivosAdmitidos[1]) || (extensionFile == archivosAdmitidos[2]) || (extensionFile == archivosAdmitidos[3]))) {
 											swal(
 													"Espera",
-													"Archivo no admitido por el sistema",
+													"debes subir un archivo con extension Jpg, Gif o Png",
 													"warning");
 
 											$('#container-video-viewer').html(
@@ -176,14 +176,14 @@ $(document)
 					// Envia la informacion y valida antes
 					$('#guardar-registro').on('click', function(e) {
 						e.preventDefault();
-						
+
 						if(!($('#entusuarios-video').val())){
 							swal(
 									"Espera",
 									"Necesitas agregar tu foto",
 									"warning");
 						}
-						
+
 						 if(!($('#entusuarios-leido').prop('checked'))){
 							 swal(
 										"Espera",
@@ -199,19 +199,19 @@ $(document)
 
 				});
 //function validarFormulario(){
-//	
+//
 //	if(!$('#entusuarios-txt_cp').val()){
 //		return true;
 //	}
-//	
+//
 //}
 var viewer = {
 	start : function(e) {
 		$("#container-video-viewer").html('Cargando video.....');
-		
+
 	},
 	end : function(e) {
-		
+
 		 var l = Ladda.create(document.getElementById('js-boton-subir-video'));
 		 l.stop();
 		$("#container-video-viewer").html('Foto Cargada.....');
@@ -236,11 +236,11 @@ $('body').on(
 					 var l = Ladda.create(document.getElementById('guardar-registro'));
 					 l.start();
 					 $('#js-mesaje-de-espera').html('Tu video se esta cargando espera unos minutos.');
-					 
+
 					if (form.find('.has-error').length) {
 						$('#js-mesaje-de-espera').html('');
 						l.stop();
-						
+
 						return false;
 					}
 					// var button = document
@@ -287,7 +287,7 @@ $('body').on(
 // ********************************************************************************************************
 /**
  * Valida que cuando se aprieta un boton sea solo números
- * 
+ *
  * @param e
  */
 function validarSoloNumeros(e) {
@@ -309,7 +309,7 @@ function validarSoloNumeros(e) {
 
 /**
  * Limpia un campo de File input
- * 
+ *
  * @param $input
  */
 function clearFileInput($input) {
