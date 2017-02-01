@@ -412,7 +412,8 @@ header {
 	@mixin ========================================================================= */
 .page-home {
   display: block;
-  height: calc(100% - 120px);
+  height: auto;
+  min-height: calc(100% - 120px);
   position: relative;
   overflow: auto;
   -webkit-transition: opacity .3s	ease-out;
@@ -679,6 +680,20 @@ header {
         .page-registro .page-container .participa-forma-wrapper .step1 .nombre-video {
           margin-top: 10px;
           margin-left: 50px; }
+        .page-registro .page-container .participa-forma-wrapper .step1 input {
+          display: inline-block;
+          padding: 5px 0;
+          border-radius: 3px;
+          width: 400px;
+          height: 50px;
+          text-indent: 1em;
+          margin-left: 50px;
+          border: 1px solid lightgray; }
+          @media screen and (max-width: 767px) {
+            .page-registro .page-container .participa-forma-wrapper .step1 input {
+              width: 95%;
+              height: 50px;
+              margin-left: 0px; } }
       .page-registro .page-container .participa-forma-wrapper .step2 {
         height: auto;
         margin-top: 20px;
@@ -902,8 +917,16 @@ header {
             font-size: 1.2em;
             text-align: left;
             line-height: 1.5em; } }
+      .page-premios .container .text ul {
+        list-style: none;
+        max-width: 300px;
+        margin: 20px auto;
+        font-size: 1.5em; }
+      .page-premios .container .text p {
+        font-size: 1.8em;
+        margin-bottom: 10px; }
     .page-premios .container .gallery {
-      margin-top: 20px;
+      margin: 20px 0;
       width: 100%; }
       .page-premios .container .gallery img {
         margin: 0;
@@ -928,7 +951,8 @@ header {
 
 .modal {
   display: none;
-  height: calc(100% - 120px); }
+  height: auto;
+  min-height: calc(100% - 120px); }
   .modal .container {
     padding-top: 50px;
     padding-bottom: 100px; }

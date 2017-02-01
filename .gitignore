@@ -34,3 +34,5 @@ phpunit.phar
 
 config.codekit3
 *.codekit3
+
+*.codekit3

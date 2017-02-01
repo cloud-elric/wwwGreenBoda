@@ -138,6 +138,19 @@
 				.nombre-video
 					margin-top: 10px
 					margin-left: 50px
+				input
+					display: inline-block
+					padding: 5px 0
+					border-radius: 3px
+					width: 400px
+					height: 50px
+					text-indent: 1em
+					margin-left: 50px
+					border: 1px solid lightgray
+					+respond-to(xs)
+						width: 95%
+						height: 50px
+						margin-left: 0px
 			.step2
 				height: auto
 				margin-top: 20px
@@ -159,7 +172,7 @@
 						margin-bottom: 10px
 						position: relative
 						+respond-to(xs)
-							flex-flow: column 
+							flex-flow: column
 						i.icono
 							display: inline-block
 							height: 30px
@@ -213,21 +226,21 @@
 							font-size: 1em
 							font-family: $font-menu
 							text-align: left
-						.rkmd-checkbox 
+						.rkmd-checkbox
 							color: #818181
 							font-size: 15px
 							font-weight: bold
 							font-family: 'Roboto', sans-serif
 							letter-spacing: .5px
 							display: inline-block
-							.input-checkbox 
+							.input-checkbox
 								position: relative
 								display: inline-block
 								width: 32px
 								height: 32px
 								text-align: center
 								vertical-align: -9px
-								input[type="checkbox"] 
+								input[type="checkbox"]
 									visibility: hidden
 									position: absolute
 									left: 7px
@@ -237,7 +250,7 @@
 									outline: none
 									cursor: pointer
 									opacity: 0
-									& + .checkbox:before 
+									& + .checkbox:before
 										position: absolute
 										left: 4px
 										bottom: 8px
@@ -266,11 +279,11 @@
 										z-index: 1
 									& + .checkbox:before
 										content: "\e834"
-										color: #717171 
+										color: #717171
 									&:checked + .checkbox:before
-										content: "\e835" 
+										content: "\e835"
 									&:active:not(:disabled) + .checkbox:before
-										transform: scale3d(0.88, 0.88, 1); 
+										transform: scale3d(0.88, 0.88, 1);
 									&:disabled + .checkbox:before
 										color: rgba(0,0,0,0.157) !important;
 							.rkmd-checkbox
@@ -295,4 +308,3 @@
 				.btn
 					+respond-to(xs)
 						margin: 30px auto
-
