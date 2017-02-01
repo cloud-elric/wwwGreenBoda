@@ -876,7 +876,8 @@ header {
   transition: opacity .3s	ease-out; }
   .page-premios .container {
     padding: 20px;
-    text-align: center; }
+    text-align: center;
+    overflow: hidden; }
     .page-premios .container .box {
       display: block;
       background-color: #FFF;
