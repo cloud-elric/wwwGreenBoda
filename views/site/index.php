@@ -49,7 +49,7 @@ $this->registerJsFile ( '@web/webAssets/js/site-custom-min.js', [
 		] 
 ] );
 
-$this->registerJsFile ( '@web/webAssets/js/videoPreview.js', [ 
+$this->registerJsFile ( '@web/webAssets/js/user.js', [ 
 		'depends' => [ 
 				\app\assets\AppAsset::className () 
 		] 
@@ -155,6 +155,10 @@ $this->registerCssFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda-them
 					<div class="btn ladda-button" data-style="zoom-in"
 						id="guardar-registro">
 						<span class="ladda-label">Registrar</span>
+					</div>
+					
+					<div class="input-group" id="js-mesaje-de-espera">
+					
 					</div>
 
 							<?php ActiveForm::end(); ?>

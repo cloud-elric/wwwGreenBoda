@@ -11,7 +11,9 @@ var file = null;
 /**
  * Variable con los archivos aceptados
  */
-var archivosAdmitidos = [ "video/mp4", 'video/ogg', 'video/webm' ];
+
+var archivosAdmitidos = [ "image/png", 'image/jpg', 'image/jpeg' ];
+
 
 $(document)
 		.ready(
@@ -29,6 +31,21 @@ $(document)
 						elementoActivo.css('display', 'none');
 						$('.page-registro').css('display', 'block');
 						$('.page-registro').addClass('active');
+						
+					});
+					
+					$('.js-inicio').on('click', function(e){
+						e.preventDefault();
+						var elementoActivo = $('.active');
+						if(elementoActivo.hasClass('page-home')){
+							return false;
+						}
+
+						elementoActivo.removeClass('active');
+						elementoActivo.css('display', 'none');
+						$('.page-home').css('display', 'block');
+						$('.page-home').css('opacity', '1');
+						$('.page-home').addClass('active');
 						
 					});
 					
@@ -134,7 +151,7 @@ $(document)
 
 										// Validacion del archivo
 										if (!((extensionFile == archivosAdmitidos[0])
-												|| (extensionFile == archivosAdmitidos[1]) || (extensionFile == archivosAdmitidos[2]))) {
+												|| (extensionFile == archivosAdmitidos[1]) || (extensionFile == archivosAdmitidos[2]) || (extensionFile == archivosAdmitidos[3]))) {
 											swal(
 													"Espera",
 													"Archivo no admitido por el sistema",
@@ -218,7 +235,10 @@ $('body').on(
 
 					 var l = Ladda.create(document.getElementById('guardar-registro'));
 					 l.start();
+					 $('#js-mesaje-de-espera').html('Tu video se esta cargando espera unos minutos.');
+					 
 					if (form.find('.has-error').length) {
+						$('#js-mesaje-de-espera').html('');
 						l.stop();
 						
 						return false;
@@ -249,6 +269,7 @@ $('body').on(
 									$("#container-video-viewer").html('');
 									$('#js-archivo-agregado').html('');
 									l.stop();
+									$('#js-mesaje-de-espera').html('');
 								},
 								error : function() {
 
