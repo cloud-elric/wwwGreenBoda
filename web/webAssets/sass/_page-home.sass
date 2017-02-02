@@ -10,8 +10,9 @@
 	========================================================================== */
 .page-home
 	//background-color: pink
-	display: none
-	height: calc(100% - 120px)
+	display: block
+	height: auto
+	min-height: calc(100% - 120px)
 	position: relative
 	overflow: auto
 	transition: opacity .3s	ease-out
@@ -56,7 +57,9 @@
 				h2
 					font-family: $font-variant
 					font-size: 2em
+					margin: 0 auto
 					margin-bottom: 30px
+					max-width: 600px
 					+respond-to(xs)
 						margin-bottom: 60px
 					span
@@ -106,14 +109,3 @@
 				width: auto
 				z-index: -1
 				opacity: 1
-									
-									
-
-
-
-
-
-
-
-
-								

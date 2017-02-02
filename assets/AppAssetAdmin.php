@@ -18,10 +18,12 @@ class AppAssetAdmin extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-       	'css/asdfg.css'
+        'webAssets/plugins/ionicons/css/ionicons.min.css',
+       	'webAssets/css/stylesadmin.css'
+
     ];
     public $js = [
-    	
+
     ];
     public $depends = [
         'yii\web\YiiAsset',

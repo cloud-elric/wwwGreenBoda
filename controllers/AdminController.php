@@ -81,6 +81,10 @@ class AdminController extends \yii\web\Controller
     	$usuario->repeatEmail = $usuario->txt_email;
     	$usuario->repeatCelular = $usuario->txt_telefono_celular;
     	
+    	if(!$usuario->txt_descripcion){
+    		$usuario->txt_descripcion = '-';	
+    	}
+    	
     	if($usuario->b_ganador == 0){
 	    	$usuario->b_ganador = 1;
 	    	if($usuario->save()){
