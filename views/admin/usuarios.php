@@ -3,47 +3,45 @@ use yii\widgets\ListView;
 use yii\web\View;
 use yii\helpers\Url;
 
-echo ListView::widget( [
-	'dataProvider' => $dataProvider,
-	'itemView' => '_item',
-] );
-
-$this->registerJsFile ( '@web/webAssets/plugins/animsition/js/animsition.min.js', [
-		'depends' => [
-				\app\assets\AppAsset::className ()
-		]
-] );
-
 ?>
-
-<div id="myModal" class="modal" style="
-
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0,0,0,0.5);
-    display: none;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-
-">
-	<div class="modal-body" style="
-    width: 49%;
-    height: 300px;
-    background-color: #fff;
-    border-radius: 10px;
-	">
-		<div class="contenedor-video">
-
+<header>
+	<div class="container">
+		<div class="logo">
+			<img src="<?= Url::base()?>/webAssets/images/logo-pesado-negro.png" alt="" class="js-inicio">
 		</div>
+		<nav class="main-nav">
+			<ul>
 
+			</ul>
+		</nav>
+		<nav class="mobile-nav-wrap" role="navigation">
+			<ul class="mobile-header-nav">
+
+			</ul>
+		</nav>
+		<a class="mobile-menu-toggle js-toggle-menu hamburger-menu" href="#">
+			<span class="menu-item"></span> <span class="menu-item"></span> <span
+			class="menu-item"></span>
+		</a>
 	</div>
-</div>
+</header>
+
+<section class="photo-content">
+	<div class="container">
+			<?php
+			echo ListView::widget( [
+				'dataProvider' => $dataProvider,
+				'itemView' => '_item',
+			] );
+
+			?>
+	</div>
+</section>
+
+
+
+
+
 
 
 <?php

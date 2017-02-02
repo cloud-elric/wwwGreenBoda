@@ -985,6 +985,13 @@ header {
         font-family: "rb-bold", sans-serif;
         margin-bottom: 10px;
         margin-top: 40px; }
+      .modal .container .terminos-box span,
+      .modal .container .aviso-box span {
+        display: block;
+        color: #CC1313;
+        font-size: 1.5em;
+        margin: 20px 0;
+        font-family: "rb-bold", sans-serif; }
 
 /*!
 	-----------------------------------------------------------------------------

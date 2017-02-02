@@ -571,7 +571,7 @@ $this->registerCssFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda-them
 				expreso para que PUBLICIDAD GREEN, haga uso de manejo tratamiento y
 				transferencia de sus datos personales para los fines descritos.</p>
 
-			<span>Contacto PUBLICIDAD GREEN: info@publicidadgreen.com.mx</span>
+			<span class="contacto-txt">Contacto PUBLICIDAD GREEN: info@publicidadgreen.com.mx</span>
 
 		</div>
 	</div>
