@@ -69,7 +69,7 @@ $this->registerCssFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda-them
 				alt="All Access con Gruopo Pesado">
 			<div class="leftSide-home-txt" id="js-toggle-home-txt">
 				<h2>
-					Participa en el concurso para ganar una de las 5 experiencias con PESADO en la Arena Monterrey <br> <span> Previa al palomazo y vive el concierto en súper palco.</span> <br> y vive el concierto en súper palco.
+					Participa en el concurso para ganar una de las 5 experiencias con PESADO en la Arena Monterrey <br> <span> Previa al palomazo y vive el concierto en súper palco.</span>
 				</h2>
 				<h3>La victoria es compartir los mejores momentos</h3>
 
@@ -127,7 +127,7 @@ $this->registerCssFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda-them
 				<div class="step step2">
 					<div class="step-header">
 						<div class="bullet">2</div>
-						<span>LLena correctamente los datos</span>
+						<span>Llena correctamente los datos</span>
 						</div>
 						<?php
 
@@ -269,209 +269,6 @@ $this->registerCssFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda-them
 
 		<div class="aviso-box">
 			<h4>Aviso de Privacidad</h4>
-
-			<h6>A. Identidad del Responsable</h6>
-			<p>GRUPO POSADAS, S.A.B. de C.V. y sus filiales y/o subsidiarias (en
-				lo sucesivo, Posadas), con domicilio en Av. Prolongación Paseo de la
-				Reforma 1015, Torre A Piso 9, Col. Santa Fe de Cuajimalpa,
-				Delegación Cuajimalpa, C.P.05348, México, D.F. es una empresa
-				comprometida en proteger su privacidad. Nuestro responsable de
-				Protección de Datos es el Departamento de Datos Personales y se
-				ubica en el mismo domicilio, usted podrá contactarlo en el correo
-				electrónico: datos.personales@posadas.com</p>
-			 
-			<p>Este Aviso de Privacidad corresponde a los siguientes sitios web
-				pertenecientes a Posadas: -posadas.com -favc.com -liveaqua.com
-				-kivac.com.mx -grandfiestamericana.com -liveaquaresidenceclub.com/
-				-fiestamericana.com -globogo.com -fiestainn.com -fiestarewards.com
-				-gammahoteles.com -apreciare.com -onehoteles.com -motivatuventa.com</p>
-
-			<h6>B. Datos Personales</h6>
-
-			<p>Para los fines señalados en el presente Aviso de Privacidad,
-				Posadas podrá recabar sus datos personales de diversas formas:
-				cuando la información es proporcionada directamente por usted;
-				cuando visita los sitios de internet de Posadas; cuando utiliza los
-				servicios ofrecidos por Posadas en línea y cuando obtenemos
-				información a través de otros medios distintos a los antes señalados
-				y que están permitidos por las leyes aplicables. Los datos
-				personales obtenidos por los medios antes indicados, son: 1. Datos
-				de identificación: nombre(s), apellido(s), domicilio, número
-				telefónico de casa, celular y/o trabajo, estado civil, firma, correo
-				electrónico, género, edad, fecha de nacimiento, nombre de usuario y
-				contraseña. 2. Datos Financieros: nombre del tarjetahabiente, número
-				de tarjeta de crédito, fecha de expiración (en caso de transacciones
-				en línea). 3. Datos de Facturación: nombre o razón social, RFC,
-				domicilio fiscal 4. Datos de Preferencias: Relacionados con la
-				habitación, servicios requeridos y/o motivo y preferencias de viaje.</p>
-			 
-			<h6>C. Datos Personales Sensibles</h6>
-
-			<p>Se consideran datos personales sensibles aquellos datos personales
-				que afecten a la esfera más íntima de su titular, o cuya utilización
-				indebida pueda dar origen a discriminación o conlleve un riesgo
-				grave para éste. En particular, se consideran sensibles aquellos que
-				puedan revelar aspectos como origen racial o étnico, estado de salud
-				presente y futuro, información genética, creencias religiosas,
-				filosóficas y morales, afiliación sindical, opiniones políticas,
-				preferencias sexuales. En caso de hospedarse en cualquiera de
-				nuestros hoteles, los datos personales sensibles que le
-				solicitaremos nos proporcione serán aquellos relativos a salud o
-				capacidades diferentes, mismos que se utilizarán únicamente para
-				brindarle un mejor servicio y satisfacer sus necesidades
-				específicas.</p>
-			 
-			<h6>D. Finalidad y Tratamiento de la Información Personal</h6>
-
-			<p>Finalidades que dan origen a la relación jurídica y son necesarias
-				para la prestación de servicio::</p>
-			 
-			<p>1. La información personal que nos proporciona será utilizada por
-				Posadas para prestar los servicios que usted le solicita o que son
-				parte de algún programa al que se ha inscrito o de una compra que ha
-				realizado: reservaciones, compra de paquetes vacacionales, membresía
-				de club vacacional, afiliación a nuestros programas de lealtad,
-				organización de eventos y reuniones sociales, compra de productos
-				y/o servicios turísticos. 2. Posadas puede utilizar la información
-				personal que nos proporciona para ofrecerle un mejor servicio y, en
-				su caso, identificar sus preferencias durante su estancia y hacerla
-				más placentera.</p>
-			 
-			<p>Finalidades que no dan origen a la relación jurídica ni son
-				necesarias para la prestación de servicio:</p>
-			 
-			<p>1. Asimismo, puede utilizar la información para ofrecerle
-				promociones y productos turísticos y comerciales, envío de
-				promociones, servicios especiales, boletines informativos,
-				encuestas, sorteos de premios y otros concursos en línea.</p>
-
-			<h6>E. Limitación al Uso o Divulgación de Información Personal</h6>
-
-			<p>En cualquier momento usted puede manifestar su negativa al
-				tratamiento de las finalidades que no dan origen a la relación
-				jurídica ni son necesarias para la prestación del servicio, o bien,
-				la revocación del consentimiento que nos ha otorgado al tratamiento
-				de sus datos personales, mediante una solicitud que deberá ser
-				presentada por escrito al Departamento de Datos Personales al
-				siguiente domicilio: Av. Prolongación Paseo de la Reforma 1015,
-				Torre A Piso 9, Col. Santa Fe de Cuajimalpa, Delegación Cuajimalpa,
-				C.P.05348, México, D.F., de 9 a 14 horas de lunes a viernes o al
-				correo electrónico datos.personales@posadas.com.</p>
-			 
-			<p>Dicha solicitud deberá contener cuando menos lo siguiente: (i)
-				Nombre del Titular de los Datos Personales; (ii) Correo electrónico
-				para recibir notificaciones; (iii) Documentos que acrediten su
-				identidad o, en su caso, la representación legal del titular; (iv)
-				Descripción clara y precisa  de los datos personales  respecto de
-				los que se busca ejercer el derecho y del derecho que se pretende
-				ejercer. (v) Cualquier otro elemento o documento que facilite la
-				localización de los datos personales. En caso de que la solicitud no
-				satisfaga alguno de los requisitos señalados anteriormente, el
-				Departamento de Datos Personales podrá requerirle dentro de los 5
-				días a la recepción de la solicitud que aporte los elementos o
-				documentos necesarios para dar trámite a la misma. Usted contará con
-				10 días para atender el requerimiento, en caso de no dar respuesta
-				en dicho plazo, se tendrá por no presentada la solicitud
-				correspondiente.</p>
-			 
-			<p>Los plazos de atención serán de máximo 20 días contados desde la
-				fecha en que se reciba la solicitud para comunicarle la
-				determinación adoptada, a efecto de que, si resulta procedente, haga
-				efectiva la misma dentro de los 15 días siguientes a la emisión de
-				la respuesta. Con la finalidad de proteger su confidencialidad,
-				Posadas enviará la respuesta a su solicitud al correo electrónico
-				que haya proporcionado para tal fin y la conservará a disposición
-				del solicitante en el domicilio señalado en el párrafo anterior. </p>
-			 
-			<h6>F. Del Ejercicio de los Derechos de Acceso, Rectificación,
-				Cancelación y Oposición.</h6>
-
-			<p>El acceso, rectificación, cancelación u oposición respecto a la
-				información que proporcione a Posadas señalados en la Ley Federal de
-				Protección de Datos Personales en Posesión de los Particulares, lo
-				podrá hacer mediante entrega de la solicitud que dirija a Posadas,
-				en términos de lo establecido en el inciso E. anterior, misma que se
-				le responderá en los términos ahí señalados.</p>
-
-			 
-			<h6>G. Control y Seguridad de información personal.</h6>
-			 
-
-			<p>Posadas se compromete a tomar las medidas necesarias para proteger
-				la información recopilada, utilizando  tecnologías de seguridad y
-				procedimientos de control en el acceso, uso o divulgación de su
-				información personal sin autorización, por ejemplo, almacenando la
-				información personal proporcionada en servidores ubicados en Centros
-				de Datos que cuentan con controles de acceso limitado. Para
-				transacciones en línea, utilizamos también tecnologías de seguridad
-				que protegen la información personal que nos sea transmitida a
-				través de los diversos medios electrónicos como puede ser el uso de
-				un servidor seguro bajo el protocolo Secure Socket Layer (SSL). Sin
-				embargo, ningún sistema de seguridad o de transmisión de datos del
-				cual la empresa no tenga el control absoluto y/o tenga dependencia
-				 con internet puede garantizar que sea totalmente seguro.</p>
-
-			 
-			<h6>H. Medios electrónicos y cookies.</h6>
-
-			<p>En el supuesto de que usted utilice medios electrónicos en
-				relación a sus datos personales se generarán a efecto de
-				proporcionarle un mejor servicio cookies. Los cookies son pequeñas
-				piezas de información que son enviadas por el sitio Web a su
-				navegador.</p>
-			<p>Los cookies se almacenan en el disco duro de su equipo y se
-				utilizan para determinar sus preferencias cuando se conecta a los
-				servicios de nuestros sitios, así como para rastrear determinados
-				comportamientos o actividades llevadas a cabo por usted dentro de
-				nuestros sitios.</p>
-			<p>En algunas secciones de nuestro sitio requerimos que el cliente
-				tenga habilitados los cookies ya que algunas de las funcionalidades
-				requieren de éstas para trabajar. Los cookies nos permiten: a)
-				reconocerlo al momento de entrar a nuestros sitios y ofrecerle de
-				una experiencia personalizada, b) conocer la configuración personal
-				del sitio especificada por usted, por ejemplo, los cookies nos
-				permiten detectar el ancho de banda que usted ha seleccionado al
-				momento de ingresar al home page de nuestros sitios, de tal forma
-				que sabemos qué tipo de información es aconsejable descargar, c)
-				calcular el tamaño de nuestra audiencia y medir algunos parámetros
-				de tráfico, pues cada navegador que obtiene acceso a nuestros sitios
-				adquiere un cookie que se usa para determinar la frecuencia de uso y
-				las secciones de los sitios visitadas, reflejando así sus hábitos y
-				preferencias, información que nos es útil para mejorar el contenido,
-				los titulares y las promociones para los usuarios. Los cookies
-				también nos ayudan a rastrear algunas actividades, por ejemplo, en
-				algunas de las encuestas que lanzamos en línea, podemos utilizar
-				cookies para detectar si el usuario ya ha llenado la encuesta y
-				evitar desplegarla nuevamente, en caso de que lo haya hecho. El
-				botón de “ayuda” que se encuentra en la barra de herramientas de la
-				mayoría de los navegadores, le dirá cómo evitar aceptar nuevos
-				cookies, cómo hacer que el navegador le notifique cuando recibe un
-				nuevo cookie o cómo deshabilitar todos los cookies. Sin embargo, las
-				cookies le permitirán tomar ventaja de las características más
-				benéficas que le ofrecemos, por lo que le recomendamos que las deje
-				activadas.</p>
-
-
-			<h6>I. Cambios a esta Aviso de Privacidad.</h6>
-			 
-			<p>Posadas podrá en cualquier momento actualizar este aviso de
-				privacidad. En el caso de que se produzcan cambios sustanciales a
-				este aviso, lo comunicaremos a través de nuestras páginas de
-				internet señaladas en el inciso A de este Aviso de Privacidad. Por
-				lo anterior, le sugerimos visitar periódicamente este aviso de
-				privacidad para estar enterado de cualquier actualización.</p>
-
-			<p>Me doy por enterado y acepto los términos y condiciones
-				establecidas en el presente Aviso de Privacidad, y en caso contrario
-				lo comunicaré a Posadas en términos de lo señalado en los incisos E.
-				y F. de este Aviso de Privacidad.</p>
-
-			<p>En caso de alguna inconformidad o queja sobre el tratamiento de
-				sus datos personales, usted se puede dirigir al Instituto Federal
-				 de Acceso a la Información y Protección de Datos.</p>
-
-			<p>Fecha de última actualización: Julio 18, 2016.</p>
-
 
 			<h5>Aviso de Privacidad Green</h5>
 
