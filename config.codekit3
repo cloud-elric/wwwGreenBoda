@@ -103,6 +103,64 @@
 		"oAP": "\/controllers\/SiteController.php",
 		"oF": 0
 		},
+	"\/htmlMaqueta\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/index.html",
+		"oF": 0
+		},
+	"\/htmlMaqueta\/webAssets\/css\/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/css\/style-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/htmlMaqueta\/webAssets\/css\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/htmlMaqueta\/webAssets\/css\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/htmlMaqueta\/webAssets\/css\/style.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htmlMaqueta\/webAssets\/css\/style.css.map",
+		"oF": 0
+		},
+	"\/htmlMaqueta\/webAssets\/sass\/_modal.sass": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/htmlMaqueta\/webAssets\/sass\/_modal.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/htmlMaqueta\/webAssets\/sass\/_page-registro.sass": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/htmlMaqueta\/webAssets\/sass\/_page-registro.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/LICENSE.md": {
 		"cS": 0,
 		"eF": 1,
@@ -18224,7 +18282,7 @@
 		"oA": 0,
 		"oAP": "\/web\/webAssets\/js\/user-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/web\/webAssets\/js\/videoPreview-min.js": {
@@ -18605,7 +18663,7 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/web\/webAssets\/css\/_basic.css",
+		"oAP": "\/web\/webAssets\/sass\/_basic.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -18618,7 +18676,7 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/web\/webAssets\/css\/_fonts.css",
+		"oAP": "\/web\/webAssets\/sass\/_fonts.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -18631,7 +18689,7 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/web\/webAssets\/css\/_footer.css",
+		"oAP": "\/web\/webAssets\/sass\/_footer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -18644,7 +18702,7 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/web\/webAssets\/css\/_header.css",
+		"oAP": "\/web\/webAssets\/sass\/_header.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -18657,7 +18715,7 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/web\/webAssets\/css\/_mixins.css",
+		"oAP": "\/web\/webAssets\/sass\/_mixins.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -18670,7 +18728,7 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/web\/webAssets\/css\/_modal.css",
+		"oAP": "\/web\/webAssets\/sass\/_modal.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -18683,7 +18741,7 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/web\/webAssets\/css\/_page-home.css",
+		"oAP": "\/web\/webAssets\/sass\/_page-home.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -18696,7 +18754,7 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/web\/webAssets\/css\/_page-premios.css",
+		"oAP": "\/web\/webAssets\/sass\/_page-premios.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -18709,20 +18767,20 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/web\/webAssets\/css\/_page-registro.css",
+		"oAP": "\/web\/webAssets\/sass\/_page-registro.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
 	"\/web\/webAssets\/sass\/_photo-content.sass": {
-		"aP": 1,
-		"bl": 1,
+		"aP": 0,
+		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
-		"oAP": "\/web\/webAssets\/css\/_photo-content.css",
+		"oAP": "\/web\/webAssets\/sass\/_photo-content.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -18735,7 +18793,7 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/web\/webAssets\/css\/_variables.css",
+		"oAP": "\/web\/webAssets\/sass\/_variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -18748,20 +18806,20 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "\/web\/webAssets\/css\/style.css",
+		"oAP": "\/web\/webAssets\/sass\/style.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
 	"\/web\/webAssets\/sass\/stylesadmin.sass": {
-		"aP": 1,
-		"bl": 1,
+		"aP": 0,
+		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
-		"oAP": "\/web\/webAssets\/css\/stylesadmin.css",
+		"oAP": "\/web\/webAssets\/sass\/stylesadmin.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -18791,7 +18849,7 @@
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 1,
+	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
@@ -20637,13 +20695,13 @@
 		"autoOutputPathRelativePath": "..\/css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 3,
-		"createSourceMap": 1,
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"outputStyle": 0,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
 	"languageDefaultsSLIM": {

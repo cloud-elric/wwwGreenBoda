@@ -1,0 +1,44 @@
+.modal
+	display: none
+	height: auto
+	//background-color: $black
+	.container
+		padding-top: 50px
+		padding-bottom: 100px
+		.terminos-box,
+		.aviso-box
+			width: 100%
+			height: auto
+			margin: 0 auto
+			margin-bottom: 40px
+			+respond-to(xs)
+				font-size: 12px
+			h4
+				background-color: $white
+				padding: 10px 20px
+				font-family: $font-menu
+				margin-bottom: 20px
+				width: 40%
+				border-radius: 6px
+				box-shadow: 0 10px 22px -7px rgba(0,0,0,0.4)
+				+respond-to(xs)
+					width: 100%
+					font-size: 1.2em
+			h5,h6
+				font-size: 1.3em
+				margin-top: 30px
+				margin-bottom: 10px
+				font-family: $font-menu
+			h5
+				margin-top: 40px
+				font-size: 1.5em
+
+			p
+				font-size: 1.2em
+				font-family: 'Arial'
+				margin-bottom: 10px
+			span
+				color: $active
+				font-family: $font-menu
+				font-size: 1.3em
+
