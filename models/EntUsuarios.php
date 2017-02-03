@@ -36,6 +36,7 @@ class EntUsuarios extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
+        		[['txt_email', 'repeatEmail'], 'trim'],
             [['txt_nombre_completo','txt_descripcion', 'txt_telefono_casa', 'txt_cp', 'txt_ocupacion', 'txt_email', 'txt_telefono_celular', 'txt_url_video', 'repeatEmail', 'repeatCelular'], 'required', 'message'=>'Campo requerido'],
         		['txt_email', 'email', 'message'=>'Formato de email no admitido'],
         		['repeatEmail', 'email', 'message'=>'Formato de email no admitido'],
