@@ -11,7 +11,7 @@
 .photo-content
 	height: auto
 	min-height: calc(100% - 120px)
-	background-color: $black
+	//background-color: $black
 	z-index: 9999
 	position: relative
 	+respond-to(xs)
@@ -26,6 +26,7 @@
 				position: relative
 				float: left
 				margin: 20px
+				margin-top: 0
 				.card-header
 					display: flex
 					align-items: center
@@ -82,3 +83,44 @@
 						padding: 10px
 						p
 						line-height: 1.5em
+	.export-btn
+		//width: 400px
+		padding: 10px 20px
+		//background-color: red
+		a
+			padding: 10px 20px
+			background-color: $active
+			color: white
+			border-radius: 5px
+
+div#w0.list-view
+	overflow: hidden
+	//background-color: red !important
+	height: auto
+	position: relative
+	.summary
+		color: black
+		font-family: $font-menu
+		width: 100%
+		padding: 20px
+	ul
+		//background-color: blue
+		position: absolute
+		top: 0
+		right: 0
+		list-style: none
+		width: 50px
+		text-align: center
+		li
+			border: 1px solid black
+			a
+				padding: 10px 0
+				color: black
+				display: block
+				height: 100%
+				width: 100%
+			&:hover
+				background-color: rgba(0, 0, 0, 0.4)
+		li.active
+			a
+				background-color: pink !important
