@@ -2,7 +2,23 @@
 use yii\widgets\ListView;
 use yii\web\View;
 use yii\helpers\Url;
+$this->registerCssFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda-themeless.min.css', [
+		'depends' => [
+				\app\assets\AppAsset::className ()
+		]
+] );
 
+$this->registerJsFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/spin.min.js', [
+		'depends' => [
+				\app\assets\AppAsset::className ()
+		]
+] );
+
+$this->registerJsFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda.min.js', [
+		'depends' => [
+				\app\assets\AppAsset::className ()
+		]
+] );
 ?>
 <header>
 	<div class="container">
@@ -11,12 +27,16 @@ use yii\helpers\Url;
 		</div>
 		<nav class="main-nav">
 			<ul>
-
+				<li>
+				<button id="js-descargar" class="btn btn-link ladda-button" data-style="zoom-in"><span class="ladda-label">Descargar</span></button>
+				</li>
 			</ul>
 		</nav>
 		<nav class="mobile-nav-wrap" role="navigation">
 			<ul class="mobile-header-nav">
-
+<li>
+				<button id="js-descargar" class="btn btn-link ladda-button" data-style="zoom-in"><span class="ladda-label">Descargar</span></button>
+				</li>
 			</ul>
 		</nav>
 		<a class="mobile-menu-toggle js-toggle-menu hamburger-menu" href="#">
@@ -65,5 +85,13 @@ $(document).on({
 	}
 }, '.modal');
 
+		$('#js-descargar').on('click',function(e){
+			e.preventDefault();
+			var l = Ladda.create(this);
+		 	//l.start();
+		
+			window.location='descargar'
+		});
+		
 ", View::POS_END );
 ?>

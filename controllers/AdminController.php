@@ -98,6 +98,64 @@ class AdminController extends \yii\web\Controller
     	}
     }
     
+    public function actionDescargar(){
+    	$registros = EntUsuarios::find ()->all ();
+    	
+    	$array = [ ];
+    	$i = 0;
+    	foreach ( $registros as $registro ) {
+    		$array [$i] ['nombreCompleto'] = $registro->txt_nombre_completo;
+    		$array [$i] ['telefono'] = $registro->txt_telefono_casa;
+    		$array [$i] ['cp'] = $registro->txt_cp;
+    		$array [$i] ['ocupacion'] = $registro->txt_ocupacion;
+    		$array [$i] ['email'] = $registro->txt_email;
+    		$array [$i] ['telefono_celular'] = $registro->txt_telefono_celular;
+    		$i ++;
+    	}
+    	
+    	$this->downloadSendHeaders ( 'registros.csv' );
+    	
+    	$this->array2CSV ( $array );
+    	
+    	exit ();
+    }
+    
+    private function array2CSV($array) {
+    	if (count ( $array ) == 0) {
+    		return null;
+    	}
+    
+    	$df = fopen ( "php://output", 'w' );
+    	fputcsv ( $df, [
+    			'Nombre completo',
+    			'Telefono casa',
+    			'Codigo postal',
+    			'Ocupacion',
+    			'Email',
+    			'Telefono celular',
+    	] );
+    	foreach ( $array as $row ) {
+    		fputcsv ( $df, $row );
+    	}
+    	fclose ( $df );
+    }
+    private function downloadSendHeaders($filename) {
+    	// disable caching
+    	$now = gmdate ( "D, d M Y H:i:s" );
+    	// header("Expires: Tue, 03 Jul 2001 06:00:00 GMT");
+    	header ( "Cache-Control: max-age=0, no-cache, must-revalidate, proxy-revalidate" );
+    	header ( "Last-Modified: {$now} GMT" );
+    
+    	// force download
+    	header ( "Content-Type: application/force-download" );
+    	header ( "Content-Type: application/octet-stream" );
+    	header ( "Content-Type: application/download" );
+    
+    	// disposition / encoding on response body
+    	header ( "Content-Disposition: attachment;filename={$filename}" );
+    	header ( "Content-Transfer-Encoding: binary" );
+    }
+    
     public function actionVerGanadores(){
     	$usuarios = EntUsuarios::find()->where(['b_ganador'=>1]);
     	$dataProvider = new ActiveDataProvider([
