@@ -20,6 +20,10 @@ $this->registerJsFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda.min.j
 		]
 ] );
 ?>
+<div id="bg">
+	<img src="<?= Url::base()?>/webAssets/images/siteBKGD.jpg" alt="">
+</div>
+
 <header>
 	<div class="container">
 		<div class="logo">
@@ -47,6 +51,9 @@ $this->registerJsFile ( '@web/webAssets/plugins/ladda-bootstrap/dist/ladda.min.j
 </header>
 
 <section class="photo-content">
+	<div class="export-btn">
+			<a href="#"><span><i class="icon ion-ios-phone"></i></span>Exportar CSV con participantes</a>
+	</div>
 	<div class="container">
 			<?php
 			echo ListView::widget( [
